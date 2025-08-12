@@ -1,0 +1,64 @@
+---
+title: "About"
+image: images/headshot.jpg   # optional; add a file or remove this line
+page-layout: article
+toc: false
+---
+
+## Hi, I'm Vagish.
+
+I work at the intersection of **infectious diseases** and **transplantation**, with a focus on **HIV care & prevention**, **HIV-to-HIV thoracic transplantation**, and building open, reproducible **R** workflows for large healthcare datasets.
+
+I’m based in the **Bronx, New York**. Day to day, I split time between patient care, program building, and collaborative research—especially projects that improve access to transplant for people living with HIV and make complex data usable by clinical teams.
+
+---
+
+## What I’m working on
+
+- **Transplant & HIV:** advancing pathways for HIV-positive donor thoracic transplants and sharing practical “how-to” resources for new programs.
+- **Reproducible analytics in R:** I have extensive experience with using R to analyzes clinical data.
+- **Education:** clinical reasoning, and bringing data skills to clinicians with approachable examples.
+
+---
+
+## Open-source projects
+
+- **sRtr** — R helpers for working with UNOS/SRTR transplant data  
+  <https://vagishhemmige.github.io/sRtr/>
+
+- **strobe** — STROBE-style inclusion/exclusion tracking for observational studies  
+  <https://vagishhemmige.github.io/strobe/>
+
+- **usRds** *(in progress)* — utilities for loading, labeling, and converting USRDS claims files to Parquet with schema-aware helpers.
+
+---
+
+## Selected interests & methods
+
+- **Clinical:** transplant ID, opportunistic infections, HIV prevention & primary care  
+- **Research:** HIV and thoracic transplant, big data work with the SRTR and UNOS
+- **Teaching:** I have taught clinical infectious diseases to trainees as well as statistics and epidemiology.
+---
+
+## Speaking & teaching
+
+I enjoy guest lectures, workshops, and small-group sessions on:
+- Practical R for clinicians and researchers
+- Epidemiology and biostatistics
+- Transplant ID topics (HIV D+/R+ programs, protocols, safety)
+
+##Mentoring
+
+I have mentored trainees in case reports, clinical research, and big data/research methods.
+
+While I primarily mentor students, residents, and fellows at Montefiore Medical Center or Albert Einstein College of Medicine,
+I do have projects for non-affiliates with R experience and skills that can be done remotely.
+
+---
+
+## Contact & links
+
+- Faculty / clinic info via institutional directories  
+- Project sites (this site + package docs) on GitHub Pages  
+- ORCID: <https://orcid.org/0009-0006-6346-1826>
+

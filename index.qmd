@@ -1,0 +1,61 @@
+
+---
+title: "Vagish Hemmige, MD"
+year: 2025
+---
+
+## Overview
+
+Professor of Medicine (Infectious Diseases) at Albert Einstein College of Medicine and transplant infectious diseases physician at Montefiore Einstein in the Bronx, NY. Interests include HIV-to-HIV thoracic transplantation, HIV prevention and treatment, and building open R tooling for transplant data workflows.
+
+- **Current roles:** Professor, Medicine (ID), Albert Einstein College of Medicine; Infectious Disease physician, Montefiore Einstein.
+- **Location:** Bronx, New York
+- **Clinical interests:** Transplant ID, HIV care & prevention, opportunistic infections
+- **Methods/tech:** R, Quarto, Arrow/DuckDB, reproducible pipelines
+
+## Highlights
+
+- Part of Montefiore Einstein’s immunocompromised transplant (ICT) ID team
+- Medical degree from NYU Grossman School of Medicine; >10 years practice experience.  
+- Faculty/clinician listings and contact available via Einstein/Montefiore directories.
+
+## Open-source projects (R)
+
+- **sRtr** — Tools for working with UNOS/SRTR transplant data in R  
+  Repo/docs: <https://vagishhemmige.github.io/sRtr/>
+
+- **strobe** — STROBE-style inclusion/exclusion tracking for observational studies  
+  Repo/docs: <https://vagishhemmige.github.io/strobe/>
+
+## Selected publications & media
+
+- *Open Forum Infectious Diseases* (recent coauthorship; transplant ID topic).  
+- Montefiore Einstein feature: ICT team advancing care for transplant recipients.  
+- Additional publications indexed on academic profiles (see links below).
+
+## Links
+
+- Faculty profile — Albert Einstein College of Medicine  
+  <https://einsteinmed.edu/faculty/15768/vagish-hemmige>
+
+- Physician profile — Montefiore Einstein  
+  <https://doctors.montefioreeinstein.org/providers/1205162245/vagish-s-hemmige>
+
+- US News doctor profile  
+  <https://health.usnews.com/doctors/vagish-hemmige-719259>
+
+- ORCID  
+  <https://orcid.org/0009-0006-6346-1826>
+
+- Research/works (aggregators)  
+  ResearchGate (summary page), Doximity, and others
+
+- R packages  
+  sRtr: <https://vagishhemmige.github.io/sRtr/>  
+  strobe: <https://vagishhemmige.github.io/strobe/>
+
+## Contact
+
+- Montefiore Einstein (clinic scheduling/info via physician profile)
+- Academic email available on the Einstein faculty page
+
