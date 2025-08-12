@@ -1,23 +1,31 @@
-
 ---
 title: "Vagish Hemmige, MD"
 year: 2025
+toc: true
+toc-location: right
+page-layout: article
 ---
+
+<img src="images/headshot.jpg" alt="Vagish Hemmige" style="width:200px;border-radius:50%;float:right;margin:0 0 1rem 1rem;" />
 
 ## Overview
 
 Professor of Medicine (Infectious Diseases) at Albert Einstein College of Medicine and transplant infectious diseases physician at Montefiore Einstein in the Bronx, NY. Interests include HIV-to-HIV thoracic transplantation, HIV prevention and treatment, and building open R tooling for transplant data workflows.
 
-- **Current roles:** Professor, Medicine (ID), Albert Einstein College of Medicine; Infectious Disease physician, Montefiore Einstein.
-- **Location:** Bronx, New York
-- **Clinical interests:** Transplant ID, HIV care & prevention, opportunistic infections
+- **Current roles:** Professor, Medicine (ID), Albert Einstein College of Medicine; Infectious Disease physician, Montefiore Einstein.  
+- **Location:** Bronx, New York  
+- **Clinical interests:** Transplant ID, HIV care & prevention, opportunistic infections  
 - **Methods/tech:** R, Quarto, Arrow/DuckDB, reproducible pipelines
+
+---
 
 ## Highlights
 
-- Part of Montefiore Einstein’s immunocompromised transplant (ICT) ID team
+- Part of Montefiore Einstein’s immunocompromised transplant (ICT) ID team  
 - Medical degree from NYU Grossman School of Medicine; >10 years practice experience.  
 - Faculty/clinician listings and contact available via Einstein/Montefiore directories.
+
+---
 
 ## Open-source projects (R)
 
@@ -27,35 +35,32 @@ Professor of Medicine (Infectious Diseases) at Albert Einstein College of Medici
 - **strobe** — STROBE-style inclusion/exclusion tracking for observational studies  
   Repo/docs: <https://vagishhemmige.github.io/strobe/>
 
+---
+
 ## Selected publications & media
 
-- *Open Forum Infectious Diseases* (recent coauthorship; transplant ID topic).  
 - Montefiore Einstein feature: ICT team advancing care for transplant recipients.  
-- Additional publications indexed on academic profiles (see links below).
+
+---
 
 ## Links
 
-- Faculty profile — Albert Einstein College of Medicine  
+- **Faculty profile** — Albert Einstein College of Medicine  
   <https://einsteinmed.edu/faculty/15768/vagish-hemmige>
 
-- Physician profile — Montefiore Einstein  
+- **Physician profile** — Montefiore Einstein  
   <https://doctors.montefioreeinstein.org/providers/1205162245/vagish-s-hemmige>
 
-- US News doctor profile  
+- **US News doctor profile**  
   <https://health.usnews.com/doctors/vagish-hemmige-719259>
 
-- ORCID  
+- **ORCID**  
   <https://orcid.org/0009-0006-6346-1826>
 
-- Research/works (aggregators)  
-  ResearchGate (summary page), Doximity, and others
-
-- R packages  
+- **Research/works**  
+  <https://pubmed.ncbi.nlm.nih.gov/?term=vagish+Hemmige&sort=date>
+  
+- **R packages**  
   sRtr: <https://vagishhemmige.github.io/sRtr/>  
-  strobe: <https://vagishhemmige.github.io/strobe/>
-
-## Contact
-
-- Montefiore Einstein (clinic scheduling/info via physician profile)
-- Academic email available on the Einstein faculty page
-
+  strobe: <https://vagishhemmige.github.io/strobe/>  
+  usRds: <https://vagishhemmige.github.io/usRds/>

@@ -10,15 +10,15 @@
     "objectID": "index.html#overview",
     "href": "index.html#overview",
     "title": "Vagish Hemmige, MD",
-    "section": "",
-    "text": "Professor of Medicine (Infectious Diseases) at Albert Einstein College of Medicine and transplant infectious diseases physician at Montefiore Einstein in the Bronx, NY. Interests include HIV-to-HIV thoracic transplantation, HIV prevention and treatment, and building open R tooling for transplant data workflows.\n\nCurrent roles: Professor, Medicine (ID), Albert Einstein College of Medicine; Infectious Disease physician, Montefiore Einstein.\nLocation: Bronx, New York\nClinical interests: Transplant ID, HIV care & prevention, opportunistic infections\nMethods/tech: R, Quarto, Arrow/DuckDB, reproducible pipelines"
+    "section": "Overview",
+    "text": "Overview\nProfessor of Medicine (Infectious Diseases) at Albert Einstein College of Medicine and transplant infectious diseases physician at Montefiore Einstein in the Bronx, NY. Interests include HIV-to-HIV thoracic transplantation, HIV prevention and treatment, and building open R tooling for transplant data workflows.\n\nCurrent roles: Professor, Medicine (ID), Albert Einstein College of Medicine; Infectious Disease physician, Montefiore Einstein.\n\nLocation: Bronx, New York\n\nClinical interests: Transplant ID, HIV care & prevention, opportunistic infections\n\nMethods/tech: R, Quarto, Arrow/DuckDB, reproducible pipelines"
   },
   {
     "objectID": "index.html#highlights",
     "href": "index.html#highlights",
     "title": "Vagish Hemmige, MD",
     "section": "Highlights",
-    "text": "Highlights\n\nPart of Montefiore Einstein’s immunocompromised transplant (ICT) ID team\nMedical degree from NYU Grossman School of Medicine; &gt;10 years practice experience.\n\nFaculty/clinician listings and contact available via Einstein/Montefiore directories."
+    "text": "Highlights\n\nPart of Montefiore Einstein’s immunocompromised transplant (ICT) ID team\n\nMedical degree from NYU Grossman School of Medicine; &gt;10 years practice experience.\n\nFaculty/clinician listings and contact available via Einstein/Montefiore directories."
   },
   {
     "objectID": "index.html#open-source-projects-r",
@@ -32,14 +32,14 @@
     "href": "index.html#selected-publications-media",
     "title": "Vagish Hemmige, MD",
     "section": "Selected publications & media",
-    "text": "Selected publications & media\n\nOpen Forum Infectious Diseases (recent coauthorship; transplant ID topic).\n\nMontefiore Einstein feature: ICT team advancing care for transplant recipients.\n\nAdditional publications indexed on academic profiles (see links below)."
+    "text": "Selected publications & media\n\nMontefiore Einstein feature: ICT team advancing care for transplant recipients."
   },
   {
     "objectID": "index.html#links",
     "href": "index.html#links",
     "title": "Vagish Hemmige, MD",
     "section": "Links",
-    "text": "Links\n\nFaculty profile — Albert Einstein College of Medicine\nhttps://einsteinmed.edu/faculty/15768/vagish-hemmige\nPhysician profile — Montefiore Einstein\nhttps://doctors.montefioreeinstein.org/providers/1205162245/vagish-s-hemmige\nUS News doctor profile\nhttps://health.usnews.com/doctors/vagish-hemmige-719259\nORCID\nhttps://orcid.org/0009-0006-6346-1826\nResearch/works (aggregators)\nResearchGate (summary page), Doximity, and others\nR packages\nsRtr: https://vagishhemmige.github.io/sRtr/\nstrobe: https://vagishhemmige.github.io/strobe/"
+    "text": "Links\n\nFaculty profile — Albert Einstein College of Medicine\nhttps://einsteinmed.edu/faculty/15768/vagish-hemmige\nPhysician profile — Montefiore Einstein\nhttps://doctors.montefioreeinstein.org/providers/1205162245/vagish-s-hemmige\nUS News doctor profile\nhttps://health.usnews.com/doctors/vagish-hemmige-719259\nORCID\nhttps://orcid.org/0009-0006-6346-1826\nResearch/works\nhttps://pubmed.ncbi.nlm.nih.gov/?term=vagish+Hemmige&sort=date\nR packages\nsRtr: https://vagishhemmige.github.io/sRtr/\nstrobe: https://vagishhemmige.github.io/strobe/\nusRds: https://vagishhemmige.github.io/usRds/"
   },
   {
     "objectID": "index.html#contact",
@@ -67,7 +67,7 @@
     "href": "about.html#what-im-working-on",
     "title": "About",
     "section": "What I’m working on",
-    "text": "What I’m working on\n\nTransplant & HIV: advancing pathways for HIV-positive donor thoracic transplants and sharing practical “how-to” resources for new programs.\nReproducible analytics in R: I have extensive experience with using R to analyzes clinical data.\nEducation: clinical reasoning, and bringing data skills to clinicians with approachable examples."
+    "text": "What I’m working on\n\nTransplant & HIV: advancing pathways for HIV-positive donor thoracic transplants and sharing practical “how-to” resources for new programs.\nReproducible analytics in R: extensive experience using R to analyze clinical data.\nEducation: clinical reasoning, and bringing data skills to clinicians with approachable examples."
   },
   {
     "objectID": "about.html#open-source-projects",
@@ -81,20 +81,34 @@
     "href": "about.html#selected-interests-methods",
     "title": "About",
     "section": "Selected interests & methods",
-    "text": "Selected interests & methods\n\nClinical: transplant ID, opportunistic infections, HIV prevention & primary care\n\nResearch: HIV and thoracic transplant, big data work with the SRTR and UNOS\nTeaching: I have taught clinical infectious diseases to trainees as well as statistics and epidemiology."
+    "text": "Selected interests & methods\n\nClinical: transplant ID, opportunistic infections, HIV prevention & primary care\n\nResearch: HIV and thoracic transplant, big data work with the SRTR and UNOS\n\nTeaching: have taught clinical infectious diseases to trainees as well as statistics and epidemiology."
   },
   {
     "objectID": "about.html#speaking-teaching",
     "href": "about.html#speaking-teaching",
     "title": "About",
     "section": "Speaking & teaching",
-    "text": "Speaking & teaching\nI enjoy guest lectures, workshops, and small-group sessions on: - Practical R for clinicians and researchers - Epidemiology and biostatistics - Transplant ID topics (HIV D+/R+ programs, protocols, safety)\n##Mentoring\nI have mentored trainees in case reports, clinical research, and big data/research methods.\nWhile I primarily mentor students, residents, and fellows at Montefiore Medical Center or Albert Einstein College of Medicine, I do have projects for non-affiliates with R experience and skills that can be done remotely."
+    "text": "Speaking & teaching\nI enjoy guest lectures, workshops, and small-group sessions on: - Practical R for clinicians and researchers - Epidemiology and biostatistics - Transplant ID topics (HIV D+/R+ programs, protocols, safety)"
   },
   {
     "objectID": "about.html#contact-links",
     "href": "about.html#contact-links",
     "title": "About",
     "section": "Contact & links",
-    "text": "Contact & links\n\nFaculty / clinic info via institutional directories\n\nProject sites (this site + package docs) on GitHub Pages\n\nORCID: https://orcid.org/0009-0006-6346-1826"
+    "text": "Contact & links\n\nFaculty profile: https://einsteinmed.edu/faculty/15768/vagish-hemmige\n\nPhysician profile: https://doctors.montefioreeinstein.org/providers/1205162245/vagish-s-hemmige\n\nGitHub: https://github.com/VagishHemmige\n\nORCID: https://orcid.org/0009-0006-6346-1826"
+  },
+  {
+    "objectID": "about.html#vagish-hemmige",
+    "href": "about.html#vagish-hemmige",
+    "title": "About",
+    "section": "Vagish Hemmige",
+    "text": "Vagish Hemmige\nI work at the intersection of infectious diseases and transplantation, with a focus on HIV care & prevention, HIV-to-HIV thoracic transplantation, and building open, reproducible R workflows for large healthcare datasets.\nI’m based in the Bronx, New York. Day to day, I split time between patient care, program building, and collaborative research—especially projects that improve access to transplant for people living with HIV and make complex data usable by clinical teams."
+  },
+  {
+    "objectID": "about.html#mentoring",
+    "href": "about.html#mentoring",
+    "title": "About",
+    "section": "Mentoring",
+    "text": "Mentoring\nI have mentored trainees in case reports, clinical research, and big data/research methods.\nWhile I primarily mentor students, residents, and fellows at Montefiore Medical Center or Albert Einstein College of Medicine, I do have projects for non-affiliates with R experience and skills that can be done remotely."
   }
 ]
