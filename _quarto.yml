@@ -8,6 +8,8 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: presentations.qmd
+        text: Presentations
       - href: about.qmd
         text: About
       - text: "GitHub"
