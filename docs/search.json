@@ -1,10 +1,87 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Vagish Hemmige, MD",
+    "objectID": "presentation.html",
+    "href": "presentation.html",
+    "title": "Presentations",
     "section": "",
-    "text": "Professor of Medicine (Infectious Diseases) at Albert Einstein College of Medicine and transplant infectious diseases physician at Montefiore Einstein in the Bronx, NY. Interests include HIV-to-HIV thoracic transplantation, HIV prevention and treatment, and building open R tooling for transplant data workflows.\n\nCurrent roles: Professor, Medicine (ID), Albert Einstein College of Medicine; Infectious Disease physician, Montefiore Einstein.\nLocation: Bronx, New York\nClinical interests: Transplant ID, HIV care & prevention, opportunistic infections\nMethods/tech: R, Quarto, Arrow/DuckDB, reproducible pipelines"
+    "text": "University of Minnesota Transplant Center Grand Rounds — “The current status and future of HIV D+/R+ heart and lung transplantation.”\nMinneapolis, MN | Slides | Recording\n\n\n\n\n\nWestchester Medical Center Transplant Center Grand Rounds — “HIV-to-HIV Transplantation.”\nVirtual\nUnited States Chagas Network — “A Case of CNS T. cruzi Reactivation Post-Solid Organ Transplant.”\nVirtual\nNassau/Suffolk County Care Coordination Network — “HOPE ACT (HIV/Donor Transplant) Program.”\nVirtual | Slides\n\n\n\n\n\nCDC/HHS HOPE Act Workgroup Meeting — “HIV D+/R+ transplants: the Montefiore Medical Center experience.”\nVirtual | Slides\n\n\n\n\n\nInfectious Diseases Conference, University of Chicago — “Cases from Texas.”\nChicago, IL\n\n\n\n\n\nHouston Methodist Hospital Grand Rounds — “Pulmonary infections after transplantation: illustrative cases.”\nHouston, TX"
+  },
+  {
+    "objectID": "presentation.html#national-international-invited-presentations",
+    "href": "presentation.html#national-international-invited-presentations",
+    "title": "Presentations",
+    "section": "",
+    "text": "University of Minnesota Transplant Center Grand Rounds — “The current status and future of HIV D+/R+ heart and lung transplantation.”\nMinneapolis, MN | Slides | Recording\n\n\n\n\n\nWestchester Medical Center Transplant Center Grand Rounds — “HIV-to-HIV Transplantation.”\nVirtual\nUnited States Chagas Network — “A Case of CNS T. cruzi Reactivation Post-Solid Organ Transplant.”\nVirtual\nNassau/Suffolk County Care Coordination Network — “HOPE ACT (HIV/Donor Transplant) Program.”\nVirtual | Slides\n\n\n\n\n\nCDC/HHS HOPE Act Workgroup Meeting — “HIV D+/R+ transplants: the Montefiore Medical Center experience.”\nVirtual | Slides\n\n\n\n\n\nInfectious Diseases Conference, University of Chicago — “Cases from Texas.”\nChicago, IL\n\n\n\n\n\nHouston Methodist Hospital Grand Rounds — “Pulmonary infections after transplantation: illustrative cases.”\nHouston, TX"
+  },
+  {
+    "objectID": "presentation.html#conference-presentations",
+    "href": "presentation.html#conference-presentations",
+    "title": "Presentations",
+    "section": "Conference Presentations",
+    "text": "Conference Presentations\n\n2025\n\nWorld Transplant Congress — “Beyond the Horizon: Pioneering Thoracic and Living Donor Transplants for HIV+ Individuals”\nSan Francisco, CA | Slides\n\n\n\n2024\n\nAmerican Transplant Congress — “Meet the Expert: Nuts and Bolts of Starting HIV-to-HIV Transplantation in Your Center”\nPhiladelphia, PA\n\n\n\n2023\n\nAmerican Transplant Congress — “The future of HIV-to-HIV thoracic transplant.”\nSan Diego, CA | Slides\n\n\n\n2018\n\nTexas Veterinary Medical Association Annual Conference — “The benefits & risks of animals living with immunocompromised patients.”\nWoodlands, TX"
+  },
+  {
+    "objectID": "presentation.html#grand-rounds",
+    "href": "presentation.html#grand-rounds",
+    "title": "Presentations",
+    "section": "Grand Rounds",
+    "text": "Grand Rounds\nNo entries."
+  },
+  {
+    "objectID": "presentation.html#teaching-case-conferences",
+    "href": "presentation.html#teaching-case-conferences",
+    "title": "Presentations",
+    "section": "Teaching & Case Conferences",
+    "text": "Teaching & Case Conferences\n\n2018\n\nFellow Core Curriculum — “Infections in CF and lung transplant patients.”\nHouston, TX\nTransplant ID Conference — “The benefits & risks of animals living with immunocompromised patients.”\nHouston, TX\n\n\n\n2017\n\nCitywide Case Conference — “A case of endovascular infection secondary to Bartonella.”\nHouston, TX\n\n\n\n2016\n\nFellow Core Curriculum — “Infections in CF and lung transplant patients.”\nHouston, TX\nCitywide Case Conference — “A case of suspected toxoplasma lymphadenitis during pregnancy.”\nHouston, TX\n\n\n\n2015\n\nCitywide Case Conference — “MRSA infections in patients with HIV.”\nHouston, TX\nCitywide Case Conference — “A case of chronic ascites secondary to Chagas disease.”\nHouston, TX\nCitywide Case Conference — “Bacteremia secondary to Brucella.”\nHouston, TX\nTransplant ID Conference — “Screening for parasitic infections in solid organ transplant candidates.”\nHouston, TX\nFellow Core Curriculum — “Infections in cirrhotics and liver transplant patients.”\nHouston, TX\n\n\n\n2014\n\nFellow Core Curriculum — “Infections in CF and lung transplant patients.”\nHouston, TX\nCitywide Case Conference — “Aspergillus infection of an Ommaya reservoir.”\nHouston, TX\n\n\n\n2013\n\nCitywide Case Conference — “A kitten bit through my PICC line.”\nHouston, TX\nCitywide Case Conference — “A 33-year old man with FUO secondary to scurvy.”\nHouston, TX\n\n\n\n2012\n\nCitywide Case Conference — “A case of tuberculosis after BMT.”\nHouston, TX"
+  },
+  {
+    "objectID": "about.html#vagish-hemmige",
+    "href": "about.html#vagish-hemmige",
+    "title": "About",
+    "section": "Vagish Hemmige",
+    "text": "Vagish Hemmige\nI work at the intersection of infectious diseases and transplantation, with a focus on HIV care & prevention, HIV-to-HIV thoracic transplantation, and building open, reproducible R workflows for large healthcare datasets.\nI’m based in the Bronx, New York. Day to day, I split time between patient care, program building, and collaborative research—especially projects that improve access to transplant for people living with HIV and make complex data usable by clinical teams."
+  },
+  {
+    "objectID": "about.html#what-im-working-on",
+    "href": "about.html#what-im-working-on",
+    "title": "About",
+    "section": "What I’m working on",
+    "text": "What I’m working on\n\nTransplant & HIV: advancing pathways for HIV-positive donor thoracic transplants and sharing practical “how-to” resources for new programs.\nReproducible analytics in R: extensive experience using R to analyze clinical data.\nEducation: clinical reasoning, and bringing data skills to clinicians with approachable examples."
+  },
+  {
+    "objectID": "about.html#open-source-projects",
+    "href": "about.html#open-source-projects",
+    "title": "About",
+    "section": "Open-source projects",
+    "text": "Open-source projects\n\nsRtr — R helpers for working with UNOS/SRTR transplant data\nhttps://vagishhemmige.github.io/sRtr/\nstrobe — STROBE-style inclusion/exclusion tracking for observational studies\nhttps://vagishhemmige.github.io/strobe/\nusRds (in progress) — utilities for loading, labeling, and converting USRDS claims files to Parquet with schema-aware helpers."
+  },
+  {
+    "objectID": "about.html#selected-interests-methods",
+    "href": "about.html#selected-interests-methods",
+    "title": "About",
+    "section": "Selected interests & methods",
+    "text": "Selected interests & methods\n\nClinical: transplant ID, opportunistic infections, HIV prevention & primary care\n\nResearch: HIV and thoracic transplant, big data work with the SRTR and UNOS\n\nTeaching: have taught clinical infectious diseases to trainees as well as statistics and epidemiology."
+  },
+  {
+    "objectID": "about.html#speaking-teaching",
+    "href": "about.html#speaking-teaching",
+    "title": "About",
+    "section": "Speaking & teaching",
+    "text": "Speaking & teaching\nI enjoy guest lectures, workshops, and small-group sessions on: - Practical R for clinicians and researchers - Epidemiology and biostatistics - Transplant ID topics (HIV D+/R+ programs, protocols, safety)"
+  },
+  {
+    "objectID": "about.html#mentoring",
+    "href": "about.html#mentoring",
+    "title": "About",
+    "section": "Mentoring",
+    "text": "Mentoring\nI have mentored trainees in case reports, clinical research, and big data/research methods.\nWhile I primarily mentor students, residents, and fellows at Montefiore Medical Center or Albert Einstein College of Medicine, I do have projects for non-affiliates with R experience and skills that can be done remotely."
+  },
+  {
+    "objectID": "about.html#contact-links",
+    "href": "about.html#contact-links",
+    "title": "About",
+    "section": "Contact & links",
+    "text": "Contact & links\n\nFaculty profile: https://einsteinmed.edu/faculty/15768/vagish-hemmige\n\nPhysician profile: https://doctors.montefioreeinstein.org/providers/1205162245/vagish-s-hemmige\n\nGitHub: https://github.com/VagishHemmige\n\nORCID: https://orcid.org/0009-0006-6346-1826"
   },
   {
     "objectID": "index.html#overview",
@@ -40,96 +117,5 @@
     "title": "Vagish Hemmige, MD MS",
     "section": "Links",
     "text": "Links\n\nFaculty profile — Albert Einstein College of Medicine\nhttps://einsteinmed.edu/faculty/15768/vagish-hemmige\nPhysician profile — Montefiore Einstein\nhttps://doctors.montefioreeinstein.org/providers/1205162245/vagish-s-hemmige\nUS News doctor profile\nhttps://health.usnews.com/doctors/vagish-hemmige-719259\nORCID\nhttps://orcid.org/0009-0006-6346-1826\nResearch/works\nhttps://pubmed.ncbi.nlm.nih.gov/?term=vagish+Hemmige&sort=date\nR packages\nsRtr: https://vagishhemmige.github.io/sRtr/\nstrobe: https://vagishhemmige.github.io/strobe/\nusRds: https://vagishhemmige.github.io/usRds/"
-  },
-  {
-    "objectID": "index.html#contact",
-    "href": "index.html#contact",
-    "title": "Vagish Hemmige, MD",
-    "section": "Contact",
-    "text": "Contact\n\nMontefiore Einstein (clinic scheduling/info via physician profile)\nAcademic email available on the Einstein faculty page"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "I work at the intersection of infectious diseases and transplantation, with a focus on HIV care & prevention, HIV-to-HIV thoracic transplantation, and building open, reproducible R workflows for large healthcare datasets.\nI’m based in the Bronx, New York. Day to day, I split time between patient care, program building, and collaborative research—especially projects that improve access to transplant for people living with HIV and make complex data usable by clinical teams."
-  },
-  {
-    "objectID": "about.html#hi-im-vagish.",
-    "href": "about.html#hi-im-vagish.",
-    "title": "About",
-    "section": "",
-    "text": "I work at the intersection of infectious diseases and transplantation, with a focus on HIV care & prevention, HIV-to-HIV thoracic transplantation, and building open, reproducible R workflows for large healthcare datasets.\nI’m based in the Bronx, New York. Day to day, I split time between patient care, program building, and collaborative research—especially projects that improve access to transplant for people living with HIV and make complex data usable by clinical teams."
-  },
-  {
-    "objectID": "about.html#what-im-working-on",
-    "href": "about.html#what-im-working-on",
-    "title": "About",
-    "section": "What I’m working on",
-    "text": "What I’m working on\n\nTransplant & HIV: advancing pathways for HIV-positive donor thoracic transplants and sharing practical “how-to” resources for new programs.\nReproducible analytics in R: extensive experience using R to analyze clinical data.\nEducation: clinical reasoning, and bringing data skills to clinicians with approachable examples."
-  },
-  {
-    "objectID": "about.html#open-source-projects",
-    "href": "about.html#open-source-projects",
-    "title": "About",
-    "section": "Open-source projects",
-    "text": "Open-source projects\n\nsRtr — R helpers for working with UNOS/SRTR transplant data\nhttps://vagishhemmige.github.io/sRtr/\nstrobe — STROBE-style inclusion/exclusion tracking for observational studies\nhttps://vagishhemmige.github.io/strobe/\nusRds (in progress) — utilities for loading, labeling, and converting USRDS claims files to Parquet with schema-aware helpers."
-  },
-  {
-    "objectID": "about.html#selected-interests-methods",
-    "href": "about.html#selected-interests-methods",
-    "title": "About",
-    "section": "Selected interests & methods",
-    "text": "Selected interests & methods\n\nClinical: transplant ID, opportunistic infections, HIV prevention & primary care\n\nResearch: HIV and thoracic transplant, big data work with the SRTR and UNOS\n\nTeaching: have taught clinical infectious diseases to trainees as well as statistics and epidemiology."
-  },
-  {
-    "objectID": "about.html#speaking-teaching",
-    "href": "about.html#speaking-teaching",
-    "title": "About",
-    "section": "Speaking & teaching",
-    "text": "Speaking & teaching\nI enjoy guest lectures, workshops, and small-group sessions on: - Practical R for clinicians and researchers - Epidemiology and biostatistics - Transplant ID topics (HIV D+/R+ programs, protocols, safety)"
-  },
-  {
-    "objectID": "about.html#contact-links",
-    "href": "about.html#contact-links",
-    "title": "About",
-    "section": "Contact & links",
-    "text": "Contact & links\n\nFaculty profile: https://einsteinmed.edu/faculty/15768/vagish-hemmige\n\nPhysician profile: https://doctors.montefioreeinstein.org/providers/1205162245/vagish-s-hemmige\n\nGitHub: https://github.com/VagishHemmige\n\nORCID: https://orcid.org/0009-0006-6346-1826"
-  },
-  {
-    "objectID": "about.html#vagish-hemmige",
-    "href": "about.html#vagish-hemmige",
-    "title": "About",
-    "section": "Vagish Hemmige",
-    "text": "Vagish Hemmige\nI work at the intersection of infectious diseases and transplantation, with a focus on HIV care & prevention, HIV-to-HIV thoracic transplantation, and building open, reproducible R workflows for large healthcare datasets.\nI’m based in the Bronx, New York. Day to day, I split time between patient care, program building, and collaborative research—especially projects that improve access to transplant for people living with HIV and make complex data usable by clinical teams."
-  },
-  {
-    "objectID": "about.html#mentoring",
-    "href": "about.html#mentoring",
-    "title": "About",
-    "section": "Mentoring",
-    "text": "Mentoring\nI have mentored trainees in case reports, clinical research, and big data/research methods.\nWhile I primarily mentor students, residents, and fellows at Montefiore Medical Center or Albert Einstein College of Medicine, I do have projects for non-affiliates with R experience and skills that can be done remotely."
-  },
-  {
-    "objectID": "presentation.html",
-    "href": "presentation.html",
-    "title": "Presentations",
-    "section": "",
-    "text": "Here are presentations I have given over the years\n\n\n\nPending\n\n\n\n\nPending"
-  },
-  {
-    "objectID": "presentation.html#conference-presentations",
-    "href": "presentation.html#conference-presentations",
-    "title": "Presentations",
-    "section": "",
-    "text": "Pending"
-  },
-  {
-    "objectID": "presentation.html#invited-talks",
-    "href": "presentation.html#invited-talks",
-    "title": "Presentations",
-    "section": "",
-    "text": "Pending"
   }
 ]

@@ -1,25 +1,110 @@
 ---
 title: "Presentations"
-page-layout: article
-toc: true
-toc-location: right
+format: html
 ---
 
-# Presentations
+```{r, include=FALSE}
+library(yaml)
+library(dplyr)
+library(lubridate)
+library(purrr)
 
-Here are presentations I have given over the years
+talks <- yaml::read_yaml("data/talks.yml") |>
+  bind_rows()
 
----
+# ---- Force required columns to exist ----
+required_cols <- c("slides", "link", "city", "state")
 
-## Conference presentations
+for (col in required_cols) {
+  if (!col %in% names(talks)) {
+    talks[[col]] <- NA_character_
+  }
+}
 
-Pending
+talks <- talks |>
+  mutate(
+    date = as.Date(date),
+    year = year(date)
+  ) |>
+  arrange(desc(date))
+```
 
----
+```{r, include=FALSE}
+render_section <- function(data, section_title) {
+  
+  cat("## ", section_title, "\n\n", sep = "")
+  
+  if (nrow(data) == 0) {
+    cat("_No entries._\n\n")
+    return(invisible(NULL))
+  }
+  
+  data <- data |> arrange(desc(date))
+  
+  for (yr in unique(data$year)) {
+    
+    cat("### ", yr, "\n\n", sep = "")
+    
+    subset <- data |> filter(year == yr)
+    
+    for (i in seq_len(nrow(subset))) {
+      
+      row <- subset[i, ]
+      
+      # Location
+      location <- if (!is.na(row$city)) {
+        paste0(row$city, ", ", row$state)
+      } else {
+        "Virtual"
+      }
+      
+      # Slides
+      slide_text <- if (!is.na(row$slides)) {
+        paste0(" | [Slides](", row$slides, ")")
+      } else ""
+      
+      # Recording
+      link_text <- if (!is.na(row$link)) {
+        paste0(" | [Recording](", row$link, ")")
+      } else ""
+      
+      cat(
+        "- **", row$venue, "** — \"", row$title, "\"  \n",
+        location,
+        slide_text,
+        link_text,
+        "\n\n",
+        sep = ""
+      )
+    }
+  }
+}
+```
 
-## Invited talks
+```{r, results='asis', echo=FALSE}
+render_section(
+  talks |> filter(category == "invited"),
+  "National & International Invited Presentations"
+)
+```
 
-Pending
+```{r, results='asis', echo=FALSE}
+render_section(
+  talks |> filter(category == "conference"),
+  "Conference Presentations"
+)
+```
 
----
+```{r, results='asis', echo=FALSE}
+render_section(
+  talks |> filter(category == "grand_rounds"),
+  "Grand Rounds"
+)
+```
 
+```{r, results='asis', echo=FALSE}
+render_section(
+  talks |> filter(category == "teaching"),
+  "Teaching & Case Conferences"
+)
+```

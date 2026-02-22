@@ -1,0 +1,233 @@
+- title: "A case of tuberculosis after BMT."
+  venue: "Citywide Case Conference"
+  city: "Houston"
+  state: "TX"
+  date: "2012-11-14"
+  category: "teaching"
+  slides: null
+  link: null
+
+- title: "A 33-year old man with FUO secondary to scurvy."
+  venue: "Citywide Case Conference"
+  city: "Houston"
+  state: "TX"
+  date: "2013-01-01"
+  category: "teaching"
+  slides: null
+  link: null
+
+- title: "`A kitten bit through my PICC line.`"
+  venue: "Citywide Case Conference"
+  city: "Houston"
+  state: "TX"
+  date: "2013-03-13"
+  category: "teaching"
+  slides: null
+  link: null
+
+- title: "Aspergillus infection of an Ommaya reservoir."
+  venue: "Citywide Case Conference"
+  city: "Houston"
+  state: "TX"
+  date: "2014-02-12"
+  category: "teaching"
+  slides: null
+  link: null
+
+- title: "Pulmonary infections after transplantation: illustrative cases."
+  venue: "Houston Methodist Hospital Grand Rounds"
+  city: "Houston"
+  state: "TX"
+  date: "2014-06-12"
+  category: "invited"
+  slides: null
+  link: null
+
+- title: "Infections in CF and lung transplant patients."
+  venue: "Fellow Core Curriculum"
+  city: "Houston"
+  state: "TX"
+  date: "2014-06-19"
+  category: "teaching"
+  slides: null
+  link: null
+
+- title: "Infections in cirrhotics and liver transplant patients."
+  venue: "Fellow Core Curriculum"
+  city: "Houston"
+  state: "TX"
+  date: "2015-03-12"
+  category: "teaching"
+  slides: null
+  link: null
+
+- title: "MRSA infections in patients with HIV."
+  venue: "Citywide Case Conference"
+  city: "Houston"
+  state: "TX"
+  date: "2015-11-18"
+  category: "teaching"
+  slides: null
+  link: null
+
+- title: "Screening for parasitic infections in solid organ transplant candidates."
+  venue: "Transplant ID Conference"
+  city: "Houston"
+  state: "TX"
+  date: "2015-08-20"
+  category: "teaching"
+  slides: null
+  link: null
+
+- title: "Bacteremia secondary to Brucella."
+  venue: "Citywide Case Conference"
+  city: "Houston"
+  state: "TX"
+  date: "2015-09-02"
+  category: "teaching"
+  slides: null
+  link: null
+
+- title: "Cases from Texas."
+  venue: "Infectious Diseases Conference, University of Chicago"
+  city: "Chicago"
+  state: "IL"
+  date: "2015-09-03"
+  category: "invited"
+  slides: null
+  link: null
+
+- title: "A case of chronic ascites secondary to Chagas disease."
+  venue: "Citywide Case Conference"
+  city: "Houston"
+  state: "TX"
+  date: "2015-10-20"
+  category: "teaching"
+  slides: null
+  link: null
+
+- title: "A case of suspected toxoplasma lymphadenitis during pregnancy."
+  venue: "Citywide Case Conference"
+  city: "Houston"
+  state: "TX"
+  date: "2016-04-27"
+  category: "teaching"
+  slides: null
+  link: null
+
+- title: "Infections in CF and lung transplant patients."
+  venue: "Fellow Core Curriculum"
+  city: "Houston"
+  state: "TX"
+  date: "2016-06-01"
+  category: "teaching"
+  slides: null
+  link: null
+
+- title: "A case of endovascular infection secondary to Bartonella."
+  venue: "Citywide Case Conference"
+  city: "Houston"
+  state: "TX"
+  date: "2017-10-25"
+  category: "teaching"
+  slides: null
+  link: null
+
+- title: "The benefits & risks of animals living with immunocompromised patients."
+  venue: "Transplant ID Conference"
+  city: "Houston"
+  state: "TX"
+  date: "2018-02-09"
+  category: "teaching"
+  slides: null
+  link: null
+
+- title: "The benefits & risks of animals living with immunocompromised patients."
+  venue: "Texas Veterinary Medical Association Annual Conference"
+  city: "Woodlands"
+  state: "TX"
+  date: "2018-03-02"
+  category: "conference"
+  slides: null
+  link: null
+
+- title: "Infections in CF and lung transplant patients."
+  venue: "Fellow Core Curriculum"
+  city: "Houston"
+  state: "TX"
+  date: "2018-03-01"
+  category: "teaching"
+  slides: null
+  link: null
+
+- title: "HIV D+/R+ transplants: the Montefiore Medical Center experience."
+  venue: "CDC/HHS HOPE Act Workgroup Meeting"
+  city: null
+  state: null
+  date: "2022-05-18"
+  category: "invited"
+  slides: "presentations/Invited talks/HHS talk Montefiore final 2023.pdf"
+  link: null
+
+- title: "HOPE ACT (HIV/Donor Transplant) Program."
+  venue: "Nassau/Suffolk County Care Coordination Network"
+  city: null
+  state: null
+  date: "2023-04-05"
+  category: "invited"
+  slides: "presentations/Invited talks/Nassau County Hope Act talk 2023.pdf"
+  link: null
+
+- title: "The future of HIV-to-HIV thoracic transplant."
+  venue: "American Transplant Congress"
+  city: "San Diego"
+  state: "CA"
+  date: "2023-06-05"
+  category: "conference"
+  slides: "presentations/Conferences/ATC 2023 HOPE talk.pdf"
+  link: null
+
+- title: "A Case of CNS T. cruzi Reactivation Post-Solid Organ Transplant."
+  venue: "United States Chagas Network"
+  city: null
+  state: null
+  date: "2023-08-04"
+  category: "invited"
+  slides: null
+  link: null
+
+- title: "HIV-to-HIV Transplantation."
+  venue: "Westchester Medical Center Transplant Center Grand Rounds"
+  city: null
+  state: null
+  date: "2023-11-03"
+  category: "invited"
+  slides: null
+  link: null
+
+- title: "Meet the Expert: Nuts and Bolts of Starting HIV-to-HIV Transplantation in Your Center"
+  venue: "American Transplant Congress"
+  city: "Philadelphia"
+  state: "PA"
+  date: "2024-06-02"
+  category: "conference"
+  slides: null
+  link: null
+
+- title: "Beyond the Horizon: Pioneering Thoracic and Living Donor Transplants for HIV+ Individuals"
+  venue: "World Transplant Congress"
+  city: "San Francisco"
+  state: "CA"
+  date: "2025-08-06"
+  category: "conference"
+  slides: "presentations/Conferences/WTC 2025 HIV thoracic living talk.pdf"
+  link: null
+
+- title: "The current status and future of HIV D+/R+ heart and lung transplantation."
+  venue: "University of Minnesota Transplant Center Grand Rounds"
+  city: "Minneapolis"
+  state: "MN"
+  date: "2026-10-09"
+  category: "invited"
+  slides: "presentations/Invited talks/UMN HIV talk 2025 10-9.pdf"
+  link: https://drive.google.com/file/d/1V-k7N0cDUjzKAMUUFwzLDvoRf2Ft9haN/view
