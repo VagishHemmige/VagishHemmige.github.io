@@ -82,13 +82,13 @@ render_section <- function(data, section_title) {
       
       # PDF link
       pdf_text <- if (!is.na(row$pdf)) {
-        paste0(" | [PDF](", row$pdf, ")")
-      } else ""
+        paste0("[File](", row$pdf, ")")
+      } else "File"
       
       # External link
       link_text <- if (!is.na(row$link)) {
         paste0(" | [Link](", row$link, ")")
-      } else ""
+      } else " | Link"
       
       # Award text
       award_text <- if (!is.na(row$award)) {
@@ -99,18 +99,20 @@ render_section <- function(data, section_title) {
       scope_badge <- badge_html(row$scope)
       
       
-      cat(
-        "<div>",
-        scope_badge, " ",
-        "<strong>", row$meeting, "</strong>",
-        " — \"", row$title, "\"<br>",
-        location,
-        pdf_text,
-        link_text,
-        award_text,
-        "</div>\n\n",
-        sep = ""
-      )
+      cat( 
+        scope_badge, 
+        "\n\n", 
+        "**", 
+        row$meeting, 
+        "**  \n\"", 
+        row$title, 
+        "\"  \n", 
+        location, "  \n",
+        pdf_text, 
+        link_text, 
+        award_text, 
+        "  \n  \n", 
+        sep = "" )
     }
   }
 }

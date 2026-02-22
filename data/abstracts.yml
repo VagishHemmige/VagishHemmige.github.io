@@ -44,8 +44,8 @@
 
 - title: "Risk factors for skin and soft tissue infections (SSTIs) in HIV-infected patients."
   meeting: "Society for Healthcare Epidemiology of America"
-  city: null
-  state: null
+  city: "Dallas"
+  state: "TX"
   date: "2011-04-01"
   type: "poster"
   award: null
@@ -55,8 +55,8 @@
 
 - title: "Use of computer based training module to improve physician knowledge on sterile technique, complications and documentation for central line insertion to help reduce CLABSI."
   meeting: "IDWeek"
-  city: null
-  state: null
+  city: "San Diego"
+  state: "CA"
   date: "2012-10-11"
   type: "poster"
   award: null
@@ -66,13 +66,13 @@
 
 - title: "Recurrent skin and soft tissue infections in HIV-infected patients over a 5-year period: incidence and risk factors."
   meeting: "IDWeek"
-  city: null
-  state: null
+  city: "Philadelphia"
+  state: "PA"
   date: "2014-10-08"
   type: "poster"
   award: null
   pdf: null
-  link: null
+  link: https://academic.oup.com/ofid/article/1/suppl_1/S426/2338642?login=false
   scope: "national"
 
 - title: "A Young Man with Fever and Diffuse Muscle Pain."
@@ -94,7 +94,7 @@
   type: "poster"
   award: null
   pdf: null
-  link: null
+  link: https://www.jacionline.org/article/S0091-6749(14)03316-8/fulltext
   scope: "national"
 
 - title: "Single Tablet HIV Regimens Facilitate Improved Outcomes among Treatment Naïve Patients."
@@ -110,13 +110,13 @@
 
 - title: "Opportunities to Educate Trainees and Hospitalists Regarding Appropriate Use of Specialized Testing in Hospitalized Inpatients with HIV at a County Hospital."
   meeting: "IDWeek"
-  city: null
-  state: null
+  city: "San Diego"
+  state: "CA"
   date: "2015-10-06"
   type: "poster"
   award: null
   pdf: null
-  link: null
+  link: https://academic.oup.com/ofid/article/2/suppl_1/456/2634801
   scope: "national"
 
 - title: "Improving preventive health services for racial and ethnic minorities: could a cell phone be the answer?"
@@ -138,7 +138,7 @@
   type: "poster"
   award: null
   pdf: null
-  link: null
+  link: https://atcmeetingabstracts.com/abstract/strongyloides-infection-in-solid-organ-transplant-recipients-a-single-center-experience-and-review-of-the-literature/
   scope: "national"
 
 - title: "Wait, is this an ID boards question? Chronic hepatitis in a broadly exposed liver transplant patient."
@@ -171,7 +171,7 @@
   type: "poster"
   award: null
   pdf: null
-  link: null
+  link: https://atcmeetingabstracts.com/abstract/diagnosis-and-prevalence-of-strongyloidiasis-in-solid-organ-transplant-patients/
   scope: "national"
 
 - title: "Human Immunodeficiency Virus (HIV) diagnostic limbo: a retrospective review of discordant HIV test results in a large academic health center over a 10-year period."
@@ -182,7 +182,7 @@
   type: "poster"
   award: null
   pdf: null
-  link: null
+  link: https://pmc.ncbi.nlm.nih.gov/articles/PMC6252605/
   scope: "national"
 
 - title: "Incidence of skin and soft tissue infection in people living with HIV in a large urban public health care system in Houston, TX, 2009-2014."
@@ -193,7 +193,7 @@
   type: "oral"
   award: null
   pdf: null
-  link: null
+  link: https://pmc.ncbi.nlm.nih.gov/articles/PMC6252585/
   scope: "national"
 
 - title: "Assessment of methenamine hippurate for the prevention of recurrent urinary tract infections in adult renal transplant recipients."
@@ -215,7 +215,7 @@
   type: "oral"
   award: null
   pdf: null
-  link: null
+  link: https://pmc.ncbi.nlm.nih.gov/articles/PMC6809086/
   scope: "national"
 
 - title: "Evaluation of antibiotic utilization after introduction of a dedicated infectious diseases-critical care medicine service in critical care units."
@@ -226,18 +226,18 @@
   type: "oral"
   award: null
   pdf: null
-  link: null
+  link: https://pmc.ncbi.nlm.nih.gov/articles/PMC6808670/
   scope: "national"
 
 - title: "Inactive status on the kidney transplant waitlist is associated with neighborhood poverty."
   meeting: "National Kidney Foundation Spring Clinical Meeting"
-  city: null
-  state: null
+  city: "Orlando"
+  state: "FL"
   date: "2021-04-06"
   type: "poster"
   award: null
   pdf: null
-  link: null
+  link: https://www.ajkd.org/article/S0272-6386(21)00070-6/abstract
   scope: "national"
 
 - title: "Lung Transplantation Outcomes in Recipients Living with HIV in the United States."
@@ -248,7 +248,7 @@
   type: "oral"
   award: null
   pdf: null
-  link: null
+  link: https://atcmeetingabstracts.com/abstract/lung-transplantation-outcomes-in-recipients-living-with-hiv-in-the-united-states/
   scope: "national"
 
 - title: "Transplantation of solid organs recovered from deceased donors recently infected by SARS-CoV-2 in the United States."
@@ -259,7 +259,7 @@
   type: "oral"
   award: null
   pdf: null
-  link: null
+  link: https://www.medrxiv.org/content/10.1101/2022.06.05.22276008v2.full
   scope: "regional"
 
 - title: "Reasons for Kidney Transplant Patients to Have Outpatient Urine Cultures in the First Year Post-Transplant: An Analysis of the USRDS."
@@ -269,7 +269,7 @@
   date: "2022-06-04"
   type: "poster"
   award: null
-  pdf: null
+  pdf: "abstracts/ATC 2022 Ucx poster template.pdf"
   link: null
   scope: "national"
 
@@ -281,7 +281,7 @@
   type: "poster"
   award: null
   pdf: null
-  link: null
+  link: https://journals.lww.com/jasn/fulltext/2020/10001/histological_predictors_of_graft_failure_in_kidney.2754.aspx
   scope: "national"
 
 - title: "Implementation of a medical education intervention to improve acceptance of HIV-positive donors for transplant at a tertiary care hospital."
@@ -292,7 +292,7 @@
   type: "poster"
   award: null
   pdf: null
-  link: null
+  link: https://pmc.ncbi.nlm.nih.gov/articles/PMC9751547/
   scope: "national"
 
 - title: "Outcome of HIV Positive Pancreas And Kidney-Pancreas Transplants: An Analysis Of The UNOS Database."
@@ -302,7 +302,7 @@
   date: "2023-06-03"
   type: "poster"
   award: null
-  pdf: null
+  pdf: "abstracts/SwaminathanATCposter 5-23-2023.pdf"
   link: null
   scope: "national"
 
@@ -314,7 +314,7 @@
   type: "oral"
   award: null
   pdf: null
-  link: null
+  link: https://atc.digitellinc.com/live/24/session/2842?eventSearchTag[]=5861
   scope: "national"
 
 - title: "Utilization of the United States Renal Data System for Transplant-Related Research."
@@ -325,7 +325,7 @@
   type: "poster"
   award: null
   pdf: null
-  link: null
+  link: https://www.amjtransplant.org/article/S1600-6135(25)02539-0/fulltext
   scope: "international"
 
 - title: "Geographic Access to Liver Transplant Centers with HIV and HOPE Experience, 2017–2022."
@@ -335,6 +335,18 @@
   date: "2025-10-19"
   type: "poster"
   award: null
-  pdf: null
+  pdf: "abstracts/IDWeek Liver 2025.png"
   link: null
   scope: "national"
+  
+- title: "Nationwide UNOS Analysis of Mortality After Simultaneous Liver–Kidney Transplantation in Patients With HIV, 2005–2023."
+  meeting: "NYC Center for AIDS Research Symposium"
+  city: "New York"
+  state: "NY"
+  date: "2026-2-9"
+  type: "poster"
+  award: null
+  pdf: "abstracts/2026 CFAR Poster.pdf"
+  link: null
+  scope: "local"
+  
