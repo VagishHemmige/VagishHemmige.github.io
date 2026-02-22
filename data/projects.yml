@@ -1,0 +1,39 @@
+- title: "HIV-SLK Outcomes"
+  theme: "HIV & Solid Organ Transplant Outcomes"
+  description: "Outcomes analysis of HIV-positive simultaneous liver-kidney transplant recipients in the United States."
+  status: "active"
+  site: "https://vagishhemmige.github.io/HIV-SLK-outcomes/"
+  repo: null
+  methods: ["registry analysis", "SRTR", "survival modeling"]
+
+- title: "Cryptococcus Donor Screening CEA"
+  theme: "Cost-Effectiveness & Health Economics"
+  description: "Decision-analytic cost-effectiveness modeling of donor cryptococcal screening strategies in solid organ transplantation."
+  status: "active"
+  site: "https://vagishhemmige.github.io/Cryptococcus-donor-screening-CEA/"
+  repo: null
+  methods: ["decision analysis", "CEA", "Monte Carlo simulation"]
+
+- title: "Cryptococcus Cost Analysis"
+  theme: "Cost-Effectiveness & Health Economics"
+  description: "Economic burden and cost modeling related to cryptococcal infection in transplant populations."
+  status: "active"
+  site: "https://vagishhemmige.github.io/Cryptococcus-cost-analysis/"
+  repo: null
+  methods: ["cost modeling", "claims data", "health economics"]
+
+- title: "HOPE-CDC Analysis 2026"
+  theme: "Geographic Access & Equity"
+  description: "Geospatial evaluation of access to HIV-experienced transplant centers across the United States."
+  status: "active"
+  site: "https://vagishhemmige.github.io/HOPE-CDC-analysis-2026/"
+  repo: null
+  methods: ["sf", "ACS", "isochrone analysis", "transplant registry"]
+
+- title: "Ellmer PubMed ATC 2026 Abstract Pipeline"
+  theme: "Research Infrastructure & Methods"
+  description: "Automated literature extraction and structured summarization workflow using LLMs for transplant research."
+  status: "active"
+  site: null
+  repo: "https://github.com/VagishHemmige/Ellmer-Pubmed-ATC-2026-abstract"
+  methods: ["LLM", "structured extraction", "automation"]

@@ -138,5 +138,40 @@
     "title": "Vagish Hemmige, MD MS",
     "section": "Links",
     "text": "Links\n\nFaculty profile — Albert Einstein College of Medicine\nhttps://einsteinmed.edu/faculty/15768/vagish-hemmige\nPhysician profile — Montefiore Einstein\nhttps://doctors.montefioreeinstein.org/providers/1205162245/vagish-s-hemmige\nUS News doctor profile\nhttps://health.usnews.com/doctors/vagish-hemmige-719259\nORCID\nhttps://orcid.org/0009-0006-6346-1826\nResearch/works\nhttps://pubmed.ncbi.nlm.nih.gov/?term=vagish+Hemmige&sort=date\nR packages\nsRtr: https://vagishhemmige.github.io/sRtr/\nstrobe: https://vagishhemmige.github.io/strobe/\nusRds: https://vagishhemmige.github.io/usRds/"
+  },
+  {
+    "objectID": "Projects.html",
+    "href": "Projects.html",
+    "title": "Research Projects",
+    "section": "",
+    "text": "Economic burden and cost modeling related to cryptococcal infection in transplant populations.\nMethods: claims data, cost modeling, health economics\nProject Site | GitHub\n\n\n\nDecision-analytic cost-effectiveness modeling of donor cryptococcal screening strategies in solid organ transplantation.\nMethods: CEA, decision analysis, Monte Carlo simulation\nProject Site | GitHub"
+  },
+  {
+    "objectID": "Projects.html#hiv-solid-organ-transplant-outcomes",
+    "href": "Projects.html#hiv-solid-organ-transplant-outcomes",
+    "title": "Research Projects",
+    "section": "HIV & Solid Organ Transplant Outcomes",
+    "text": "HIV & Solid Organ Transplant Outcomes\n\nHIV-SLK Outcomes ACTIVE\nOutcomes analysis of HIV-positive simultaneous liver-kidney transplant recipients in the United States.\nMethods: registry analysis, SRTR, survival modeling\nProject Site | GitHub"
+  },
+  {
+    "objectID": "Projects.html#cost-effectiveness-health-economics",
+    "href": "Projects.html#cost-effectiveness-health-economics",
+    "title": "Research Projects",
+    "section": "",
+    "text": "Economic burden and cost modeling related to cryptococcal infection in transplant populations.\nMethods: claims data, cost modeling, health economics\nProject Site | GitHub\n\n\n\nDecision-analytic cost-effectiveness modeling of donor cryptococcal screening strategies in solid organ transplantation.\nMethods: CEA, decision analysis, Monte Carlo simulation\nProject Site | GitHub"
+  },
+  {
+    "objectID": "Projects.html#geographic-access-equity",
+    "href": "Projects.html#geographic-access-equity",
+    "title": "Research Projects",
+    "section": "Geographic Access & Equity",
+    "text": "Geographic Access & Equity\n\nHOPE-CDC Analysis 2026 ACTIVE\nGeospatial evaluation of access to HIV-experienced transplant centers across the United States.\nMethods: ACS, isochrone analysis, sf, transplant registry\nProject Site | GitHub"
+  },
+  {
+    "objectID": "Projects.html#research-infrastructure-methods",
+    "href": "Projects.html#research-infrastructure-methods",
+    "title": "Research Projects",
+    "section": "Research Infrastructure & Methods",
+    "text": "Research Infrastructure & Methods\n\nEllmer PubMed ATC 2026 Abstract Pipeline ACTIVE\nAutomated literature extraction and structured summarization workflow using LLMs for transplant research.\nMethods: automation, LLM, structured extraction\nProject Site | GitHub"
   }
 ]

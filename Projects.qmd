@@ -1,0 +1,79 @@
+---
+title: "Research Projects"
+format: html
+---
+
+```{r, include=FALSE}
+
+library(yaml)
+library(dplyr)
+
+projects <- yaml::read_yaml("data/projects.yml") |> bind_rows()
+
+# Collapse accidental duplicates into a single project record
+# and merge methods into one unique list.
+projects <- projects |>
+  group_by(title, theme, description, status, site, repo) |>
+  summarise(
+    methods = list(sort(unique(unlist(methods)))),
+    .groups = "drop"
+  )
+
+status_badge <- function(status) {
+  
+  if (is.na(status)) return("")
+  
+  color <- switch(
+    status,
+    active = "#2980b9",       # blue
+    completed = "#27ae60",    # green
+    paused = "#7f8c8d",       # gray
+    "#bdc3c7"
+  )
+  
+  paste0(
+    "<span class='status-badge' style='background:", color, ";'>",
+    toupper(status),
+    "</span>"
+  )
+}
+
+```
+
+```{r, results='asis', echo=FALSE}
+
+themes <- unique(projects$theme)
+
+for (th in themes) {
+  
+  cat("## ", th, "\n\n", sep = "")
+  
+  subset <- projects[projects$theme == th, ]
+  
+  for (i in seq_len(nrow(subset))) {
+    
+    row <- subset[i, ]
+    
+    site_link <- if (!is.na(row$site)) {
+      paste0("[Project Site](", row$site, ")")
+    } else "Project Site"
+    
+    repo_link <- if (!is.na(row$repo)) {
+      paste0(" | [GitHub](", row$repo, ")")
+    } else " | GitHub"
+    
+    methods_text <- paste(row$methods[[1]], collapse = ", ")
+    badge <- status_badge(row$status)
+    
+    cat(
+      "### ", row$title, " ", badge, "\n\n",
+      row$description, "  \n\n",
+      "**Methods:** ", methods_text, "  \n\n",
+      site_link,
+      repo_link,
+      "\n\n",
+      sep = ""
+    )
+  }
+}
+```

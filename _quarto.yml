@@ -12,6 +12,8 @@ website:
         text: Presentations
       - href: abstracts.qmd
         text: Abstracts
+      - href: Projects.qmd
+        text: Projects
       - href: about.qmd
         text: About
       - text: "GitHub"
