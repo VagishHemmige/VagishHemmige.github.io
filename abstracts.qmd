@@ -25,10 +25,34 @@ abstracts <- abstracts |>
     year = year(date)
   ) |>
   arrange(desc(date))
+
+
+badge_html <- function(scope) {
+  
+  if (is.na(scope)) return("")
+  
+  color <- switch(
+    scope,
+    international = "#8e44ad",
+    national = "#2980b9",
+    regional = "#27ae60",
+    local = "#7f8c8d",
+    "#bdc3c7"
+  )
+  
+  paste0(
+    "<span class='location-badge' style='background:", color, ";'>",
+    toupper(scope),
+    "</span>"
+  )
+}
+
+
 ```
 
 ```{r, include=FALSE}
 render_section <- function(data, section_title) {
+  
   
   cat("## ", section_title, "\n\n", sep = "")
   
@@ -71,13 +95,20 @@ render_section <- function(data, section_title) {
         paste0("  \n**Award:** ", row$award)
       } else ""
       
+      #Badge
+      scope_badge <- badge_html(row$scope)
+      
+      
       cat(
-        "- **", row$meeting, "** — \"", row$title, "\"   \n",
+        "<div>",
+        scope_badge, " ",
+        "<strong>", row$meeting, "</strong>",
+        " — \"", row$title, "\"<br>",
         location,
         pdf_text,
         link_text,
         award_text,
-        "\n\n",
+        "</div>\n\n",
         sep = ""
       )
     }

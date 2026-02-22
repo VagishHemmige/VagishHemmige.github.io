@@ -22,3 +22,4 @@ format:
   html:
     theme: cosmo
     toc: false
+    css: styles.scss
