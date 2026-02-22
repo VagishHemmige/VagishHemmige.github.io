@@ -1,0 +1,100 @@
+---
+title: "Conference Abstracts"
+format: html
+---
+
+```{r, include=FALSE}
+library(yaml)
+library(dplyr)
+library(lubridate)
+
+abstracts <- yaml::read_yaml("data/abstracts.yml") |> bind_rows()
+
+# ---- Force required columns to exist ----
+required_cols <- c("pdf", "link", "city", "state", "type", "award")
+
+for (col in required_cols) {
+  if (!col %in% names(abstracts)) {
+    abstracts[[col]] <- NA_character_
+  }
+}
+
+abstracts <- abstracts |>
+  mutate(
+    date = as.Date(date),
+    year = year(date)
+  ) |>
+  arrange(desc(date))
+```
+
+```{r, include=FALSE}
+render_section <- function(data, section_title) {
+  
+  cat("## ", section_title, "\n\n", sep = "")
+  
+  if (nrow(data) == 0) {
+    cat("_No entries._\n\n")
+    return(invisible(NULL))
+  }
+  
+  data <- data |> arrange(desc(date))
+  
+  for (yr in unique(data$year)) {
+    
+    cat("### ", yr, "\n\n", sep = "")
+    
+    subset <- data |> filter(year == yr)
+    
+    for (i in seq_len(nrow(subset))) {
+      
+      row <- subset[i, ]
+      
+      # Location
+      location <- if (!is.na(row$city)) {
+        paste0(row$city, ", ", row$state)
+      } else {
+        "Location not specified"
+      }
+      
+      # PDF link
+      pdf_text <- if (!is.na(row$pdf)) {
+        paste0(" | [PDF](", row$pdf, ")")
+      } else ""
+      
+      # External link
+      link_text <- if (!is.na(row$link)) {
+        paste0(" | [Link](", row$link, ")")
+      } else ""
+      
+      # Award text
+      award_text <- if (!is.na(row$award)) {
+        paste0("  \n**Award:** ", row$award)
+      } else ""
+      
+      cat(
+        "- **", row$meeting, "** — \"", row$title, "\"   \n",
+        location,
+        pdf_text,
+        link_text,
+        award_text,
+        "\n\n",
+        sep = ""
+      )
+    }
+  }
+}
+```
+
+```{r, results='asis', echo=FALSE}
+render_section(
+  abstracts |> filter(type == "oral"),
+  "Oral Presentations"
+)
+```
+
+```{r, results='asis', echo=FALSE}
+render_section(
+  abstracts |> filter(type == "poster"),
+  "Poster Presentations"
+)
+```

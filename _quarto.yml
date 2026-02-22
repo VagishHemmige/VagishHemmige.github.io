@@ -10,6 +10,8 @@ website:
         text: Home
       - href: presentation.qmd
         text: Presentations
+      - href: abstracts.qmd
+        text: Abstracts
       - href: about.qmd
         text: About
       - text: "GitHub"
