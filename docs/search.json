@@ -1,73 +1,66 @@
 [
   {
-    "objectID": "Projects.html",
-    "href": "Projects.html",
-    "title": "Research Projects",
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Internal Teaching",
     "section": "",
-    "text": "Economic burden and cost modeling related to cryptococcal infection in transplant populations.\nMethods: claims data, cost modeling, health economics\nProject Site | GitHub\n\n\n\nDecision-analytic cost-effectiveness modeling of donor cryptococcal screening strategies in solid organ transplantation.\nMethods: CEA, decision analysis, Monte Carlo simulation\nProject Site | GitHub"
+    "text": "HIV and transplantation\nTransplant Fellow Lecture\nAudience: Transplant surgery fellows\nAn overview of HIV and solid organ transplantation with a focus on the HOPE Act\nFirst delivered: 2024\nMost recent: 2024-12-16\nTotal sessions: 2\n\n\n\nPets in transplant\nTransplant Fellow Lecture\nAudience: Transplant physicians\nAn overview of zoonoses in transplant and how to counsel patients as to how to prevent them\nFirst delivered: 2019\nMost recent: 2024-03-24\nTotal sessions: 4\nSlides\n\n\n\nPost-transplant viral infections\nTransplant Fellow Lecture\nAudience: Infectious Diseases fellows\nAn overview of prevention, diagnosis, and treatment of post-transplant viral infections\nFirst delivered: 2018\nMost recent: 2024-09-01\nTotal sessions: 6\n\n\n\nInfections after lung transplantation\nCritical care lectures\nAudience: Critical care physicians\nAn overview of prevention, diagnosis, and treatment of post-lung transplant infections\nFirst delivered: 2022\nMost recent: 2022-02-13\nTotal sessions: 1\n\n\n\nHow to give journal club\nTransplant Fellow Lecture\nAudience: Infectious Diseases fellows\nAn overview of how to give journal club, appropriate for the fellow level\nFirst delivered: 2018\nMost recent: 2018-10-12\nTotal sessions: 1"
   },
   {
-    "objectID": "Projects.html#cost-effectiveness-health-economics",
-    "href": "Projects.html#cost-effectiveness-health-economics",
-    "title": "Research Projects",
+    "objectID": "presentation.html",
+    "href": "presentation.html",
+    "title": "Presentations",
     "section": "",
-    "text": "Economic burden and cost modeling related to cryptococcal infection in transplant populations.\nMethods: claims data, cost modeling, health economics\nProject Site | GitHub\n\n\n\nDecision-analytic cost-effectiveness modeling of donor cryptococcal screening strategies in solid organ transplantation.\nMethods: CEA, decision analysis, Monte Carlo simulation\nProject Site | GitHub"
+    "text": "University of Minnesota Transplant Center Grand Rounds — “The current status and future of HIV D+/R+ heart and lung transplantation.”\nMinneapolis, MN | Slides | Recording\n\n\n\n\n\nWestchester Medical Center Transplant Center Grand Rounds — “HIV-to-HIV Transplantation.”\nVirtual\nUnited States Chagas Network — “A Case of CNS T. cruzi Reactivation Post-Solid Organ Transplant.”\nVirtual\nNassau/Suffolk County Care Coordination Network — “HOPE ACT (HIV/Donor Transplant) Program.”\nVirtual | Slides\n\n\n\n\n\nCDC/HHS HOPE Act Workgroup Meeting — “HIV D+/R+ transplants: the Montefiore Medical Center experience.”\nVirtual | Slides\n\n\n\n\n\nInfectious Diseases Conference, University of Chicago — “Cases from Texas.”\nChicago, IL\n\n\n\n\n\nHouston Methodist Hospital Grand Rounds — “Pulmonary infections after transplantation: illustrative cases.”\nHouston, TX"
   },
   {
-    "objectID": "Projects.html#research-infrastructure-methods",
-    "href": "Projects.html#research-infrastructure-methods",
-    "title": "Research Projects",
-    "section": "Research Infrastructure & Methods",
-    "text": "Research Infrastructure & Methods\n\nEllmer PubMed ATC 2026 Abstract Pipeline ACTIVE\nAutomated literature extraction and structured summarization workflow using LLMs for transplant research.\nMethods: automation, LLM, structured extraction\nProject Site | GitHub"
+    "objectID": "presentation.html#national-international-invited-presentations",
+    "href": "presentation.html#national-international-invited-presentations",
+    "title": "Presentations",
+    "section": "",
+    "text": "University of Minnesota Transplant Center Grand Rounds — “The current status and future of HIV D+/R+ heart and lung transplantation.”\nMinneapolis, MN | Slides | Recording\n\n\n\n\n\nWestchester Medical Center Transplant Center Grand Rounds — “HIV-to-HIV Transplantation.”\nVirtual\nUnited States Chagas Network — “A Case of CNS T. cruzi Reactivation Post-Solid Organ Transplant.”\nVirtual\nNassau/Suffolk County Care Coordination Network — “HOPE ACT (HIV/Donor Transplant) Program.”\nVirtual | Slides\n\n\n\n\n\nCDC/HHS HOPE Act Workgroup Meeting — “HIV D+/R+ transplants: the Montefiore Medical Center experience.”\nVirtual | Slides\n\n\n\n\n\nInfectious Diseases Conference, University of Chicago — “Cases from Texas.”\nChicago, IL\n\n\n\n\n\nHouston Methodist Hospital Grand Rounds — “Pulmonary infections after transplantation: illustrative cases.”\nHouston, TX"
   },
   {
-    "objectID": "Projects.html#hiv-solid-organ-transplant-outcomes",
-    "href": "Projects.html#hiv-solid-organ-transplant-outcomes",
-    "title": "Research Projects",
-    "section": "HIV & Solid Organ Transplant Outcomes",
-    "text": "HIV & Solid Organ Transplant Outcomes\n\nHIV-SLK Outcomes ACTIVE\nOutcomes analysis of HIV-positive simultaneous liver-kidney transplant recipients in the United States.\nMethods: registry analysis, SRTR, survival modeling\nProject Site | GitHub"
+    "objectID": "presentation.html#conference-presentations",
+    "href": "presentation.html#conference-presentations",
+    "title": "Presentations",
+    "section": "Conference Presentations",
+    "text": "Conference Presentations\n\n2025\n\nWorld Transplant Congress — “Beyond the Horizon: Pioneering Thoracic and Living Donor Transplants for HIV+ Individuals”\nSan Francisco, CA | Slides\n\n\n\n2024\n\nAmerican Transplant Congress — “Meet the Expert: Nuts and Bolts of Starting HIV-to-HIV Transplantation in Your Center”\nPhiladelphia, PA\n\n\n\n2023\n\nAmerican Transplant Congress — “The future of HIV-to-HIV thoracic transplant.”\nSan Diego, CA | Slides\n\n\n\n2018\n\nTexas Veterinary Medical Association Annual Conference — “The benefits & risks of animals living with immunocompromised patients.”\nWoodlands, TX"
   },
   {
-    "objectID": "Projects.html#geographic-access-equity",
-    "href": "Projects.html#geographic-access-equity",
-    "title": "Research Projects",
-    "section": "Geographic Access & Equity",
-    "text": "Geographic Access & Equity\n\nHOPE-CDC Analysis 2026 ACTIVE\nGeospatial evaluation of access to HIV-experienced transplant centers across the United States.\nMethods: ACS, isochrone analysis, sf, transplant registry\nProject Site | GitHub"
+    "objectID": "presentation.html#grand-rounds",
+    "href": "presentation.html#grand-rounds",
+    "title": "Presentations",
+    "section": "Grand Rounds",
+    "text": "Grand Rounds\nNo entries."
   },
   {
-    "objectID": "index.html#overview",
-    "href": "index.html#overview",
-    "title": "Vagish Hemmige, MD MS",
-    "section": "Overview",
-    "text": "Overview\nProfessor of Medicine (Infectious Diseases) at Albert Einstein College of Medicine and transplant infectious diseases physician at Montefiore Einstein in the Bronx, NY. Interests include HIV-to-HIV thoracic transplantation, HIV prevention and treatment, and building open R tools for transplant data research.\n\nCurrent roles: Professor, Medicine (ID), Albert Einstein College of Medicine; Infectious Disease physician, Montefiore Medical Center\nLocation: Bronx, New York\n\nClinical interests: Transplant ID, HIV care & prevention, opportunistic infections\n\nMethods/tech: R, Quarto, Arrow/DuckDB, reproducible pipelines"
+    "objectID": "presentation.html#teaching-case-conferences",
+    "href": "presentation.html#teaching-case-conferences",
+    "title": "Presentations",
+    "section": "Teaching & Case Conferences",
+    "text": "Teaching & Case Conferences\n\n2018\n\nFellow Core Curriculum — “Infections in CF and lung transplant patients.”\nHouston, TX\nTransplant ID Conference — “The benefits & risks of animals living with immunocompromised patients.”\nHouston, TX\n\n\n\n2017\n\nCitywide Case Conference — “A case of endovascular infection secondary to Bartonella.”\nHouston, TX\n\n\n\n2016\n\nFellow Core Curriculum — “Infections in CF and lung transplant patients.”\nHouston, TX\nCitywide Case Conference — “A case of suspected toxoplasma lymphadenitis during pregnancy.”\nHouston, TX\n\n\n\n2015\n\nCitywide Case Conference — “MRSA infections in patients with HIV.”\nHouston, TX\nCitywide Case Conference — “A case of chronic ascites secondary to Chagas disease.”\nHouston, TX\nCitywide Case Conference — “Bacteremia secondary to Brucella.”\nHouston, TX\nTransplant ID Conference — “Screening for parasitic infections in solid organ transplant candidates.”\nHouston, TX\nFellow Core Curriculum — “Infections in cirrhotics and liver transplant patients.”\nHouston, TX\n\n\n\n2014\n\nFellow Core Curriculum — “Infections in CF and lung transplant patients.”\nHouston, TX\nCitywide Case Conference — “Aspergillus infection of an Ommaya reservoir.”\nHouston, TX\n\n\n\n2013\n\nCitywide Case Conference — “A kitten bit through my PICC line.”\nHouston, TX\nCitywide Case Conference — “A 33-year old man with FUO secondary to scurvy.”\nHouston, TX\n\n\n\n2012\n\nCitywide Case Conference — “A case of tuberculosis after BMT.”\nHouston, TX"
   },
   {
-    "objectID": "index.html#highlights",
-    "href": "index.html#highlights",
-    "title": "Vagish Hemmige, MD MS",
-    "section": "Highlights",
-    "text": "Highlights\n\nPart of Montefiore-Einstein’s immunocompromised transplant (ICT) ID team\n\nMedical degree from NYU Grossman School of Medicine; &gt;10 years practice experience.\n\nFaculty/clinician listings and contact available via Einstein/Montefiore directories."
+    "objectID": "abstracts.html",
+    "href": "abstracts.html",
+    "title": "Conference Abstracts",
+    "section": "",
+    "text": "NATIONAL\nAmerican Transplant Congress\n“Landscape And Outcomes Of Heart Transplantation In Recipients With HIV.”\nSan Diego, CA\nFile | Link\n\n\n\nNATIONAL\nAmerican Transplant Congress\n“Lung Transplantation Outcomes in Recipients Living with HIV in the United States.”\nBoston, MA\nFile | Link\nREGIONAL\nInfectious Diseases Society of New York Annual Symposium\n“Transplantation of solid organs recovered from deceased donors recently infected by SARS-CoV-2 in the United States.”\nNew York, NY\nFile | Link\n\n\n\nNATIONAL\nIDWeek\n“Association Between Universal Face Shield in a Quaternary Care Center and Reduction of SARS-COV2 Infections Among Healthcare Personnel and Patients.”\nLocation not specified\nFile | Link\n\n\n\nNATIONAL\nIDWeek\n“The efficacy of oral beta-lactam antibiotics as step-down therapy for acute pyelonephritis.”\nWashington, DC\nFile | Link\nNATIONAL\nIDWeek\n“Evaluation of antibiotic utilization after introduction of a dedicated infectious diseases-critical care medicine service in critical care units.”\nWashington, DC\nFile | Link\n\n\n\nNATIONAL\nIDWeek\n“Incidence of skin and soft tissue infection in people living with HIV in a large urban public health care system in Houston, TX, 2009-2014.”\nSan Francisco, CA\nFile | Link\n\n\n\nREGIONAL\nMidwest Society of General Internal Medicine\n“Beware the boost: multi-ingredient herbal supplements and toxic epidermal necrolysis.”\nLocation not specified\nFile | Link"
   },
   {
-    "objectID": "index.html#open-source-projects-r",
-    "href": "index.html#open-source-projects-r",
-    "title": "Vagish Hemmige, MD MS",
-    "section": "Open-source projects (R)",
-    "text": "Open-source projects (R)\n\nsRtr — Tools for working with UNOS/SRTR transplant data in R\nRepo/docs: https://vagishhemmige.github.io/sRtr/\nstrobe — STROBE-style inclusion/exclusion tracking for observational studies\nRepo/docs: https://vagishhemmige.github.io/strobe/"
+    "objectID": "abstracts.html#oral-presentations",
+    "href": "abstracts.html#oral-presentations",
+    "title": "Conference Abstracts",
+    "section": "",
+    "text": "NATIONAL\nAmerican Transplant Congress\n“Landscape And Outcomes Of Heart Transplantation In Recipients With HIV.”\nSan Diego, CA\nFile | Link\n\n\n\nNATIONAL\nAmerican Transplant Congress\n“Lung Transplantation Outcomes in Recipients Living with HIV in the United States.”\nBoston, MA\nFile | Link\nREGIONAL\nInfectious Diseases Society of New York Annual Symposium\n“Transplantation of solid organs recovered from deceased donors recently infected by SARS-CoV-2 in the United States.”\nNew York, NY\nFile | Link\n\n\n\nNATIONAL\nIDWeek\n“Association Between Universal Face Shield in a Quaternary Care Center and Reduction of SARS-COV2 Infections Among Healthcare Personnel and Patients.”\nLocation not specified\nFile | Link\n\n\n\nNATIONAL\nIDWeek\n“The efficacy of oral beta-lactam antibiotics as step-down therapy for acute pyelonephritis.”\nWashington, DC\nFile | Link\nNATIONAL\nIDWeek\n“Evaluation of antibiotic utilization after introduction of a dedicated infectious diseases-critical care medicine service in critical care units.”\nWashington, DC\nFile | Link\n\n\n\nNATIONAL\nIDWeek\n“Incidence of skin and soft tissue infection in people living with HIV in a large urban public health care system in Houston, TX, 2009-2014.”\nSan Francisco, CA\nFile | Link\n\n\n\nREGIONAL\nMidwest Society of General Internal Medicine\n“Beware the boost: multi-ingredient herbal supplements and toxic epidermal necrolysis.”\nLocation not specified\nFile | Link"
   },
   {
-    "objectID": "index.html#selected-publications-media",
-    "href": "index.html#selected-publications-media",
-    "title": "Vagish Hemmige, MD MS",
-    "section": "Selected publications & media",
-    "text": "Selected publications & media\n\nMontefiore Einstein feature: ICT team advancing care for transplant recipients"
-  },
-  {
-    "objectID": "index.html#links",
-    "href": "index.html#links",
-    "title": "Vagish Hemmige, MD MS",
-    "section": "Links",
-    "text": "Links\n\nFaculty profile — Albert Einstein College of Medicine\nhttps://einsteinmed.edu/faculty/15768/vagish-hemmige\nPhysician profile — Montefiore Einstein\nhttps://doctors.montefioreeinstein.org/providers/1205162245/vagish-s-hemmige\nUS News doctor profile\nhttps://health.usnews.com/doctors/vagish-hemmige-719259\nORCID\nhttps://orcid.org/0009-0006-6346-1826\nResearch/works\nhttps://pubmed.ncbi.nlm.nih.gov/?term=vagish+Hemmige&sort=date\nR packages\nsRtr: https://vagishhemmige.github.io/sRtr/\nstrobe: https://vagishhemmige.github.io/strobe/\nusRds: https://vagishhemmige.github.io/usRds/"
+    "objectID": "abstracts.html#poster-presentations",
+    "href": "abstracts.html#poster-presentations",
+    "title": "Conference Abstracts",
+    "section": "Poster Presentations",
+    "text": "Poster Presentations\n\n2026\nLOCAL\nNYC Center for AIDS Research Symposium\n“Nationwide UNOS Analysis of Mortality After Simultaneous Liver–Kidney Transplantation in Patients With HIV, 2005–2023.”\nNew York, NY\nFile | Link\n\n\n2025\nNATIONAL\nIDWeek\n“Geographic Access to Liver Transplant Centers with HIV and HOPE Experience, 2017–2022.”\nAtlanta, GA\nFile | Link\nINTERNATIONAL\nWorld Transplant Congress\n“Utilization of the United States Renal Data System for Transplant-Related Research.”\nSan Francisco, CA\nFile | Link\n\n\n2023\nNATIONAL\nAmerican Transplant Congress\n“Outcome of HIV Positive Pancreas And Kidney-Pancreas Transplants: An Analysis Of The UNOS Database.”\nSan Diego, CA\nFile | Link\n\n\n2022\nNATIONAL\nIDWeek\n“Implementation of a medical education intervention to improve acceptance of HIV-positive donors for transplant at a tertiary care hospital.”\nWashington, DC\nFile | Link\nNATIONAL\nAmerican Transplant Congress\n“Reasons for Kidney Transplant Patients to Have Outpatient Urine Cultures in the First Year Post-Transplant: An Analysis of the USRDS.”\nBoston, MA\nFile | Link\nNATIONAL\nAmerican Transplant Congress\n“Histologic Predictors of Graft Loss in Early Clinically Indicated Biopsies After Kidney Transplantation.”\nBoston, MA\nFile | Link\n\n\n2021\nNATIONAL\nNational Kidney Foundation Spring Clinical Meeting\n“Inactive status on the kidney transplant waitlist is associated with neighborhood poverty.”\nOrlando, FL\nFile | Link\n\n\n2019\nNATIONAL\nAmerican Transplant Congress\n“Assessment of methenamine hippurate for the prevention of recurrent urinary tract infections in adult renal transplant recipients.”\nBoston, MA\nFile | Link\n\n\n2018\nNATIONAL\nIDWeek\n“Human Immunodeficiency Virus (HIV) diagnostic limbo: a retrospective review of discordant HIV test results in a large academic health center over a 10-year period.”\nSan Francisco, CA\nFile | Link\nNATIONAL\nAmerican Transplant Congress\n“Diagnosis and prevalence of Strongyloides in solid organ transplant patients.”\nSeattle, WA\nFile | Link\nREGIONAL\nBaylor Housestaff Symposium / Texas ACP Southeast Regional Conference\n“Predicting Risk of Clinical Deterioration: A Closer Look at Resident Handoffs and Rapid Response.”\nHouston, TX\nFile | Link\nAward: First place, Patient Safety/Quality Improvement category\n\n\n2017\nNATIONAL\nAmerican Society of Tropical Medicine and Hygiene\n“Wait, is this an ID boards question? Chronic hepatitis in a broadly exposed liver transplant patient.”\nBaltimore, MD\nFile | Link\nNATIONAL\nAmerican Transplant Congress\n“Strongyloides Infection in Solid Organ Transplant Recipients: A Single Center Experience and Review of the Literature.”\nChicago, IL\nFile | Link\n\n\n2016\nLOCAL\nHenry J.N. Taub/James K. Alexander Medical Student Research Symposium\n“Improving preventive health services for racial and ethnic minorities: could a cell phone be the answer?”\nLocation not specified\nFile | Link\n\n\n2015\nNATIONAL\nIDWeek\n“Opportunities to Educate Trainees and Hospitalists Regarding Appropriate Use of Specialized Testing in Hospitalized Inpatients with HIV at a County Hospital.”\nSan Diego, CA\nFile | Link\nINTERNATIONAL\nInternational Conference on HIV Treatment and Prevention Adherence\n“Single Tablet HIV Regimens Facilitate Improved Outcomes among Treatment Naïve Patients.”\nMiami, FL\nFile | Link\nAward: Distinguished Poster Award\nNATIONAL\nAAAAI Annual Meeting\n“Gastric Adenocarcinoma in the Setting of X-Linked Agammaglobulinemia (XLA) and HIV.”\nLocation not specified\nFile | Link\n\n\n2014\nNATIONAL\nIDWeek\n“Recurrent skin and soft tissue infections in HIV-infected patients over a 5-year period: incidence and risk factors.”\nPhiladelphia, PA\nFile | Link\nNATIONAL\nSociety of General Internal Medicine\n“A Young Man with Fever and Diffuse Muscle Pain.”\nSan Diego, CA\nFile | Link\n\n\n2012\nNATIONAL\nIDWeek\n“Use of computer based training module to improve physician knowledge on sterile technique, complications and documentation for central line insertion to help reduce CLABSI.”\nSan Diego, CA\nFile | Link\n\n\n2011\nNATIONAL\nSociety for Healthcare Epidemiology of America\n“Risk factors for skin and soft tissue infections (SSTIs) in HIV-infected patients.”\nDallas, TX\nFile | Link\n\n\n2010\nNATIONAL\nInfectious Diseases Society of America\n“Sexual position preference (SPP) is associated with condom usage, HIV prevalence, and CD4 count at initial HIV diagnosis among MSM in Hyderabad, India.”\nVancouver, BC\nFile | Link\n\n\n2008\nREGIONAL\nMidwest Society of General Internal Medicine\n“Necrotizing fasciitis: a fatal complication of peripheral intravenous cannulation.”\nChicago, IL\nFile | Link\n\n\n2006\nINTERNATIONAL\nInternational Society for Magnetic Resonance in Medicine\n“Thalamic gray matter volume reduction in mild traumatic brain injury.”\nSeattle, WA\nFile | Link"
   },
   {
     "objectID": "about.html#vagish-hemmige",
@@ -119,59 +112,73 @@
     "text": "Contact & links\n\nFaculty profile: https://einsteinmed.edu/faculty/15768/vagish-hemmige\n\nPhysician profile: https://doctors.montefioreeinstein.org/providers/1205162245/vagish-s-hemmige\n\nGitHub: https://github.com/VagishHemmige\n\nORCID: https://orcid.org/0009-0006-6346-1826"
   },
   {
-    "objectID": "abstracts.html",
-    "href": "abstracts.html",
-    "title": "Conference Abstracts",
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
+    "title": "Vagish Hemmige, MD MS",
+    "section": "Overview",
+    "text": "Overview\nProfessor of Medicine (Infectious Diseases) at Albert Einstein College of Medicine and transplant infectious diseases physician at Montefiore Einstein in the Bronx, NY. Interests include HIV-to-HIV thoracic transplantation, HIV prevention and treatment, and building open R tools for transplant data research.\n\nCurrent roles: Professor, Medicine (ID), Albert Einstein College of Medicine; Infectious Disease physician, Montefiore Medical Center\nLocation: Bronx, New York\n\nClinical interests: Transplant ID, HIV care & prevention, opportunistic infections\n\nMethods/tech: R, Quarto, Arrow/DuckDB, reproducible pipelines"
+  },
+  {
+    "objectID": "index.html#highlights",
+    "href": "index.html#highlights",
+    "title": "Vagish Hemmige, MD MS",
+    "section": "Highlights",
+    "text": "Highlights\n\nPart of Montefiore-Einstein’s immunocompromised transplant (ICT) ID team\n\nMedical degree from NYU Grossman School of Medicine; &gt;10 years practice experience.\n\nFaculty/clinician listings and contact available via Einstein/Montefiore directories."
+  },
+  {
+    "objectID": "index.html#open-source-projects-r",
+    "href": "index.html#open-source-projects-r",
+    "title": "Vagish Hemmige, MD MS",
+    "section": "Open-source projects (R)",
+    "text": "Open-source projects (R)\n\nsRtr — Tools for working with UNOS/SRTR transplant data in R\nRepo/docs: https://vagishhemmige.github.io/sRtr/\nstrobe — STROBE-style inclusion/exclusion tracking for observational studies\nRepo/docs: https://vagishhemmige.github.io/strobe/"
+  },
+  {
+    "objectID": "index.html#selected-publications-media",
+    "href": "index.html#selected-publications-media",
+    "title": "Vagish Hemmige, MD MS",
+    "section": "Selected publications & media",
+    "text": "Selected publications & media\n\nMontefiore Einstein feature: ICT team advancing care for transplant recipients"
+  },
+  {
+    "objectID": "index.html#links",
+    "href": "index.html#links",
+    "title": "Vagish Hemmige, MD MS",
+    "section": "Links",
+    "text": "Links\n\nFaculty profile — Albert Einstein College of Medicine\nhttps://einsteinmed.edu/faculty/15768/vagish-hemmige\nPhysician profile — Montefiore Einstein\nhttps://doctors.montefioreeinstein.org/providers/1205162245/vagish-s-hemmige\nUS News doctor profile\nhttps://health.usnews.com/doctors/vagish-hemmige-719259\nORCID\nhttps://orcid.org/0009-0006-6346-1826\nResearch/works\nhttps://pubmed.ncbi.nlm.nih.gov/?term=vagish+Hemmige&sort=date\nR packages\nsRtr: https://vagishhemmige.github.io/sRtr/\nstrobe: https://vagishhemmige.github.io/strobe/\nusRds: https://vagishhemmige.github.io/usRds/"
+  },
+  {
+    "objectID": "Projects.html",
+    "href": "Projects.html",
+    "title": "Research Projects",
     "section": "",
-    "text": "NATIONAL\nAmerican Transplant Congress\n“Landscape And Outcomes Of Heart Transplantation In Recipients With HIV.”\nSan Diego, CA\nFile | Link\n\n\n\nNATIONAL\nAmerican Transplant Congress\n“Lung Transplantation Outcomes in Recipients Living with HIV in the United States.”\nBoston, MA\nFile | Link\nREGIONAL\nInfectious Diseases Society of New York Annual Symposium\n“Transplantation of solid organs recovered from deceased donors recently infected by SARS-CoV-2 in the United States.”\nNew York, NY\nFile | Link\n\n\n\nNATIONAL\nIDWeek\n“The efficacy of oral beta-lactam antibiotics as step-down therapy for acute pyelonephritis.”\nWashington, DC\nFile | Link\nNATIONAL\nIDWeek\n“Evaluation of antibiotic utilization after introduction of a dedicated infectious diseases-critical care medicine service in critical care units.”\nWashington, DC\nFile | Link\n\n\n\nNATIONAL\nIDWeek\n“Incidence of skin and soft tissue infection in people living with HIV in a large urban public health care system in Houston, TX, 2009-2014.”\nSan Francisco, CA\nFile | Link\n\n\n\nREGIONAL\nMidwest Society of General Internal Medicine\n“Beware the boost: multi-ingredient herbal supplements and toxic epidermal necrolysis.”\nLocation not specified\nFile | Link"
+    "text": "Economic burden and cost modeling related to cryptococcal infection in transplant populations.\nMethods: claims data, cost modeling, health economics\nProject Site | GitHub\n\n\n\nDecision-analytic cost-effectiveness modeling of donor cryptococcal screening strategies in solid organ transplantation.\nMethods: CEA, decision analysis, Monte Carlo simulation\nProject Site | GitHub"
   },
   {
-    "objectID": "abstracts.html#oral-presentations",
-    "href": "abstracts.html#oral-presentations",
-    "title": "Conference Abstracts",
+    "objectID": "Projects.html#cost-effectiveness-health-economics",
+    "href": "Projects.html#cost-effectiveness-health-economics",
+    "title": "Research Projects",
     "section": "",
-    "text": "NATIONAL\nAmerican Transplant Congress\n“Landscape And Outcomes Of Heart Transplantation In Recipients With HIV.”\nSan Diego, CA\nFile | Link\n\n\n\nNATIONAL\nAmerican Transplant Congress\n“Lung Transplantation Outcomes in Recipients Living with HIV in the United States.”\nBoston, MA\nFile | Link\nREGIONAL\nInfectious Diseases Society of New York Annual Symposium\n“Transplantation of solid organs recovered from deceased donors recently infected by SARS-CoV-2 in the United States.”\nNew York, NY\nFile | Link\n\n\n\nNATIONAL\nIDWeek\n“The efficacy of oral beta-lactam antibiotics as step-down therapy for acute pyelonephritis.”\nWashington, DC\nFile | Link\nNATIONAL\nIDWeek\n“Evaluation of antibiotic utilization after introduction of a dedicated infectious diseases-critical care medicine service in critical care units.”\nWashington, DC\nFile | Link\n\n\n\nNATIONAL\nIDWeek\n“Incidence of skin and soft tissue infection in people living with HIV in a large urban public health care system in Houston, TX, 2009-2014.”\nSan Francisco, CA\nFile | Link\n\n\n\nREGIONAL\nMidwest Society of General Internal Medicine\n“Beware the boost: multi-ingredient herbal supplements and toxic epidermal necrolysis.”\nLocation not specified\nFile | Link"
+    "text": "Economic burden and cost modeling related to cryptococcal infection in transplant populations.\nMethods: claims data, cost modeling, health economics\nProject Site | GitHub\n\n\n\nDecision-analytic cost-effectiveness modeling of donor cryptococcal screening strategies in solid organ transplantation.\nMethods: CEA, decision analysis, Monte Carlo simulation\nProject Site | GitHub"
   },
   {
-    "objectID": "abstracts.html#poster-presentations",
-    "href": "abstracts.html#poster-presentations",
-    "title": "Conference Abstracts",
-    "section": "Poster Presentations",
-    "text": "Poster Presentations\n\n2026\nLOCAL\nNYC Center for AIDS Research Symposium\n“Nationwide UNOS Analysis of Mortality After Simultaneous Liver–Kidney Transplantation in Patients With HIV, 2005–2023.”\nNew York, NY\nFile | Link\n\n\n2025\nNATIONAL\nIDWeek\n“Geographic Access to Liver Transplant Centers with HIV and HOPE Experience, 2017–2022.”\nAtlanta, GA\nFile | Link\nINTERNATIONAL\nWorld Transplant Congress\n“Utilization of the United States Renal Data System for Transplant-Related Research.”\nSan Francisco, CA\nFile | Link\n\n\n2023\nNATIONAL\nAmerican Transplant Congress\n“Outcome of HIV Positive Pancreas And Kidney-Pancreas Transplants: An Analysis Of The UNOS Database.”\nSan Diego, CA\nFile | Link\n\n\n2022\nNATIONAL\nIDWeek\n“Implementation of a medical education intervention to improve acceptance of HIV-positive donors for transplant at a tertiary care hospital.”\nWashington, DC\nFile | Link\nNATIONAL\nAmerican Transplant Congress\n“Reasons for Kidney Transplant Patients to Have Outpatient Urine Cultures in the First Year Post-Transplant: An Analysis of the USRDS.”\nBoston, MA\nFile | Link\nNATIONAL\nAmerican Transplant Congress\n“Histologic Predictors of Graft Loss in Early Clinically Indicated Biopsies After Kidney Transplantation.”\nBoston, MA\nFile | Link\n\n\n2021\nNATIONAL\nNational Kidney Foundation Spring Clinical Meeting\n“Inactive status on the kidney transplant waitlist is associated with neighborhood poverty.”\nOrlando, FL\nFile | Link\n\n\n2019\nNATIONAL\nAmerican Transplant Congress\n“Assessment of methenamine hippurate for the prevention of recurrent urinary tract infections in adult renal transplant recipients.”\nBoston, MA\nFile | Link\n\n\n2018\nNATIONAL\nIDWeek\n“Human Immunodeficiency Virus (HIV) diagnostic limbo: a retrospective review of discordant HIV test results in a large academic health center over a 10-year period.”\nSan Francisco, CA\nFile | Link\nNATIONAL\nAmerican Transplant Congress\n“Diagnosis and prevalence of Strongyloides in solid organ transplant patients.”\nSeattle, WA\nFile | Link\nREGIONAL\nBaylor Housestaff Symposium / Texas ACP Southeast Regional Conference\n“Predicting Risk of Clinical Deterioration: A Closer Look at Resident Handoffs and Rapid Response.”\nHouston, TX\nFile | Link\nAward: First place, Patient Safety/Quality Improvement category\n\n\n2017\nNATIONAL\nAmerican Society of Tropical Medicine and Hygiene\n“Wait, is this an ID boards question? Chronic hepatitis in a broadly exposed liver transplant patient.”\nBaltimore, MD\nFile | Link\nNATIONAL\nAmerican Transplant Congress\n“Strongyloides Infection in Solid Organ Transplant Recipients: A Single Center Experience and Review of the Literature.”\nChicago, IL\nFile | Link\n\n\n2016\nLOCAL\nHenry J.N. Taub/James K. Alexander Medical Student Research Symposium\n“Improving preventive health services for racial and ethnic minorities: could a cell phone be the answer?”\nLocation not specified\nFile | Link\n\n\n2015\nNATIONAL\nIDWeek\n“Opportunities to Educate Trainees and Hospitalists Regarding Appropriate Use of Specialized Testing in Hospitalized Inpatients with HIV at a County Hospital.”\nSan Diego, CA\nFile | Link\nINTERNATIONAL\nInternational Conference on HIV Treatment and Prevention Adherence\n“Single Tablet HIV Regimens Facilitate Improved Outcomes among Treatment Naïve Patients.”\nMiami, FL\nFile | Link\nAward: Distinguished Poster Award\nNATIONAL\nAAAAI Annual Meeting\n“Gastric Adenocarcinoma in the Setting of X-Linked Agammaglobulinemia (XLA) and HIV.”\nLocation not specified\nFile | Link\n\n\n2014\nNATIONAL\nIDWeek\n“Recurrent skin and soft tissue infections in HIV-infected patients over a 5-year period: incidence and risk factors.”\nPhiladelphia, PA\nFile | Link\nNATIONAL\nSociety of General Internal Medicine\n“A Young Man with Fever and Diffuse Muscle Pain.”\nSan Diego, CA\nFile | Link\n\n\n2012\nNATIONAL\nIDWeek\n“Use of computer based training module to improve physician knowledge on sterile technique, complications and documentation for central line insertion to help reduce CLABSI.”\nSan Diego, CA\nFile | Link\n\n\n2011\nNATIONAL\nSociety for Healthcare Epidemiology of America\n“Risk factors for skin and soft tissue infections (SSTIs) in HIV-infected patients.”\nDallas, TX\nFile | Link\n\n\n2010\nNATIONAL\nInfectious Diseases Society of America\n“Sexual position preference (SPP) is associated with condom usage, HIV prevalence, and CD4 count at initial HIV diagnosis among MSM in Hyderabad, India.”\nVancouver, BC\nFile | Link\n\n\n2008\nREGIONAL\nMidwest Society of General Internal Medicine\n“Necrotizing fasciitis: a fatal complication of peripheral intravenous cannulation.”\nChicago, IL\nFile | Link\n\n\n2006\nINTERNATIONAL\nInternational Society for Magnetic Resonance in Medicine\n“Thalamic gray matter volume reduction in mild traumatic brain injury.”\nSeattle, WA\nFile | Link"
+    "objectID": "Projects.html#research-infrastructure-methods",
+    "href": "Projects.html#research-infrastructure-methods",
+    "title": "Research Projects",
+    "section": "Research Infrastructure & Methods",
+    "text": "Research Infrastructure & Methods\n\nEllmer PubMed ATC 2026 Abstract Pipeline ACTIVE\nAutomated literature extraction and structured summarization workflow using LLMs for transplant research.\nMethods: automation, LLM, structured extraction\nProject Site | GitHub"
   },
   {
-    "objectID": "presentation.html",
-    "href": "presentation.html",
-    "title": "Presentations",
-    "section": "",
-    "text": "University of Minnesota Transplant Center Grand Rounds — “The current status and future of HIV D+/R+ heart and lung transplantation.”\nMinneapolis, MN | Slides | Recording\n\n\n\n\n\nWestchester Medical Center Transplant Center Grand Rounds — “HIV-to-HIV Transplantation.”\nVirtual\nUnited States Chagas Network — “A Case of CNS T. cruzi Reactivation Post-Solid Organ Transplant.”\nVirtual\nNassau/Suffolk County Care Coordination Network — “HOPE ACT (HIV/Donor Transplant) Program.”\nVirtual | Slides\n\n\n\n\n\nCDC/HHS HOPE Act Workgroup Meeting — “HIV D+/R+ transplants: the Montefiore Medical Center experience.”\nVirtual | Slides\n\n\n\n\n\nInfectious Diseases Conference, University of Chicago — “Cases from Texas.”\nChicago, IL\n\n\n\n\n\nHouston Methodist Hospital Grand Rounds — “Pulmonary infections after transplantation: illustrative cases.”\nHouston, TX"
+    "objectID": "Projects.html#hiv-solid-organ-transplant-outcomes",
+    "href": "Projects.html#hiv-solid-organ-transplant-outcomes",
+    "title": "Research Projects",
+    "section": "HIV & Solid Organ Transplant Outcomes",
+    "text": "HIV & Solid Organ Transplant Outcomes\n\nHIV-SLK Outcomes ACTIVE\nOutcomes analysis of HIV-positive simultaneous liver-kidney transplant recipients in the United States.\nMethods: registry analysis, SRTR, survival modeling\nProject Site | GitHub"
   },
   {
-    "objectID": "presentation.html#national-international-invited-presentations",
-    "href": "presentation.html#national-international-invited-presentations",
-    "title": "Presentations",
-    "section": "",
-    "text": "University of Minnesota Transplant Center Grand Rounds — “The current status and future of HIV D+/R+ heart and lung transplantation.”\nMinneapolis, MN | Slides | Recording\n\n\n\n\n\nWestchester Medical Center Transplant Center Grand Rounds — “HIV-to-HIV Transplantation.”\nVirtual\nUnited States Chagas Network — “A Case of CNS T. cruzi Reactivation Post-Solid Organ Transplant.”\nVirtual\nNassau/Suffolk County Care Coordination Network — “HOPE ACT (HIV/Donor Transplant) Program.”\nVirtual | Slides\n\n\n\n\n\nCDC/HHS HOPE Act Workgroup Meeting — “HIV D+/R+ transplants: the Montefiore Medical Center experience.”\nVirtual | Slides\n\n\n\n\n\nInfectious Diseases Conference, University of Chicago — “Cases from Texas.”\nChicago, IL\n\n\n\n\n\nHouston Methodist Hospital Grand Rounds — “Pulmonary infections after transplantation: illustrative cases.”\nHouston, TX"
-  },
-  {
-    "objectID": "presentation.html#conference-presentations",
-    "href": "presentation.html#conference-presentations",
-    "title": "Presentations",
-    "section": "Conference Presentations",
-    "text": "Conference Presentations\n\n2025\n\nWorld Transplant Congress — “Beyond the Horizon: Pioneering Thoracic and Living Donor Transplants for HIV+ Individuals”\nSan Francisco, CA | Slides\n\n\n\n2024\n\nAmerican Transplant Congress — “Meet the Expert: Nuts and Bolts of Starting HIV-to-HIV Transplantation in Your Center”\nPhiladelphia, PA\n\n\n\n2023\n\nAmerican Transplant Congress — “The future of HIV-to-HIV thoracic transplant.”\nSan Diego, CA | Slides\n\n\n\n2018\n\nTexas Veterinary Medical Association Annual Conference — “The benefits & risks of animals living with immunocompromised patients.”\nWoodlands, TX"
-  },
-  {
-    "objectID": "presentation.html#grand-rounds",
-    "href": "presentation.html#grand-rounds",
-    "title": "Presentations",
-    "section": "Grand Rounds",
-    "text": "Grand Rounds\nNo entries."
-  },
-  {
-    "objectID": "presentation.html#teaching-case-conferences",
-    "href": "presentation.html#teaching-case-conferences",
-    "title": "Presentations",
-    "section": "Teaching & Case Conferences",
-    "text": "Teaching & Case Conferences\n\n2018\n\nFellow Core Curriculum — “Infections in CF and lung transplant patients.”\nHouston, TX\nTransplant ID Conference — “The benefits & risks of animals living with immunocompromised patients.”\nHouston, TX\n\n\n\n2017\n\nCitywide Case Conference — “A case of endovascular infection secondary to Bartonella.”\nHouston, TX\n\n\n\n2016\n\nFellow Core Curriculum — “Infections in CF and lung transplant patients.”\nHouston, TX\nCitywide Case Conference — “A case of suspected toxoplasma lymphadenitis during pregnancy.”\nHouston, TX\n\n\n\n2015\n\nCitywide Case Conference — “MRSA infections in patients with HIV.”\nHouston, TX\nCitywide Case Conference — “A case of chronic ascites secondary to Chagas disease.”\nHouston, TX\nCitywide Case Conference — “Bacteremia secondary to Brucella.”\nHouston, TX\nTransplant ID Conference — “Screening for parasitic infections in solid organ transplant candidates.”\nHouston, TX\nFellow Core Curriculum — “Infections in cirrhotics and liver transplant patients.”\nHouston, TX\n\n\n\n2014\n\nFellow Core Curriculum — “Infections in CF and lung transplant patients.”\nHouston, TX\nCitywide Case Conference — “Aspergillus infection of an Ommaya reservoir.”\nHouston, TX\n\n\n\n2013\n\nCitywide Case Conference — “A kitten bit through my PICC line.”\nHouston, TX\nCitywide Case Conference — “A 33-year old man with FUO secondary to scurvy.”\nHouston, TX\n\n\n\n2012\n\nCitywide Case Conference — “A case of tuberculosis after BMT.”\nHouston, TX"
+    "objectID": "Projects.html#geographic-access-equity",
+    "href": "Projects.html#geographic-access-equity",
+    "title": "Research Projects",
+    "section": "Geographic Access & Equity",
+    "text": "Geographic Access & Equity\n\nHOPE-CDC Analysis 2026 ACTIVE\nGeospatial evaluation of access to HIV-experienced transplant centers across the United States.\nMethods: ACS, isochrone analysis, sf, transplant registry\nProject Site | GitHub"
   }
 ]

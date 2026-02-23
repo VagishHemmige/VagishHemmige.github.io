@@ -1,0 +1,56 @@
+---
+title: "Internal Teaching"
+format: html
+---
+
+```{r, include=FALSE}
+library(yaml)
+library(lubridate)
+
+teaching <- yaml::read_yaml("data/teaching.yml")
+```
+
+```{r, results='asis', echo=FALSE}
+
+for (i in seq_along(teaching)) {
+  
+  row <- teaching[[i]]
+  
+  # ---- Dates ----
+  date_vec <- as.Date(row$dates)
+  date_vec <- sort(date_vec)
+  
+  first_year  <- format(min(date_vec), "%Y")
+  most_recent <- format(max(date_vec), "%Y-%m-%d")
+  n_sessions  <- length(date_vec)
+  
+  # ---- Optional slides ----
+  slide_link <- if (!is.null(row$slides) && !is.na(row$slides)) {
+    paste0("[Slides](", row$slides, ")")
+  } else ""
+  
+  # ---- Optional link ----
+  link_text <- if (!is.null(row$link) && !is.na(row$link)) {
+    paste0(" | [Recording](", row$link, ")")
+  } else ""
+  
+  cat(
+    "### ", row$title, "\n\n",
+    
+    "*", row$venue, "*  \n",
+    "**Audience:** ", row$target, "  \n\n",
+    
+    row$description, "  \n\n",
+    
+    "**First delivered:** ", first_year, "  \n",
+    "**Most recent:** ", most_recent, "  \n",
+    "**Total sessions:** ", n_sessions, "  \n\n",
+    
+    slide_link,
+    link_text,
+    
+    "\n\n---\n\n",
+    sep = ""
+  )
+}
+```

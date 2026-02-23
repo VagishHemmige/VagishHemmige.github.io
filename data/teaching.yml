@@ -1,0 +1,44 @@
+- title: "HIV and transplantation"
+  venue: "Transplant Fellow Lecture"
+  dates: ["2024-12-16", "2024-1-26"]
+  target: "Transplant surgery fellows"
+  description: "An overview of HIV and solid organ transplantation with a focus on the HOPE Act"
+  category: null
+  slides: null
+  link: null
+  
+- title: "Pets in transplant"
+  venue: "Transplant Fellow Lecture"
+  dates: ["2019-5-24", "2019-10-11", "2022-12-2", "2024-3-24"]
+  target: "Transplant physicians"
+  description: "An overview of zoonoses in transplant and how to counsel patients as to how to prevent them"
+  category: null
+  slides: "teaching/Pets in transplant 2024-3-24.pdf"
+  link: null
+  
+- title: "Post-transplant viral infections"
+  venue: "Transplant Fellow Lecture"
+  dates: ["2018-07-25","2020-08-10","2021-08-27","2022-09-01", "2023-09-07", "2024-09-01"]
+  target: "Infectious Diseases fellows"
+  description: "An overview of prevention, diagnosis, and treatment of post-transplant viral infections"
+  category: null
+  slides: null
+  link: null
+  
+- title: "Infections after lung transplantation"
+  venue: "Critical care lectures"
+  target: "Critical care physicians"
+  description: "An overview of prevention, diagnosis, and treatment of post-lung transplant infections"
+  dates: ["2022-02-13" ]
+  category: null
+  slides: null
+  link: null
+  
+- title: "How to give journal club"
+  venue: "Transplant Fellow Lecture"
+  target: "Infectious Diseases fellows"
+  description: "An overview of how to give journal club, appropriate for the fellow level"
+  dates: ["2018-10-12" ]
+  category: null
+  slides: null
+  link: null

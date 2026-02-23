@@ -8,6 +8,8 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: teaching.qmd
+        text: Teaching       
       - href: presentation.qmd
         text: Presentations
       - href: abstracts.qmd
@@ -23,5 +25,5 @@ website:
 format:
   html:
     theme: cosmo
-    toc: false
+    toc: true
     css: styles.scss
