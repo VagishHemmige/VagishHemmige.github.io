@@ -32,14 +32,15 @@ Professor of Medicine (Infectious Diseases) at Albert Einstein College of Medici
 - **sRtr** — Tools for working with UNOS/SRTR transplant data in R  
   Repo/docs: <https://vagishhemmige.github.io/sRtr/>
 
-- **strobe** — STROBE-style inclusion/exclusion tracking for observational studies  
-  Repo/docs: <https://vagishhemmige.github.io/strobe/>
+- **usRds** — Tools for working with the [United States Renal Data system](https://www.niddk.nih.gov/about-niddk/strategic-plans-reports/usrds)
+  Repo/docs: <https://vagishhemmige.github.io/usRds/>
 
 ---
 
 ## Selected publications & media
 
 - [Montefiore Einstein feature: ICT team advancing care for transplant recipients](https://montefioreeinstein.org/news/2024/10/03/how-8-physician-team-infectious-disease-experts-helps-transplant-patients-thrive)
+- [Here's What It Will Take to Grow HIV-Positive to HIV-Positive Transplant Access](https://www.medpagetoday.com/opinion/second-opinions/113782)
 
 ---
 
@@ -64,3 +65,4 @@ Professor of Medicine (Infectious Diseases) at Albert Einstein College of Medici
   sRtr: <https://vagishhemmige.github.io/sRtr/>  
   strobe: <https://vagishhemmige.github.io/strobe/>  
   usRds: <https://vagishhemmige.github.io/usRds/>
+  CDCAtlas: <https://vagishhemmige.github.io/CDCAtlas/>
