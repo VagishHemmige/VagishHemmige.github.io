@@ -7,24 +7,6 @@
   slides: "teaching/HIV and transplant Hemmige 2024-12-16.pdf"
   link: null
   
-- title: "Big data"
-  venue: "Medical student lecture"
-  dates: ["2024-01-29"]
-  target: "Medical students"
-  description: "An overview of opportunities for 'Big Data' research at Einstein for medical students"
-  category: null
-  slides: "teaching/Big data research - 2024-1-29.pdf"
-  link: null
-  
-- title: "Qualtrics and REDCap"
-  venue: "Medical student lecture"
-  dates: ["2023-05-16"]
-  target: "Medical students"
-  description: "An overview of how to buld a data collection instrument using Qualtrics or REDCap"
-  category: null
-  slides: "teaching/Block 2 -Session 13 Qualtrics and RedCap - 2023-5-15.pdf"
-  link: null
-  
 - title: "HIV and lung transplantation"
   venue: "Transplant weekly conference"
   dates: ["2023-05-16"]
@@ -74,7 +56,7 @@
   venue: "Transplant Fellow Lecture"
   target: "Infectious Diseases fellows"
   description: "An overview of how to plan the non-clinical year for fellows"
-  dates: ["2022-02-13" ]
+  dates: ["2020-09-01","2020-12-29",  "2022-02-13", "2024-10-21" ]
   category: null
   slides: "teaching/The career development year 2024.pdf"
   link: null
@@ -83,7 +65,25 @@
   venue: "Transplant Fellow Lecture"
   target: "Infectious Diseases fellows"
   description: "An overview of how to give journal club, appropriate for the fellow level"
-  dates: ["2018-10-12" ]
+  dates: ["2018-10-12", "2020-04-07", "2021-04-13", "2022-04-12" ]
   category: null
   slides: "teaching/How to give journal club 2022.pdf"
+  link: null
+  
+- title: "Big data"
+  venue: "Medical student lecture"
+  dates: ["2024-01-29"]
+  target: "Medical students"
+  description: "An overview of opportunities for 'Big Data' research at Einstein for medical students"
+  category: null
+  slides: "teaching/Big data research - 2024-1-29.pdf"
+  link: null
+  
+- title: "Qualtrics and REDCap"
+  venue: "Medical student lecture"
+  dates: ["2023-05-16"]
+  target: "Medical students"
+  description: "An overview of how to buld a data collection instrument using Qualtrics or REDCap"
+  category: null
+  slides: "teaching/Block 2 -Session 13 Qualtrics and RedCap - 2023-5-15.pdf"
   link: null
