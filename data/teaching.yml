@@ -4,9 +4,36 @@
   target: "Transplant surgery fellows"
   description: "An overview of HIV and solid organ transplantation with a focus on the HOPE Act"
   category: null
-  slides: null
+  slides: "teaching/HIV and transplant Hemmige 2024-12-16.pdf"
   link: null
   
+- title: "Big data"
+  venue: "Medical student lecture"
+  dates: ["2024-01-29"]
+  target: "Medical students"
+  description: "An overview of opportunities for 'Big Data' research at Einstein for medical students"
+  category: null
+  slides: "teaching/Big data research - 2024-1-29.pdf"
+  link: null
+  
+- title: "Qualtrics and REDCap"
+  venue: "Medical student lecture"
+  dates: ["2023-05-16"]
+  target: "Medical students"
+  description: "An overview of how to buld a data collection instrument using Qualtrics or REDCap"
+  category: null
+  slides: "teaching/Block 2 -Session 13 Qualtrics and RedCap - 2023-5-15.pdf"
+  link: null
+  
+- title: "HIV and lung transplantation"
+  venue: "Transplant weekly conference"
+  dates: ["2023-05-16"]
+  target: "Lung transplant team"
+  description: "An overview of HIV in lung transplant with a focus on future potential HOPE lun transplants"
+  category: null
+  slides: "teaching/HOPE lung 2024 for lung tx team.pdf"
+  link: null
+
 - title: "Pets in transplant"
   venue: "Transplant Fellow Lecture"
   dates: ["2019-5-24", "2019-10-11", "2022-12-2", "2024-3-24"]
@@ -25,13 +52,31 @@
   slides: null
   link: null
   
+- title: "Strongyloides screening in solid organ transplant donors"  
+  venue: "Transplant weekly conference"
+  target: "Transplant physicians"
+  description: "An overview of Strongyloides testing in solid organ transplant donors"
+  dates: ["2018-08-01" ]
+  category: null
+  slides: "teaching/Strongyloides lecture 2018-8-1.pdf"
+  link: null
+  
 - title: "Infections after lung transplantation"
   venue: "Critical care lectures"
   target: "Critical care physicians"
   description: "An overview of prevention, diagnosis, and treatment of post-lung transplant infections"
   dates: ["2022-02-13" ]
   category: null
-  slides: null
+  slides: "teaching/Lung 2022-2-13.pdf"
+  link: null
+
+- title: "The career development year"
+  venue: "Transplant Fellow Lecture"
+  target: "Infectious Diseases fellows"
+  description: "An overview of how to plan the non-clinical year for fellows"
+  dates: ["2022-02-13" ]
+  category: null
+  slides: "teaching/The career development year 2024.pdf"
   link: null
   
 - title: "How to give journal club"
@@ -40,5 +85,5 @@
   description: "An overview of how to give journal club, appropriate for the fellow level"
   dates: ["2018-10-12" ]
   category: null
-  slides: null
+  slides: "teaching/How to give journal club 2022.pdf"
   link: null
