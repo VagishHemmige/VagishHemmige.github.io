@@ -18,6 +18,8 @@ website:
         text: Manuscripts
       - href: Projects.qmd
         text: Projects
+      - href: mentoring.qmd
+        text: Mentoring
       - href: about.qmd
         text: About
       - text: "GitHub"

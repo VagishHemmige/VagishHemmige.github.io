@@ -4,13 +4,11 @@
   current: "MS4 at Albert Einstein College of Medicine"
   years: "2025-2026"
   status: "Active"
-  project:
+  projects:
     - "HIV-SLK Outcomes"
     - "HOPE-CDC Analysis 2026"
-  abstract:
+  abstracts:
     - "Nationwide UNOS Analysis of Mortality After Simultaneous Liver–Kidney Transplantation in Patients With HIV, 2005–2023."
-
-
 
 - name: "Miguel Cervera Hernandez"
   level: "Fellow"
@@ -18,5 +16,16 @@
   current: "Attending at Sanford Health"
   years: "2020-2021"
   status: "Former"
-  manuscript:
+  manuscripts:
     - fioricaHighMortalityAssociated2025
+  link: https://www.sanfordhealth.org/doctors/miguel-hernandez
+
+- name: "Jonathan Czeresnia"
+  level: "Fellow"
+  role: "Primary mentor"
+  current: "Attending at Rutgers Health"
+  years: "2021-2022"
+  status: "Former"
+  manuscripts:
+    - swaminathanProofConceptThat2025
+  link: https://rutgershealth.org/people/jonathan-czeresnia
