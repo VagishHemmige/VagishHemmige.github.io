@@ -1,12 +1,14 @@
 
+
 ---
 title: "Manuscripts"
-format:
-  html:
-    toc: false
+
+format: html
+
 execute:
   echo: false
 ---
+
 
 
 
@@ -17,33 +19,84 @@ execute:
 library(RefManageR)
 library(tidyverse)
 
-refs <- ReadBib("data/VH library.bib")
-refs <- refs[!is.na(refs$journal)]
+#---- what names to bold ----
+bold_names <- c(
+  "Vagish Hemmige",
+  "Vagish S. Hemmige"
+)
 
+bold_matches <- function(text, patterns) {
+  for (p in patterns) {
+    text <- str_replace_all(text, fixed(p), str_c("**", p, "**"))
+  }
+  text
+}
+
+# ---- Read Bib ----
+refs <- ReadBib("data/VH library.bib")
+
+# ---- Helper to remove BibTeX brace protection ----
+clean_braces <- function(x) {
+  str_replace_all(x, "\\{|\\}", "")
+}
+
+# ---- Build clean data frame ----
 df_clean <-
   as_tibble(as.data.frame(refs)) %>%
   mutate(
     year = as.numeric(year),
-
+    
+    # ---- Authors ----
     authors = map_chr(author, ~ paste(.x, collapse = ", ")),
+    authors = clean_braces(authors),
     authors = str_replace_all(authors, " and ", ", "),
-    authors = str_replace_all(authors, "Vagish Hemmige", "**Vagish Hemmige**"),
-
-    title = str_replace_all(title, "\\{|\\}", ""),
-
-    citation = str_c(
-      authors, ". ",
-      str_remove(title, "\\.$"), ". ",
-      "*", journal, "* ",
-      year,
-      if_else(!is.na(volume), str_c(";", volume), ""),
-      if_else(!is.na(number), str_c("(", number, ")"), ""),
-      if_else(!is.na(pages), str_c(":", pages), ""),
-      ".",
-      if_else(!is.na(doi), str_c(" https://doi.org/", doi), "")
+    authors = bold_matches(authors, bold_names),
+    
+    # ---- Clean text fields ----
+    title     = clean_braces(title),
+    journal   = clean_braces(journal),
+    booktitle = clean_braces(booktitle),
+    
+    # ---- Build citation string by type ----
+    citation = case_when(
+      
+      # Journal articles
+      !is.na(journal) ~ str_c(
+        authors, ". ",
+        str_remove(title, "\\.$"), ". ",
+        "*", journal, "* ",
+        year,
+        if_else(!is.na(volume), str_c(";", volume), ""),
+        if_else(!is.na(number), str_c("(", number, ")"), ""),
+        if_else(!is.na(pages), str_c(":", pages), ""),
+        ".",
+        if_else(
+          !is.na(doi),
+          str_c(" [doi](https://doi.org/", doi, ")"),
+          ""
+        )
+      ),
+      
+      # Book chapters
+      !is.na(booktitle) ~ str_c(
+        authors, ". ",
+        str_remove(title, "\\.$"), ". ",
+        "In: *", booktitle, "*",
+        if_else(!is.na(publisher), str_c(", ", publisher), ""),
+        " (", year, ")",
+        if_else(!is.na(pages), str_c(", pp. ", pages), ""),
+        "."
+      ),
+      
+      TRUE ~ NA_character_
     )
   ) %>%
+  filter(!is.na(citation)) %>%
   arrange(desc(year))
+
+
+
+
 
 ```
 
@@ -51,16 +104,19 @@ df_clean <-
 ```{r results='asis'}
 
 
-df_clean %>%
-  arrange(desc(year)) %>%
-  group_split(year) %>%
-  walk(function(d) {
-    cat("\n\n## ", d$year[1], "\n\n", sep = "")
-    cat(paste(d$citation, collapse = "\n\n"))
-    cat("\n\n")
-  })
+years_desc <- sort(unique(df_clean$year), decreasing = TRUE)
 
-
+for (yr in years_desc) {
+  
+  cat("\n\n## ", yr, "\n\n", sep = "")
+  
+  df_clean %>%
+    filter(year == yr) %>%
+    pull(citation) %>%
+    cat(sep = "\n\n")
+  
+  cat("\n\n")
+}
 
 ```
 
