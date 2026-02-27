@@ -1,5 +1,22 @@
-name: "Hannah Rosenthal"
-level: "Medical student"
-role: "Primary mentor"
-current: "MS4 at Albert Einstein College of Medicine"
-years: "2025-2026"
+- name: "Hannah Rosenthal"
+  level: "Medical student"
+  role: "Primary mentor"
+  current: "MS4 at Albert Einstein College of Medicine"
+  years: "2025-2026"
+  status: "Active"
+  project:
+    - "HIV-SLK Outcomes"
+    - "HOPE-CDC Analysis 2026"
+  abstract:
+    - "Nationwide UNOS Analysis of Mortality After Simultaneous Liver–Kidney Transplantation in Patients With HIV, 2005–2023."
+
+
+
+- name: "Miguel Cervera Hernandez"
+  level: "Fellow"
+  role: "Primary mentor"
+  current: "Attending at Sanford Health"
+  years: "2020-2021"
+  status: "Former"
+  manuscript:
+    - fioricaHighMortalityAssociated2025
