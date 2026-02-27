@@ -46,6 +46,7 @@ I’m based in the **Bronx, New York**. Day to day, I split time between patient
 ## Speaking & teaching
 
 I enjoy guest lectures, workshops, and small-group sessions on:
+
 - Practical R for clinicians and researchers
 - Epidemiology and biostatistics
 - Transplant ID topics (HIV D+/R+ programs, protocols, safety)
@@ -56,7 +57,7 @@ I enjoy guest lectures, workshops, and small-group sessions on:
 
 I have mentored trainees in case reports, clinical research, and big data/research methods.
 
-While I primarily mentor students, residents, and fellows at Montefiore Medical Center or Albert Einstein College of Medicine, I do have projects for non-affiliates with R experience and skills that can be done remotely.
+I am open to mentoring trainees and faculty at other institutions who are interested in working with big data sets such as the USRDS or the SRTR and performing their own analyses in R.  While a remote trainee would need to obtain their own copy of the data, Github would enable collaboration on the analysis code.
 
 ---
 

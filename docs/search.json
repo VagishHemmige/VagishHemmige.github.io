@@ -109,14 +109,14 @@
     "href": "about.html#speaking-teaching",
     "title": "About",
     "section": "Speaking & teaching",
-    "text": "Speaking & teaching\nI enjoy guest lectures, workshops, and small-group sessions on: - Practical R for clinicians and researchers - Epidemiology and biostatistics - Transplant ID topics (HIV D+/R+ programs, protocols, safety)"
+    "text": "Speaking & teaching\nI enjoy guest lectures, workshops, and small-group sessions on:\n\nPractical R for clinicians and researchers\nEpidemiology and biostatistics\nTransplant ID topics (HIV D+/R+ programs, protocols, safety)"
   },
   {
     "objectID": "about.html#mentoring",
     "href": "about.html#mentoring",
     "title": "About",
     "section": "Mentoring",
-    "text": "Mentoring\nI have mentored trainees in case reports, clinical research, and big data/research methods.\nWhile I primarily mentor students, residents, and fellows at Montefiore Medical Center or Albert Einstein College of Medicine, I do have projects for non-affiliates with R experience and skills that can be done remotely."
+    "text": "Mentoring\nI have mentored trainees in case reports, clinical research, and big data/research methods.\nI am open to mentoring trainees and faculty at other institutions who are interested in working with big data sets such as the USRDS or the SRTR and performing their own analyses in R. While a remote trainee would need to obtain their own copy of the data, Github would enable collaboration on the analysis code."
   },
   {
     "objectID": "about.html#contact-links",
@@ -207,7 +207,7 @@
     "href": "manuscripts.html#section-7",
     "title": "Manuscripts",
     "section": "2019",
-    "text": "2019\nMonisha Arya, Haley G. Marek, Rachel E. Marren, Vagish Hemmige, Richard L. Street, Thomas P. Giordano. Development and Evaluation of a Physician-Targeted Video to Promote HIV Screening. Health Promotion Practice 2019;20(6):922–931. doi \n\n\n\n\nKathryn Bolles, Laila Woc-Colburn, Richard J. Hamill, Vagish Hemmige. Ordering Patterns and Costs of Specialized Laboratory Testing by Hospitalists and House Staff in Hospitalized Patients With HIV at a County Hospital: An Opportunity for Diagnostic Stewardship. Open Forum Infectious Diseases 2019;6(6):ofz158. doi \n\n\n\n\nHanine E. El Haddad, Vagish S. Hemmige, Rojelio Mejia, Amelia K. Sofjan, Alejandro Restrepo. Strongyloides Stercoralis Infection in Solid Organ Transplant Recipients: A Case-Cohort Report at a Single-Center Experience. Current Tropical Medicine Reports 2019;6(3):120–125. doi \n\n\n\n\nVagish Hemmige, Michael Z. David. Effects of Including Variables Such as Length of Stay in a Propensity Score Analysis With Costs as Outcome. Clinical Infectious Diseases: An Official Publication of the Infectious Diseases Society of America 2019;69(11):2039–2040. doi \n\n\n\n\nDisha Kumar, Vagish Hemmige, Michael A. Kallen, Thomas P. Giordano, Monisha Arya. Mobile Phones May Not Bridge the Digital Divide: A Look at Mobile Phone Literacy in an Underserved Patient Population. Cureus 2019;11(2):e4104. doi"
+    "text": "2019\nMonisha Arya, Haley G. Marek, Rachel E. Marren, Vagish Hemmige, Richard L. Street, Thomas P. Giordano. Development and Evaluation of a Physician-Targeted Video to Promote HIV Screening. Health Promotion Practice 2019;20(6):922–931. doi \n\n\n\n\nKathryn Bolles, Laila Woc-Colburn, Richard J. Hamill, Vagish Hemmige. Ordering Patterns and Costs of Specialized Laboratory Testing by Hospitalists and House Staff in Hospitalized Patients With HIV at a County Hospital: An Opportunity for Diagnostic Stewardship. Open Forum Infectious Diseases 2019;6(6):ofz158. doi \n\n\n\n\nHanine E. El Haddad, Vagish S. Hemmige, Rojelio Mejia, Amelia K. Sofjan, Alejandro Restrepo. Strongyloides Stercoralis Infection in Solid Organ Transplant Recipients: A Case-Cohort Report at a Single-Center Experience. Current Tropical Medicine Reports 2019;6(3):120–125. doi \n\n\n\n\nVagish Hemmige, Michael Z. David. Effects of Including Variables Such as Length of Stay in a Propensity Score Analysis With Costs as Outcome. Clinical Infectious Diseases: An Official Publication of the Infectious Diseases Society of America 2019;69(11):2039–2040. doi \n\n\n\n\nDisha Kumar, Vagish Hemmige, Michael A. Kallen, Thomas P. Giordano, Monisha Arya. Mobile Phones May Not Bridge the Digital Divide: A Look at Mobile Phone Literacy in an Underserved Patient Population. Cureus 2019;11(2):e4104. doi \n\n\n\n\nYang Zhou, Vagish Hemmige, Sudeb C. Dalai, David K. Hong, Kenneth Muldrew, Mayar Al Mohajer. Utility of Whole-Genome Next-Generation Sequencing of Plasma in Identifying Opportunistic Infections in HIV/AIDS. The Open AIDS Journal 2019;13(1). doi"
   },
   {
     "objectID": "manuscripts.html#section-8",
