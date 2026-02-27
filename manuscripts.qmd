@@ -1,0 +1,66 @@
+
+---
+title: "Manuscripts"
+format:
+  html:
+    toc: false
+execute:
+  echo: false
+---
+
+
+
+
+```{r warning=FALSE, message=FALSE}
+
+
+library(RefManageR)
+library(tidyverse)
+
+refs <- ReadBib("data/VH library.bib")
+refs <- refs[!is.na(refs$journal)]
+
+df_clean <-
+  as_tibble(as.data.frame(refs)) %>%
+  mutate(
+    year = as.numeric(year),
+
+    authors = map_chr(author, ~ paste(.x, collapse = ", ")),
+    authors = str_replace_all(authors, " and ", ", "),
+    authors = str_replace_all(authors, "Vagish Hemmige", "**Vagish Hemmige**"),
+
+    title = str_replace_all(title, "\\{|\\}", ""),
+
+    citation = str_c(
+      authors, ". ",
+      str_remove(title, "\\.$"), ". ",
+      "*", journal, "* ",
+      year,
+      if_else(!is.na(volume), str_c(";", volume), ""),
+      if_else(!is.na(number), str_c("(", number, ")"), ""),
+      if_else(!is.na(pages), str_c(":", pages), ""),
+      ".",
+      if_else(!is.na(doi), str_c(" https://doi.org/", doi), "")
+    )
+  ) %>%
+  arrange(desc(year))
+
+```
+
+
+```{r results='asis'}
+
+
+df_clean %>%
+  arrange(desc(year)) %>%
+  group_split(year) %>%
+  walk(function(d) {
+    cat("\n\n## ", d$year[1], "\n\n", sep = "")
+    cat(paste(d$citation, collapse = "\n\n"))
+    cat("\n\n")
+  })
+
+
+
+```
+
