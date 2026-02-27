@@ -3,8 +3,13 @@
 ---
 title: "Manuscripts"
 
-format: html
-
+format:
+  html:
+    include-in-header:
+      text: |
+        <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+        <script async src="https://embed.altmetric.com/assets/embed.js"></script>
+        
 execute:
   echo: false
 ---
@@ -45,22 +50,21 @@ df_clean <-
   as_tibble(as.data.frame(refs)) %>%
   mutate(
     year = as.numeric(year),
-    
+
     # ---- Authors ----
     authors = map_chr(author, ~ paste(.x, collapse = ", ")),
     authors = clean_braces(authors),
     authors = str_replace_all(authors, " and ", ", "),
     authors = bold_matches(authors, bold_names),
-    
+
     # ---- Clean text fields ----
     title     = clean_braces(title),
     journal   = clean_braces(journal),
     booktitle = clean_braces(booktitle),
-    
-    # ---- Build citation string by type ----
-    citation = case_when(
-      
-      # Journal articles
+
+    # ---- Base citation ----
+    citation_core = case_when(
+
       !is.na(journal) ~ str_c(
         authors, ". ",
         str_remove(title, "\\.$"), ". ",
@@ -69,15 +73,9 @@ df_clean <-
         if_else(!is.na(volume), str_c(";", volume), ""),
         if_else(!is.na(number), str_c("(", number, ")"), ""),
         if_else(!is.na(pages), str_c(":", pages), ""),
-        ".",
-        if_else(
-          !is.na(doi),
-          str_c(" [doi](https://doi.org/", doi, ")"),
-          ""
-        )
+        "."
       ),
-      
-      # Book chapters
+
       !is.na(booktitle) ~ str_c(
         authors, ". ",
         str_remove(title, "\\.$"), ". ",
@@ -87,13 +85,37 @@ df_clean <-
         if_else(!is.na(pages), str_c(", pp. ", pages), ""),
         "."
       ),
-      
+
       TRUE ~ NA_character_
+    ),
+
+    # ---- Badge HTML ----
+    badges = if_else(
+      !is.na(doi) & doi != "",
+      str_c(
+        '<span class="__dimensions_badge_embed__" data-doi="',
+        doi,
+        '" data-style="large_rectangle"></span>',
+        '<div data-badge-popover="right" data-badge-type="1" data-doi="',
+        doi,
+        '" data-hide-no-mentions="true" class="altmetric-embed"></div>'
+      ),
+      ""
+    ),
+
+    # ---- Final citation ----
+    citation = str_c(
+      citation_core,
+      if_else(!is.na(doi) & doi != "",
+              str_c(" [doi](https://doi.org/", doi, ")"),
+              ""),
+      " ",
+      badges,
+      "<br>" 
     )
   ) %>%
   filter(!is.na(citation)) %>%
   arrange(desc(year))
-
 
 
 
