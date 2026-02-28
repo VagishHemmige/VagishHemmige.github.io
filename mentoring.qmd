@@ -1,6 +1,113 @@
 ---
 title: "Mentoring"
 format: html
+bibliography: "data/VH library.bib"
 ---
 
-Pending
+```{r}
+#| include: false
+#| echo: false
+#| warning: false
+#| message: false
+
+library(yaml)
+library(dplyr)
+library(purrr)
+
+mentees <- yaml::read_yaml("data/mentoring.yml")
+
+
+#Helps to link to projects
+slugify <- function(x) {
+  x <- tolower(x)
+  x <- gsub("[^a-z0-9]+", "-", x)
+  x <- gsub("(^-|-$)", "", x)
+  x
+}
+
+render_mentee <- function(m) {
+  
+  cat("### ", m$name, "\n\n", sep = "")
+  
+  # Level
+  if (!is.null(m$level)) {
+    lvl <- if (is.vector(m$level)) paste(m$level, collapse = ", ") else m$level
+    cat("*", lvl, "*\n\n", sep = "")
+  }
+  
+  # Your role
+  if (!is.null(m$role)) {
+    role_val <- if (is.vector(m$role)) paste(m$role, collapse = ", ") else m$role
+    cat("**Mentorship role:** ", role_val, "\n\n", sep = "")
+  }
+  
+  if (!is.null(m$current)) {
+    cat("**Current position:** ", m$current, "  \n", sep = "")
+  }
+  
+  if (!is.null(m$years)) {
+    cat("**Years:** ", m$years, "  \n", sep = "")
+  }
+  
+  if (!is.null(m$link)) {
+    cat("[Profile link](", m$link, ")\n\n", sep = "")
+  }
+  
+  cat("\n")
+  
+  if (!is.null(m$text)) {
+    cat(m$text, "\n\n")
+  }
+  
+  # 🔗 Projects with working anchors
+  if (!is.null(m$projects)) {
+    cat("**Projects**\n\n")
+    
+    for (p in m$projects) {
+      anchor <- slugify(p)
+      cat("- [", p, "](projects.html#", anchor, ")\n", sep = "")
+    }
+    
+    cat("\n")
+  }
+  
+  # 📚 Manuscripts
+  if (!is.null(m$manuscripts)) {
+    cat("**Manuscripts**\n\n")
+    
+    for (k in m$manuscripts) {
+      cat("- @", k, "\n", sep = "")
+    }
+    
+    cat("\n")
+  }
+  
+  cat("---\n\n")
+}
+
+
+```
+
+```{r, results='asis', echo=FALSE}
+
+cat("## Active Mentees\n\n")
+
+active <- purrr::keep(mentees, ~ .x$status == "Active")
+
+walk(active, render_mentee)
+
+```
+
+
+
+```{r, results='asis', echo=FALSE}
+
+cat("## Former Mentees\n\n")
+
+former <- purrr::keep(mentees, ~ .x$status == "Former")
+
+walk(former, render_mentee)
+
+```
+
+

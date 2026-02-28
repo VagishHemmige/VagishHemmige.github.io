@@ -47,7 +47,7 @@ clean_braces <- function(x) {
 
 # ---- Build clean data frame ----
 df_clean <-
-  as_tibble(as.data.frame(refs)) %>%
+  as_tibble(as.data.frame(refs), rownames = "key") %>%
   mutate(
     year = as.numeric(year),
 
@@ -111,7 +111,7 @@ df_clean <-
               ""),
       " ",
       badges,
-      "<br>" 
+      "" 
     )
   ) %>%
   filter(!is.na(citation)) %>%
@@ -132,12 +132,19 @@ for (yr in years_desc) {
   
   cat("\n\n## ", yr, "\n\n", sep = "")
   
-  df_clean %>%
-    filter(year == yr) %>%
-    pull(citation) %>%
-    cat(sep = "\n\n")
+  subset <- df_clean %>% filter(year == yr)
   
-  cat("\n\n")
+  for (i in seq_len(nrow(subset))) {
+    
+    key_i <- subset$key[[i]]
+    cit_i <- subset$citation[[i]]
+    
+    # anchor-only heading (invisible text)
+    cat("### {#", key_i, "}\n\n", sep = "")
+    
+    # citation block
+    cat(cit_i, "\n\n")
+  }
 }
 
 ```

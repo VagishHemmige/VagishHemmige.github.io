@@ -65,8 +65,12 @@ for (th in themes) {
     methods_text <- paste(row$methods[[1]], collapse = ", ")
     badge <- status_badge(row$status)
     
+    anchor <- tolower(row$title)
+    anchor <- gsub("[^a-z0-9]+", "-", anchor)
+    anchor <- gsub("(^-|-$)", "", anchor)
+    
     cat(
-      "### ", row$title, " ", badge, "\n\n",
+      "### ", row$title, " ", badge, " {#", anchor, "}\n\n",
       row$description, "  \n\n",
       "**Methods:** ", methods_text, "  \n\n",
       site_link,
