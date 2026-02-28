@@ -47,7 +47,7 @@
     - swaminathanProofConceptThat2025
   link: https://rutgershealth.org/people/jonathan-czeresnia
   text: >
-    During his senior of the ID fellowship,
+    During his senior year of the ID fellowship,
     Dr. Czeresnia learned R programming via a Coursera course.  He used those skills to perform an analysis of the SRTR database, 
     demonstrating that people living with HIV have equivalent
     outcomes to people without HIV after lung transplant.  He also took the lead to present these results at American Transplant Congress.
@@ -82,7 +82,7 @@
   level: ["High school", "College"]
   role: ["Primary research mentor"]
   years: "2022–present"
-  status: "Current"
+  status: "Active"
   current: "College student, UT-Austin"
   projects:
     - "Ellmer PubMed ATC 2026 Abstract Pipeline"
@@ -112,7 +112,7 @@
 - name: "Laura Cheney"
   role: ["Career mentor"]
   years: "2021–present"
-  status: active
+  status: "Active"
   level: "Faculty"
   current: "Assistant Professor"
   link: https://einsteinmed.edu/faculty/16582/laura-l-cheney
@@ -216,7 +216,7 @@
   level: "Fellow"
   current: "Assistant Professor, Baylor College of Medicine"
   link: https://www.bcm.edu/people-search/eva-clark-19642
-  manuscript:
+  manuscripts:
     - clarkStrongyloidesStercoralisInfection2020
   text: >
     I was a secondary mentor on a prospective study of Chagas disease before and after solid organ transplantation.
@@ -247,10 +247,3 @@
     I was a statistical co-mentor for a chart review retrospective study on the use of methenamine to prevent recurrent UTIs after 
     kidney transplantation.
     
-    
-    
-    
-    
-    
-    
-
