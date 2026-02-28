@@ -118,6 +118,9 @@
   pdf: null
   link: https://academic.oup.com/ofid/article/2/suppl_1/456/2634801
   scope: "national"
+  mentees:
+    - "Kathryn Bolles"
+
 
 - title: "Improving preventive health services for racial and ethnic minorities: could a cell phone be the answer?"
   meeting: "Henry J.N. Taub/James K. Alexander Medical Student Research Symposium"
@@ -140,6 +143,9 @@
   pdf: null
   link: https://atcmeetingabstracts.com/abstract/strongyloides-infection-in-solid-organ-transplant-recipients-a-single-center-experience-and-review-of-the-literature/
   scope: "national"
+  mentees:
+    - "Hanine El Haddad"
+
 
 - title: "Wait, is this an ID boards question? Chronic hepatitis in a broadly exposed liver transplant patient."
   meeting: "American Society of Tropical Medicine and Hygiene"
@@ -173,6 +179,8 @@
   pdf: null
   link: https://atcmeetingabstracts.com/abstract/diagnosis-and-prevalence-of-strongyloidiasis-in-solid-organ-transplant-patients/
   scope: "national"
+  mentees:
+    - "Haley Pritchard"
 
 - title: "Human Immunodeficiency Virus (HIV) diagnostic limbo: a retrospective review of discordant HIV test results in a large academic health center over a 10-year period."
   meeting: "IDWeek"
@@ -207,7 +215,7 @@
   link: null
   scope: "national"
   mentees:
-    - Orlando Quintero Cardona
+    - "Orlando Quintero Cardona"
   
 
 - title: "The efficacy of oral beta-lactam antibiotics as step-down therapy for acute pyelonephritis."
@@ -221,7 +229,7 @@
   link: https://pmc.ncbi.nlm.nih.gov/articles/PMC6809086/
   scope: "national"
   mentees:
-    - Athena Hobbs
+    - "Athena Hobbs"
 
 
 - title: "Evaluation of antibiotic utilization after introduction of a dedicated infectious diseases-critical care medicine service in critical care units."
@@ -235,7 +243,7 @@
   link: https://pmc.ncbi.nlm.nih.gov/articles/PMC6808670/
   scope: "national"
   mentees:
-    - Polina Trachuk
+    - "Polina Trachuk"
 
 - title: "Association Between Universal Face Shield in a Quaternary Care Center and Reduction of SARS-COV2 Infections Among Healthcare Personnel and Patients."
   meeting: "IDWeek"
@@ -248,7 +256,7 @@
   link: https://academic.oup.com/ofid/article/7/Supplement_1/S851/6057398
   scope: "national"
   mentees:
-    - Mayar Al-Mohajer
+    - "Mayar Al Mohajer"
 
 
 - title: "Inactive status on the kidney transplant waitlist is associated with neighborhood poverty."
@@ -273,7 +281,7 @@
   link: https://atcmeetingabstracts.com/abstract/lung-transplantation-outcomes-in-recipients-living-with-hiv-in-the-united-states/
   scope: "national"
   mentees:
-    - Jonathan Czeresnia
+    - "Jonathan Czeresnia"
 
 
 - title: "Transplantation of solid organs recovered from deceased donors recently infected by SARS-CoV-2 in the United States."
@@ -287,7 +295,7 @@
   link: https://www.medrxiv.org/content/10.1101/2022.06.05.22276008v2.full
   scope: "regional"
   mentees:
-    - Jonathan Czeresnia
+    - "Jonathan Czeresnia""
 
 
 - title: "Reasons for Kidney Transplant Patients to Have Outpatient Urine Cultures in the First Year Post-Transplant: An Analysis of the USRDS."
@@ -323,7 +331,8 @@
   link: https://pmc.ncbi.nlm.nih.gov/articles/PMC9751547/
   scope: "national"
   mentees:
-    - Neeraja Swaminathan
+    - "Neeraja Swaminathan"
+    - "Jonathan Czeresnia"
 
 
 - title: "Outcome of HIV Positive Pancreas And Kidney-Pancreas Transplants: An Analysis Of The UNOS Database."
@@ -337,7 +346,7 @@
   link: null
   scope: "national"
   mentees:
-    - Neeraja Swaminathan
+    - "Neeraja Swaminathan"
 
 - title: "Landscape And Outcomes Of Heart Transplantation In Recipients With HIV."
   meeting: "American Transplant Congress"
@@ -361,7 +370,7 @@
   link: https://www.amjtransplant.org/article/S1600-6135(25)02539-0/fulltext
   scope: "international"
   mentees:
-    - Anagha Sreenivasan
+    - "Anagha Sreenivasan""
 
 - title: "Geographic Access to Liver Transplant Centers with HIV and HOPE Experience, 2017–2022."
   meeting: "IDWeek"
@@ -374,7 +383,7 @@
   link: null
   scope: "national"  
   mentees:
-    - Hannah Rosenthal
+    - "Hannah Rosenthal""
 
   
 - title: "Nationwide UNOS Analysis of Mortality After Simultaneous Liver–Kidney Transplantation in Patients With HIV, 2005–2023."
@@ -388,4 +397,4 @@
   link: null
   scope: "local"
   mentees:
-    - Hannah Rosenthal
+    - "Hannah Rosenthal""

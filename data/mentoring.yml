@@ -1,31 +1,256 @@
 - name: "Hannah Rosenthal"
   level: "Medical student"
-  role: "Primary mentor"
+  role: "Primary research mentor"
   current: "MS4 at Albert Einstein College of Medicine"
   years: "2025-2026"
   status: "Active"
   projects:
     - "HIV-SLK Outcomes"
     - "HOPE-CDC Analysis 2026"
-  abstracts:
-    - "Nationwide UNOS Analysis of Mortality After Simultaneous Liver–Kidney Transplantation in Patients With HIV, 2005–2023."
+  text: >
+    Hannah is applying her R programming skills to perform an analysis of the SRTR database, demonstrating that people living with HIV have equivalent
+    outcomes to people without HIV after simultaneous liver-kidney transplant.  She also took the lead to present these results and will lead manuscript 
+    preparation.
+
+- name: "Morgan Marc"
+  level: "Medical student"
+  role: "Primary research mentor"
+  current: "MS1 at Albert Einstein College of Medicine"
+  years: "2025-2026"
+  status: "Active"
+  projects:
+    - "HOPE-CDC Analysis 2026"
+  text: >
+    Morgan is interested in thoracic transplant in people living with HIV and improving referral patterns for this vulnerable population.
 
 - name: "Miguel Cervera Hernandez"
   level: "Fellow"
-  role: "Primary mentor"
+  role: "Primary research mentor"
   current: "Attending at Sanford Health"
   years: "2020-2021"
   status: "Former"
   manuscripts:
     - fioricaHighMortalityAssociated2025
   link: https://www.sanfordhealth.org/doctors/miguel-hernandez
+  text: >
+    Dr. Cervera used STATA to analyze outcomes after the inpatient diagnosis of cryptococcal infection in kidney transplant recipients, utilizing the United States
+    Renal Data System.  He took the lead for the statistical analysis and poster presentation components of the project.  His code was adapted into R for use
+    in the `usRds` package.
 
 - name: "Jonathan Czeresnia"
   level: "Fellow"
-  role: "Primary mentor"
+  role: "Primary research mentor"
   current: "Attending at Rutgers Health"
   years: "2021-2022"
   status: "Former"
   manuscripts:
     - swaminathanProofConceptThat2025
   link: https://rutgershealth.org/people/jonathan-czeresnia
+  text: >
+    During his senior of the ID fellowship,
+    Dr. Czeresnia learned R programming via a Coursera course.  He used those skills to perform an analysis of the SRTR database, 
+    demonstrating that people living with HIV have equivalent
+    outcomes to people without HIV after lung transplant.  He also took the lead to present these results at American Transplant Congress.
+  
+- name: "Mayar Al Mohajer"
+  level: ["Fellow", "Faculty"]
+  role: ["Primary research mentor", "Career mentor"]
+  years: "2013–present"
+  status: "Active"
+  current: "Professor, Infectious Diseases, Baylor College of Medicine"
+  link: https://www.bcm.edu/people-search/mayar-al-mohajer-17229
+  manuscripts:
+    - almohajerAssociationUniversalFace2021
+    - zhouUtilityWholeGenomeNextGeneration2019
+  text: >
+    Collaboration on analyses demonstrating the benefit of eye shields in preventing COVID in hospital workers, and career mentoring.
+  
+- name: "Polina Trachuk"
+  level: "Fellow"
+  role: ["Statistical co-mentor"]
+  years: "2018–2019"
+  status: "Former"
+  current: "Critical Care attending, RWJ Barnabas"
+  link: https://www.rwjbh.org/doctors/polina-trachuk-md/
+  manuscripts:
+    - trachukEvaluationClinicalOutcomes2021
+  text: >
+    I was the statistical co-mentor for a project analyzing the results of ID and CCM collaboration on antibiotic use in the CCU, leading to an oral
+    at IDWeek and a publication.
+  
+- name: "Anagha Sreenivasan"
+  level: ["High school", "College"]
+  role: ["Primary research mentor"]
+  years: "2022–present"
+  status: "Current"
+  current: "College student, UT-Austin"
+  projects:
+    - "Ellmer PubMed ATC 2026 Abstract Pipeline"
+  text: >
+    Anagha reviewed 100 published papers using the United States Renal Data System, demonstrating the low proportion of analyses utilizing claims or cost
+    components of the database.  Her work has been presented at American Transplant Congress.
+
+
+- name: "Hyun Ah Yoon"
+  role: ["Statistical co-mentor"]
+  years: "2019–2022"
+  status: "Former"
+  level: "Faculty"
+  current: "Associate Professor, Albert Einstein College of Medicine"
+  projects:
+    - "Cryptococcus Cost Analysis"
+    - "Cryptococcus Donor Screening CEA"
+  link: https://einsteinmed.edu/faculty/15397/hyun-ah-yoon
+  manuscripts:
+    - fioricaHighMortalityAssociated2025
+    - yoonCryptococcalAntigenScreening2022
+    - yoonCryptococcusNeoformansSpecificNonCryptococcus2022
+  text: >
+    I have worked with Dr. Yoon on multiple projects related to cryptococcus in immunocompromised populations, with her graduating from mentee to co-equal
+    collaborator.
+
+- name: "Laura Cheney"
+  role: ["Career mentor"]
+  years: "2021–present"
+  status: active
+  level: "Faculty"
+  current: "Assistant Professor"
+  link: https://einsteinmed.edu/faculty/16582/laura-l-cheney
+  text: >
+    I collaborated with Dr. Cheney in supervising the research component of the ID fellowship.
+  
+- name: "Neeraja Swaminathan"
+  role: ["Primary research mentor"]
+  years: "2022–2023"
+  status: "Former"
+  level: "Fellow"
+  current: "ID Attending, Assistant Professor, University of Utah"
+  link: https://healthcare.utah.edu/find-a-doctor/neeraja-swaminathan
+  manuscripts:
+    - swaminathanProofConceptThat2025
+  text: >
+    Dr. Swaminathan worked on multiple projects as a fellow, focusing on the poster presentation and manuscript components of projects to study
+    pancreas and kidney-pancreas transplant outcomes in people living with HIV and studying process interventions to improve the acceptance of donors with HIV.
+
+- name: "Giuseppe Fiorica"
+  role: ["Primary research mentor"]
+  years: "2022–2023"
+  status: "Former"
+  level: "Medical student"
+  current: "Internal Medicine resident, Mount Sinai"
+  manuscripts:
+    - fioricaHighMortalityAssociated2025
+  link: https://www.doximity.com/pub/giuseppe-fiorica-md-3a8e8318
+  text: >
+    As part of a senior five-month elective, Dr. Fiorica led the manuscript preparation phase of a study analyzing outcomes after the 
+    inpatient diagnosis of cryptococcal infection in kidney transplant recipients.
+
+- name: "Jill Teitelbaum"
+  role: ["Primary research mentor"]
+  years: "2022–2023"
+  status: "Former"
+  level: "Medical student"
+  manuscripts:
+    - madanTrendsUseEarly2025
+    - madanIncreasingMultiorganHeart2024
+    - teitelbaumChagasMeningoencephalitisDiagnosed2025
+  current: "Internal Medicine resident, Mount Sinai"
+  link: https://www.doximity.com/pub/jill-teitelbaum-md-a849a987
+  text: >
+    I was the primary mentor for a case report of Chagas CNS disease diagnosed by next generation sequencing, and a secondary mentor
+    for an SRTR analysis of outcomes after heart transplant for Chagas cardiomyopathy.
+
+  
+- name: "Athena Hobbs"
+  role: ["Statistical co-mentor"]
+  years: null
+  status: "Former"
+  level: "PharmD"
+  link: https://www.idstewardship.com/contributors/athena-hobbs-pharm-d-bcidp/
+  manuscripts:
+    - hobbsRiseBetalactamsRetrospective2024
+    - hobbsAreFirstgenerationCephalosporins2016
+  text: >
+    I was statistical co-mentor for several stewardship-related projects conducted by Athena Hobbs, PharmD.
+
+- name: "Kathryn Bolles"
+  role: ["Primary research mentor"]
+  years: null
+  status: "Former"
+  level: "Medical student"
+  current: "Assistant Professor, University of Washington"
+  link: https://gim.uw.edu/people/faculty/Kathryn-Bolles
+  manuscripts:
+    - bollesOrderingPatternsCosts2019
+  text: >
+    Dr. Bolles, as a senior medical student at Baylor College of Medicine, led all aspects of a diagnostic stewardship project.
+    She conducted the chart review, helped prepare the conference poster, and led the manuscript preparation on a project studying diagnostic testing
+    in people living with HIV admitted to a county hospital.
+  
+- name: "Hanine El Haddad"
+  role: ["Secondary research mentor"]
+  years: null
+  status: "Former"
+  level: "Fellow"
+  current: "Assistant Professor, UTSW"
+  link: https://utswmed.org/doctors/hanine-el-haddad/
+  manuscripts:
+    - elhaddadStrongyloidesStercoralisInfection2019
+  text: >
+    I was a secondary mentor on several case reports and case series related to infections after solid organ transplantation.
+  
+- name: "Reuben Arasaratnam"
+  role: ["Career mentor"]
+  years: null
+  status: "Former"
+  level: ["Fellow"]
+  current: "Associate Professor, UTSW"
+  link: https://profiles.utsouthwestern.edu/profile/177532/reuben-arasaratnam.html
+  text: >
+    Career mentorship in the care of solid organ transplant patients.
+
+- name: "Eva Clark"
+  role: ["Secondary research mentor"]
+  years: null
+  status: "Former"
+  level: "Fellow"
+  current: "Assistant Professor, Baylor College of Medicine"
+  link: https://www.bcm.edu/people-search/eva-clark-19642
+  manuscript:
+    - clarkStrongyloidesStercoralisInfection2020
+  text: >
+    I was a secondary mentor on a prospective study of Chagas disease before and after solid organ transplantation.
+
+- name: "Haley Pritchard"
+  role: ["Secondary research mentor"]
+  years: null
+  status: "Former"
+  level: "Fellow"
+  current: "Assistant Professor, University of Indiana"
+  link: https://medicine.iu.edu/faculty/42689/pritchard-haley
+  manuscripts:
+    - clarkStrongyloidesStercoralisInfection2020
+  text: >
+    I was a secondary mentor on a prospective study of Chagas disease before and after solid organ transplantation.  Dr. Pritchard worked with Rojelio Mejia
+    to perform the laboratory analyses for the study.
+    
+- name: "Orlando Quintero Cardona"
+  role: ["Statistical co-mentor"]
+  years: null
+  status: "Former"
+  level: "Fellow"
+  current: "Assistant Professor, Stanford University"
+  link: https://med.stanford.edu/profiles/orlando-quintero
+  manuscripts:
+    - quinterocardonaMethenamineHippurateMay2020
+  text: >
+    I was a statistical co-mentor for a chart review retrospective study on the use of methenamine to prevent recurrent UTIs after 
+    kidney transplantation.
+    
+    
+    
+    
+    
+    
+    
+
