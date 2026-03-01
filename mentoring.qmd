@@ -33,6 +33,19 @@ clean_braces <- function(x) {
   gsub("\\{|\\}", "", x)
 }
 
+
+#Load abstracts
+abstracts <- yaml::read_yaml("data/abstracts.yml") |> bind_rows()
+
+abstracts <- abstracts |>
+  mutate(
+    date = as.Date(date),
+    year = lubridate::year(date),
+    slug = slugify(paste(title, meeting, year))
+  )
+
+
+
 render_mentee <- function(m) {
   
   cat("### ", m$name, "\n\n", sep = "")
@@ -98,9 +111,49 @@ render_mentee <- function(m) {
   }
   
   
-  cat("---\n\n")
+  # 📄 Abstracts
+  mentee_abstracts <- abstracts |>
+    filter(
+      purrr::map_lgl(
+        mentees,
+        ~ !is.null(.x) && m$name %in% .x
+      )
+    ) |>
+    arrange(desc(year))
+  
+  if (nrow(mentee_abstracts) > 0) {
+    
+    cat("**Abstracts**\n\n")
+    
+    for (i in seq_len(nrow(mentee_abstracts))) {
+      
+      # Build location nicely
+      location <- if (!is.na(mentee_abstracts$city[[i]])) {
+        paste0(mentee_abstracts$city[[i]], ", ", mentee_abstracts$state[[i]])
+      } else {
+        NULL
+      }
+      cat(
+        "- [",
+        mentee_abstracts$title[[i]],
+        "](abstracts.html#",
+        mentee_abstracts$slug[[i]],
+        ")  \n",
+        "  <span style='font-style: italic;'>",
+        mentee_abstracts$meeting[[i]],
+        " ",
+        mentee_abstracts$year[[i]],
+        if (!is.na(mentee_abstracts$city[[i]]))
+          paste0(" · ", mentee_abstracts$city[[i]], ", ", mentee_abstracts$state[[i]])
+        else "",
+        "</span>\n\n",
+        sep = ""
+      )
+    }
+    
+    cat("---\n\n")
+  }
 }
-
 
 ```
 

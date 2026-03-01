@@ -19,10 +19,21 @@ for (col in required_cols) {
   }
 }
 
+#Create headers for links
+slugify <- function(title, meeting, year) {
+  x <- paste(title, meeting, year)
+  x <- tolower(x)
+  x <- gsub("[^a-z0-9]+", "-", x)
+  x <- gsub("(^-|-$)", "", x)
+  x
+}
+
+
 abstracts <- abstracts |>
   mutate(
     date = as.Date(date),
-    year = year(date)
+    year = year(date),
+    slug = slugify(title, meeting, year)
   ) |>
   arrange(desc(date))
 
@@ -99,20 +110,21 @@ render_section <- function(data, section_title) {
       scope_badge <- badge_html(row$scope)
       
       
-      cat( 
-        scope_badge, 
-        "\n\n", 
-        "**", 
-        row$meeting, 
-        "**  \n\"", 
-        row$title, 
-        "\"  \n", 
+      cat(
+        scope_badge,
+        "\n\n#### ",
+        row$title,
+        " {#",
+        row$slug[[1]],
+        "}\n\n",
+        "*", row$meeting, "*  \n",
         location, "  \n",
-        pdf_text, 
-        link_text, 
-        award_text, 
-        "  \n  \n", 
-        sep = "" )
+        pdf_text,
+        link_text,
+        award_text,
+        "  \n\n",
+        sep = ""
+      )
     }
   }
 }
