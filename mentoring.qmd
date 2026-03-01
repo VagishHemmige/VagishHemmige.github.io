@@ -157,6 +157,15 @@ render_mentee <- function(m) {
 
 ```
 
+## Mentoring
+
+I have mentored trainees in case reports, clinical case series, and big data/research methods.
+
+I am open to mentoring trainees and faculty at other institutions who are interested in working with big data sets such as the USRDS or the SRTR and performing their own analyses in R.  While a remote trainee would need to obtain their own copy of the data, we can collaborate via GitHub on the analysis.
+
+Message me via [GitHub](https://github.com/VagishHemmige) if you are interested in collaborating remotely.
+
+
 ```{r, results='asis', echo=FALSE}
 
 cat("## Active Mentees\n\n")
