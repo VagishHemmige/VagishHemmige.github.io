@@ -8,7 +8,14 @@ library(yaml)
 library(dplyr)
 library(lubridate)
 
-abstracts <- yaml::read_yaml("data/abstracts.yml") |> bind_rows()
+abstracts <- yaml::read_yaml("data/abstracts.yml")
+
+#Remove mentees column
+abstracts <- purrr::map_dfr(abstracts, function(x) {
+  x$mentees <- NULL
+  x
+})
+
 
 # ---- Force required columns to exist ----
 required_cols <- c("pdf", "link", "city", "state", "type", "award")
