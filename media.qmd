@@ -30,6 +30,8 @@ These segments highlight advances in HIV-positive to HIV-positive transplantatio
 
 ### Video news
 
+CBS News coverage of the world's first HIV-to-HIV heart transplant:
+
 <div class="video-container">
 <iframe
   src="https://www.youtube.com/embed/JYCqTko6Ca4"
@@ -39,6 +41,8 @@ These segments highlight advances in HIV-positive to HIV-positive transplantatio
   allowfullscreen>
 </iframe>
 </div>
+
+Coverage from other outlets:
 
 <div class="video-container">
 <iframe
