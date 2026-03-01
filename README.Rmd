@@ -1,13 +1,22 @@
+---
+output: github_document
+---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
 # vagishhemmige.github.io
 
-Personal academic website for Vagish Hemmige, MD MS Physician–scientist
-studying transplant outcomes, HIV, and health system design using large
-national datasets and reproducible R workflows.
+Personal academic website for Vagish Hemmige, MD MS
+Physician–scientist studying transplant outcomes, HIV, and health system design using large national datasets and reproducible R workflows.
 
-🌐 Live site: <https://vagishhemmige.github.io/>
+🌐 Live site: https://vagishhemmige.github.io/
 
 ## Built With
 
