@@ -42,6 +42,25 @@ Professor of Medicine (Infectious Diseases) at Albert Einstein College of Medici
 - [Montefiore Einstein feature: ICT team advancing care for transplant recipients](https://montefioreeinstein.org/news/2024/10/03/how-8-physician-team-infectious-disease-experts-helps-transplant-patients-thrive)
 - [Here's What It Will Take to Grow HIV-Positive to HIV-Positive Transplant Access](https://www.medpagetoday.com/opinion/second-opinions/113782)
 
+
+### Podcast Appearances
+
+**HIV to HIV Heart Transplant, Methenamine, and Much More**  
+*Apple Podcasts*
+
+<div style="margin-top: 0.75rem; margin-bottom: 1.5rem;">
+
+<iframe allow="autoplay *; encrypted-media *; fullscreen *"
+        frameborder="0"
+        height="175"
+        style="width:100%;max-width:660px;overflow:hidden;border-radius:12px;"
+        sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
+        src="https://embed.podcasts.apple.com/us/podcast/hiv-to-hiv-heart-transplant-methenamine-and-much-more/id1499279708?i=1000580159015">
+</iframe>
+
+</div>
+
+
 ---
 
 ## Links
