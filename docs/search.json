@@ -42,6 +42,132 @@
     "text": "Teaching & Case Conferences\n\n2018\n\nFellow Core Curriculum — “Infections in CF and lung transplant patients.”\nHouston, TX\nTransplant ID Conference — “The benefits & risks of animals living with immunocompromised patients.”\nHouston, TX\n\n\n\n2017\n\nCitywide Case Conference — “A case of endovascular infection secondary to Bartonella.”\nHouston, TX\n\n\n\n2016\n\nFellow Core Curriculum — “Infections in CF and lung transplant patients.”\nHouston, TX\nCitywide Case Conference — “A case of suspected toxoplasma lymphadenitis during pregnancy.”\nHouston, TX\n\n\n\n2015\n\nCitywide Case Conference — “MRSA infections in patients with HIV.”\nHouston, TX\nCitywide Case Conference — “A case of chronic ascites secondary to Chagas disease.”\nHouston, TX\nCitywide Case Conference — “Bacteremia secondary to Brucella.”\nHouston, TX\nTransplant ID Conference — “Screening for parasitic infections in solid organ transplant candidates.”\nHouston, TX\nFellow Core Curriculum — “Infections in cirrhotics and liver transplant patients.”\nHouston, TX\n\n\n\n2014\n\nFellow Core Curriculum — “Infections in CF and lung transplant patients.”\nHouston, TX\nCitywide Case Conference — “Aspergillus infection of an Ommaya reservoir.”\nHouston, TX\n\n\n\n2013\n\nCitywide Case Conference — “A kitten bit through my PICC line.”\nHouston, TX\nCitywide Case Conference — “A 33-year old man with FUO secondary to scurvy.”\nHouston, TX\n\n\n\n2012\n\nCitywide Case Conference — “A case of tuberculosis after BMT.”\nHouston, TX"
   },
   {
+    "objectID": "media.html",
+    "href": "media.html",
+    "title": "Media",
+    "section": "",
+    "text": "Montefiore Einstein feature: ICT team advancing care for transplant recipients\nHere’s What It Will Take to Grow HIV-Positive to HIV-Positive Transplant Access"
+  },
+  {
+    "objectID": "media.html#writing-commentary",
+    "href": "media.html#writing-commentary",
+    "title": "Media",
+    "section": "",
+    "text": "Montefiore Einstein feature: ICT team advancing care for transplant recipients\nHere’s What It Will Take to Grow HIV-Positive to HIV-Positive Transplant Access"
+  },
+  {
+    "objectID": "media.html#television-news-coverage",
+    "href": "media.html#television-news-coverage",
+    "title": "Media",
+    "section": "Television & News Coverage",
+    "text": "Television & News Coverage\nThese segments highlight advances in HIV-positive to HIV-positive transplantation and the broader impact of the HOPE Act on transplant policy and patient access.\n\nHIV-Positive Grandmother Receives Historic Heart Transplant"
+  },
+  {
+    "objectID": "media.html#podcast-appearances",
+    "href": "media.html#podcast-appearances",
+    "title": "Media",
+    "section": "Podcast Appearances",
+    "text": "Podcast Appearances\n\nHIV to HIV Heart Transplant, Methenamine, and Much More\nApple Podcasts"
+  },
+  {
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
+    "title": "Vagish Hemmige, MD MS",
+    "section": "Overview",
+    "text": "Overview\nProfessor of Medicine (Infectious Diseases) at Albert Einstein College of Medicine and transplant infectious diseases physician at Montefiore Einstein in the Bronx, NY. Interests include HIV-to-HIV thoracic transplantation, HIV prevention and treatment, and building open R tools for transplant data research.\n\nCurrent roles: Professor, Medicine (ID), Albert Einstein College of Medicine; Infectious Disease physician, Montefiore Medical Center\nLocation: Bronx, New York\n\nClinical interests: Transplant ID, HIV care & prevention, opportunistic infections\n\nMethods/tech: R, Quarto, Arrow/DuckDB, reproducible pipelines"
+  },
+  {
+    "objectID": "index.html#highlights",
+    "href": "index.html#highlights",
+    "title": "Vagish Hemmige, MD MS",
+    "section": "Highlights",
+    "text": "Highlights\n\nPart of Montefiore-Einstein’s immunocompromised transplant (ICT) ID team\n\nMedical degree from NYU Grossman School of Medicine; &gt;10 years practice experience.\n\nFaculty/clinician listings and contact available via Einstein/Montefiore directories."
+  },
+  {
+    "objectID": "index.html#open-source-projects-r",
+    "href": "index.html#open-source-projects-r",
+    "title": "Vagish Hemmige, MD MS",
+    "section": "Open-source projects (R)",
+    "text": "Open-source projects (R)\n\nsRtr — Tools for working with UNOS/SRTR transplant data in R\nRepo/docs: https://vagishhemmige.github.io/sRtr/\nusRds — Tools for working with the United States Renal Data system Repo/docs: https://vagishhemmige.github.io/usRds/"
+  },
+  {
+    "objectID": "index.html#links",
+    "href": "index.html#links",
+    "title": "Vagish Hemmige, MD MS",
+    "section": "Links",
+    "text": "Links\n\nFaculty profile — Albert Einstein College of Medicine\nhttps://einsteinmed.edu/faculty/15768/vagish-hemmige\nPhysician profile — Montefiore Einstein\nhttps://doctors.montefioreeinstein.org/providers/1205162245/vagish-s-hemmige\nUS News doctor profile\nhttps://health.usnews.com/doctors/vagish-hemmige-719259\nORCID\nhttps://orcid.org/0009-0006-6346-1826\nResearch/works\nhttps://pubmed.ncbi.nlm.nih.gov/?term=vagish+Hemmige&sort=date\nR packages\nsRtr: https://vagishhemmige.github.io/sRtr/\nstrobe: https://vagishhemmige.github.io/strobe/\nusRds: https://vagishhemmige.github.io/usRds/ CDCAtlas: https://vagishhemmige.github.io/CDCAtlas/"
+  },
+  {
+    "objectID": "about.html#vagish-hemmige",
+    "href": "about.html#vagish-hemmige",
+    "title": "About",
+    "section": "Vagish Hemmige",
+    "text": "Vagish Hemmige\nI work at the intersection of infectious diseases and transplantation, with a focus on HIV care & prevention, HIV-to-HIV thoracic transplantation, and building open, reproducible R workflows for large healthcare datasets.\nI’m based in the Bronx, New York. Day to day, I split time between patient care, program building, and collaborative research—especially projects that improve access to transplant for people living with HIV and make complex data usable by clinical teams."
+  },
+  {
+    "objectID": "about.html#what-im-working-on",
+    "href": "about.html#what-im-working-on",
+    "title": "About",
+    "section": "What I’m working on",
+    "text": "What I’m working on\n\nTransplant & HIV: advancing pathways for HIV-positive donor thoracic transplants and sharing practical “how-to” resources for new programs.\nReproducible analytics in R: extensive experience using R to analyze clinical data.\nEducation: clinical reasoning, and bringing data skills to clinicians with approachable examples."
+  },
+  {
+    "objectID": "about.html#open-source-projects",
+    "href": "about.html#open-source-projects",
+    "title": "About",
+    "section": "Open-source projects",
+    "text": "Open-source projects\n\nsRtr — R helpers for working with UNOS/SRTR transplant data\nhttps://vagishhemmige.github.io/sRtr/\nstrobe — STROBE-style inclusion/exclusion tracking for observational studies\nhttps://vagishhemmige.github.io/strobe/\nusRds (in progress) — utilities for loading, labeling, and converting USRDS claims files to Parquet with schema-aware helpers."
+  },
+  {
+    "objectID": "about.html#selected-interests-methods",
+    "href": "about.html#selected-interests-methods",
+    "title": "About",
+    "section": "Selected interests & methods",
+    "text": "Selected interests & methods\n\nClinical: transplant ID, opportunistic infections, HIV prevention & primary care\n\nResearch: HIV and thoracic transplant, big data work with the SRTR and UNOS\n\nTeaching: have taught clinical infectious diseases to trainees as well as statistics and epidemiology."
+  },
+  {
+    "objectID": "about.html#speaking-teaching",
+    "href": "about.html#speaking-teaching",
+    "title": "About",
+    "section": "Speaking & teaching",
+    "text": "Speaking & teaching\nI enjoy guest lectures, workshops, and small-group sessions on:\n\nPractical R for clinicians and researchers\nEpidemiology and biostatistics\nTransplant ID topics (HIV D+/R+ programs, protocols, safety)"
+  },
+  {
+    "objectID": "about.html#mentoring",
+    "href": "about.html#mentoring",
+    "title": "About",
+    "section": "Mentoring",
+    "text": "Mentoring\nI have mentored trainees in case reports, clinical research, and big data/research methods.\nI am open to mentoring trainees and faculty at other institutions who are interested in working with big data sets such as the USRDS or the SRTR and performing their own analyses in R. While a remote trainee would need to obtain their own copy of the data, Github would enable collaboration on the analysis code."
+  },
+  {
+    "objectID": "about.html#contact-links",
+    "href": "about.html#contact-links",
+    "title": "About",
+    "section": "Contact & links",
+    "text": "Contact & links\n\nFaculty profile: https://einsteinmed.edu/faculty/15768/vagish-hemmige\n\nPhysician profile: https://doctors.montefioreeinstein.org/providers/1205162245/vagish-s-hemmige\n\nGitHub: https://github.com/VagishHemmige\n\nORCID: https://orcid.org/0009-0006-6346-1826"
+  },
+  {
+    "objectID": "abstracts.html",
+    "href": "abstracts.html",
+    "title": "Conference Abstracts",
+    "section": "",
+    "text": "NATIONAL\n\n\nAmerican Transplant Congress\nSan Diego, CA\nFile | Link\n\n\n\n\nNATIONAL\n\n\nAmerican Transplant Congress\nBoston, MA\nFile | Link\nREGIONAL\n\n\n\nInfectious Diseases Society of New York Annual Symposium\nNew York, NY\nFile | Link\n\n\n\n\nNATIONAL\n\n\nIDWeek\nLocation not specified\nFile | Link\n\n\n\n\nNATIONAL\n\n\nIDWeek\nWashington, DC\nFile | Link\nNATIONAL\n\n\n\nIDWeek\nWashington, DC\nFile | Link\n\n\n\n\nNATIONAL\n\n\nIDWeek\nSan Francisco, CA\nFile | Link\n\n\n\n\nREGIONAL\n\n\nMidwest Society of General Internal Medicine\nLocation not specified\nFile | Link"
+  },
+  {
+    "objectID": "abstracts.html#oral-presentations",
+    "href": "abstracts.html#oral-presentations",
+    "title": "Conference Abstracts",
+    "section": "",
+    "text": "NATIONAL\n\n\nAmerican Transplant Congress\nSan Diego, CA\nFile | Link\n\n\n\n\nNATIONAL\n\n\nAmerican Transplant Congress\nBoston, MA\nFile | Link\nREGIONAL\n\n\n\nInfectious Diseases Society of New York Annual Symposium\nNew York, NY\nFile | Link\n\n\n\n\nNATIONAL\n\n\nIDWeek\nLocation not specified\nFile | Link\n\n\n\n\nNATIONAL\n\n\nIDWeek\nWashington, DC\nFile | Link\nNATIONAL\n\n\n\nIDWeek\nWashington, DC\nFile | Link\n\n\n\n\nNATIONAL\n\n\nIDWeek\nSan Francisco, CA\nFile | Link\n\n\n\n\nREGIONAL\n\n\nMidwest Society of General Internal Medicine\nLocation not specified\nFile | Link"
+  },
+  {
+    "objectID": "abstracts.html#poster-presentations",
+    "href": "abstracts.html#poster-presentations",
+    "title": "Conference Abstracts",
+    "section": "Poster Presentations",
+    "text": "Poster Presentations\n\n2026\nLOCAL\n\nNationwide UNOS Analysis of Mortality After Simultaneous Liver–Kidney Transplantation in Patients With HIV, 2005–2023.\nNYC Center for AIDS Research Symposium\nNew York, NY\nFile | Link\n\n\n\n2025\nNATIONAL\n\nGeographic Access to Liver Transplant Centers with HIV and HOPE Experience, 2017–2022.\nIDWeek\nAtlanta, GA\nFile | Link\nINTERNATIONAL\n\n\nUtilization of the United States Renal Data System for Transplant-Related Research.\nWorld Transplant Congress\nSan Francisco, CA\nFile | Link\n\n\n\n2023\nNATIONAL\n\nOutcome of HIV Positive Pancreas And Kidney-Pancreas Transplants: An Analysis Of The UNOS Database.\nAmerican Transplant Congress\nSan Diego, CA\nFile | Link\n\n\n\n2022\nNATIONAL\n\nImplementation of a medical education intervention to improve acceptance of HIV-positive donors for transplant at a tertiary care hospital.\nIDWeek\nWashington, DC\nFile | Link\nNATIONAL\n\n\nReasons for Kidney Transplant Patients to Have Outpatient Urine Cultures in the First Year Post-Transplant: An Analysis of the USRDS.\nAmerican Transplant Congress\nBoston, MA\nFile | Link\nNATIONAL\n\n\nHistologic Predictors of Graft Loss in Early Clinically Indicated Biopsies After Kidney Transplantation.\nAmerican Transplant Congress\nBoston, MA\nFile | Link\n\n\n\n2021\nNATIONAL\n\nInactive status on the kidney transplant waitlist is associated with neighborhood poverty.\nNational Kidney Foundation Spring Clinical Meeting\nOrlando, FL\nFile | Link\n\n\n\n2019\nNATIONAL\n\nAssessment of methenamine hippurate for the prevention of recurrent urinary tract infections in adult renal transplant recipients.\nAmerican Transplant Congress\nBoston, MA\nFile | Link\n\n\n\n2018\nNATIONAL\n\nHuman Immunodeficiency Virus (HIV) diagnostic limbo: a retrospective review of discordant HIV test results in a large academic health center over a 10-year period.\nIDWeek\nSan Francisco, CA\nFile | Link\nNATIONAL\n\n\nDiagnosis and prevalence of Strongyloides in solid organ transplant patients.\nAmerican Transplant Congress\nSeattle, WA\nFile | Link\nREGIONAL\n\n\nPredicting Risk of Clinical Deterioration: A Closer Look at Resident Handoffs and Rapid Response.\nBaylor Housestaff Symposium / Texas ACP Southeast Regional Conference\nHouston, TX\nFile | Link\nAward: First place, Patient Safety/Quality Improvement category\n\n\n\n2017\nNATIONAL\n\nWait, is this an ID boards question? Chronic hepatitis in a broadly exposed liver transplant patient.\nAmerican Society of Tropical Medicine and Hygiene\nBaltimore, MD\nFile | Link\nNATIONAL\n\n\nStrongyloides Infection in Solid Organ Transplant Recipients: A Single Center Experience and Review of the Literature.\nAmerican Transplant Congress\nChicago, IL\nFile | Link\n\n\n\n2016\nLOCAL\n\nImproving preventive health services for racial and ethnic minorities: could a cell phone be the answer?\nHenry J.N. Taub/James K. Alexander Medical Student Research Symposium\nLocation not specified\nFile | Link\n\n\n\n2015\nNATIONAL\n\nOpportunities to Educate Trainees and Hospitalists Regarding Appropriate Use of Specialized Testing in Hospitalized Inpatients with HIV at a County Hospital.\nIDWeek\nSan Diego, CA\nFile | Link\nINTERNATIONAL\n\n\nSingle Tablet HIV Regimens Facilitate Improved Outcomes among Treatment Naïve Patients.\nInternational Conference on HIV Treatment and Prevention Adherence\nMiami, FL\nFile | Link\nAward: Distinguished Poster Award\nNATIONAL\n\n\nGastric Adenocarcinoma in the Setting of X-Linked Agammaglobulinemia (XLA) and HIV.\nAAAAI Annual Meeting\nLocation not specified\nFile | Link\n\n\n\n2014\nNATIONAL\n\nRecurrent skin and soft tissue infections in HIV-infected patients over a 5-year period: incidence and risk factors.\nIDWeek\nPhiladelphia, PA\nFile | Link\nNATIONAL\n\n\nA Young Man with Fever and Diffuse Muscle Pain.\nSociety of General Internal Medicine\nSan Diego, CA\nFile | Link\n\n\n\n2012\nNATIONAL\n\nUse of computer based training module to improve physician knowledge on sterile technique, complications and documentation for central line insertion to help reduce CLABSI.\nIDWeek\nSan Diego, CA\nFile | Link\n\n\n\n2011\nNATIONAL\n\nRisk factors for skin and soft tissue infections (SSTIs) in HIV-infected patients.\nSociety for Healthcare Epidemiology of America\nDallas, TX\nFile | Link\n\n\n\n2010\nNATIONAL\n\nSexual position preference (SPP) is associated with condom usage, HIV prevalence, and CD4 count at initial HIV diagnosis among MSM in Hyderabad, India.\nInfectious Diseases Society of America\nVancouver, BC\nFile | Link\n\n\n\n2008\nREGIONAL\n\nNecrotizing fasciitis: a fatal complication of peripheral intravenous cannulation.\nMidwest Society of General Internal Medicine\nChicago, IL\nFile | Link\n\n\n\n2006\nINTERNATIONAL\n\nThalamic gray matter volume reduction in mild traumatic brain injury.\nInternational Society for Magnetic Resonance in Medicine\nSeattle, WA\nFile | Link"
+  },
+  {
     "objectID": "manuscripts.html",
     "href": "manuscripts.html",
     "title": "Manuscripts",
@@ -152,111 +278,6 @@
     "title": "Manuscripts",
     "section": "2010",
     "text": "2010\n\n\nVagish Hemmige, Erin Jenkins, Jhee Un Lee, Vineet M. Arora. Toxic Epidermal Necrolysis (TEN) Associated with Herbal Medication Use in a Patient with Systemic Lupus Erythematosus. Journal of Hospital Medicine 2010;5(8):491–493. doi \n\n\n\n\n\n\nElaine Lin, Adrienne Boire, Vagish Hemmige, Aliya N. Husain, Matthew Sorrentino, Sandeep Nathan, Shahab A. Akhter, Jerome Dickstein, Stephen L. Archer. Cardiac Tamponade Mimicking Tuberculous Pericarditis as the Initial Presentation of Chronic Lymphocytic Leukemia in a 58-Year-Old Woman: A Case Report. Journal of Medical Case Reports 2010;4:246. doi"
-  },
-  {
-    "objectID": "abstracts.html",
-    "href": "abstracts.html",
-    "title": "Conference Abstracts",
-    "section": "",
-    "text": "NATIONAL\n\n\nAmerican Transplant Congress\nSan Diego, CA\nFile | Link\n\n\n\n\nNATIONAL\n\n\nAmerican Transplant Congress\nBoston, MA\nFile | Link\nREGIONAL\n\n\n\nInfectious Diseases Society of New York Annual Symposium\nNew York, NY\nFile | Link\n\n\n\n\nNATIONAL\n\n\nIDWeek\nLocation not specified\nFile | Link\n\n\n\n\nNATIONAL\n\n\nIDWeek\nWashington, DC\nFile | Link\nNATIONAL\n\n\n\nIDWeek\nWashington, DC\nFile | Link\n\n\n\n\nNATIONAL\n\n\nIDWeek\nSan Francisco, CA\nFile | Link\n\n\n\n\nREGIONAL\n\n\nMidwest Society of General Internal Medicine\nLocation not specified\nFile | Link"
-  },
-  {
-    "objectID": "abstracts.html#oral-presentations",
-    "href": "abstracts.html#oral-presentations",
-    "title": "Conference Abstracts",
-    "section": "",
-    "text": "NATIONAL\n\n\nAmerican Transplant Congress\nSan Diego, CA\nFile | Link\n\n\n\n\nNATIONAL\n\n\nAmerican Transplant Congress\nBoston, MA\nFile | Link\nREGIONAL\n\n\n\nInfectious Diseases Society of New York Annual Symposium\nNew York, NY\nFile | Link\n\n\n\n\nNATIONAL\n\n\nIDWeek\nLocation not specified\nFile | Link\n\n\n\n\nNATIONAL\n\n\nIDWeek\nWashington, DC\nFile | Link\nNATIONAL\n\n\n\nIDWeek\nWashington, DC\nFile | Link\n\n\n\n\nNATIONAL\n\n\nIDWeek\nSan Francisco, CA\nFile | Link\n\n\n\n\nREGIONAL\n\n\nMidwest Society of General Internal Medicine\nLocation not specified\nFile | Link"
-  },
-  {
-    "objectID": "abstracts.html#poster-presentations",
-    "href": "abstracts.html#poster-presentations",
-    "title": "Conference Abstracts",
-    "section": "Poster Presentations",
-    "text": "Poster Presentations\n\n2026\nLOCAL\n\nNationwide UNOS Analysis of Mortality After Simultaneous Liver–Kidney Transplantation in Patients With HIV, 2005–2023.\nNYC Center for AIDS Research Symposium\nNew York, NY\nFile | Link\n\n\n\n2025\nNATIONAL\n\nGeographic Access to Liver Transplant Centers with HIV and HOPE Experience, 2017–2022.\nIDWeek\nAtlanta, GA\nFile | Link\nINTERNATIONAL\n\n\nUtilization of the United States Renal Data System for Transplant-Related Research.\nWorld Transplant Congress\nSan Francisco, CA\nFile | Link\n\n\n\n2023\nNATIONAL\n\nOutcome of HIV Positive Pancreas And Kidney-Pancreas Transplants: An Analysis Of The UNOS Database.\nAmerican Transplant Congress\nSan Diego, CA\nFile | Link\n\n\n\n2022\nNATIONAL\n\nImplementation of a medical education intervention to improve acceptance of HIV-positive donors for transplant at a tertiary care hospital.\nIDWeek\nWashington, DC\nFile | Link\nNATIONAL\n\n\nReasons for Kidney Transplant Patients to Have Outpatient Urine Cultures in the First Year Post-Transplant: An Analysis of the USRDS.\nAmerican Transplant Congress\nBoston, MA\nFile | Link\nNATIONAL\n\n\nHistologic Predictors of Graft Loss in Early Clinically Indicated Biopsies After Kidney Transplantation.\nAmerican Transplant Congress\nBoston, MA\nFile | Link\n\n\n\n2021\nNATIONAL\n\nInactive status on the kidney transplant waitlist is associated with neighborhood poverty.\nNational Kidney Foundation Spring Clinical Meeting\nOrlando, FL\nFile | Link\n\n\n\n2019\nNATIONAL\n\nAssessment of methenamine hippurate for the prevention of recurrent urinary tract infections in adult renal transplant recipients.\nAmerican Transplant Congress\nBoston, MA\nFile | Link\n\n\n\n2018\nNATIONAL\n\nHuman Immunodeficiency Virus (HIV) diagnostic limbo: a retrospective review of discordant HIV test results in a large academic health center over a 10-year period.\nIDWeek\nSan Francisco, CA\nFile | Link\nNATIONAL\n\n\nDiagnosis and prevalence of Strongyloides in solid organ transplant patients.\nAmerican Transplant Congress\nSeattle, WA\nFile | Link\nREGIONAL\n\n\nPredicting Risk of Clinical Deterioration: A Closer Look at Resident Handoffs and Rapid Response.\nBaylor Housestaff Symposium / Texas ACP Southeast Regional Conference\nHouston, TX\nFile | Link\nAward: First place, Patient Safety/Quality Improvement category\n\n\n\n2017\nNATIONAL\n\nWait, is this an ID boards question? Chronic hepatitis in a broadly exposed liver transplant patient.\nAmerican Society of Tropical Medicine and Hygiene\nBaltimore, MD\nFile | Link\nNATIONAL\n\n\nStrongyloides Infection in Solid Organ Transplant Recipients: A Single Center Experience and Review of the Literature.\nAmerican Transplant Congress\nChicago, IL\nFile | Link\n\n\n\n2016\nLOCAL\n\nImproving preventive health services for racial and ethnic minorities: could a cell phone be the answer?\nHenry J.N. Taub/James K. Alexander Medical Student Research Symposium\nLocation not specified\nFile | Link\n\n\n\n2015\nNATIONAL\n\nOpportunities to Educate Trainees and Hospitalists Regarding Appropriate Use of Specialized Testing in Hospitalized Inpatients with HIV at a County Hospital.\nIDWeek\nSan Diego, CA\nFile | Link\nINTERNATIONAL\n\n\nSingle Tablet HIV Regimens Facilitate Improved Outcomes among Treatment Naïve Patients.\nInternational Conference on HIV Treatment and Prevention Adherence\nMiami, FL\nFile | Link\nAward: Distinguished Poster Award\nNATIONAL\n\n\nGastric Adenocarcinoma in the Setting of X-Linked Agammaglobulinemia (XLA) and HIV.\nAAAAI Annual Meeting\nLocation not specified\nFile | Link\n\n\n\n2014\nNATIONAL\n\nRecurrent skin and soft tissue infections in HIV-infected patients over a 5-year period: incidence and risk factors.\nIDWeek\nPhiladelphia, PA\nFile | Link\nNATIONAL\n\n\nA Young Man with Fever and Diffuse Muscle Pain.\nSociety of General Internal Medicine\nSan Diego, CA\nFile | Link\n\n\n\n2012\nNATIONAL\n\nUse of computer based training module to improve physician knowledge on sterile technique, complications and documentation for central line insertion to help reduce CLABSI.\nIDWeek\nSan Diego, CA\nFile | Link\n\n\n\n2011\nNATIONAL\n\nRisk factors for skin and soft tissue infections (SSTIs) in HIV-infected patients.\nSociety for Healthcare Epidemiology of America\nDallas, TX\nFile | Link\n\n\n\n2010\nNATIONAL\n\nSexual position preference (SPP) is associated with condom usage, HIV prevalence, and CD4 count at initial HIV diagnosis among MSM in Hyderabad, India.\nInfectious Diseases Society of America\nVancouver, BC\nFile | Link\n\n\n\n2008\nREGIONAL\n\nNecrotizing fasciitis: a fatal complication of peripheral intravenous cannulation.\nMidwest Society of General Internal Medicine\nChicago, IL\nFile | Link\n\n\n\n2006\nINTERNATIONAL\n\nThalamic gray matter volume reduction in mild traumatic brain injury.\nInternational Society for Magnetic Resonance in Medicine\nSeattle, WA\nFile | Link"
-  },
-  {
-    "objectID": "about.html#vagish-hemmige",
-    "href": "about.html#vagish-hemmige",
-    "title": "About",
-    "section": "Vagish Hemmige",
-    "text": "Vagish Hemmige\nI work at the intersection of infectious diseases and transplantation, with a focus on HIV care & prevention, HIV-to-HIV thoracic transplantation, and building open, reproducible R workflows for large healthcare datasets.\nI’m based in the Bronx, New York. Day to day, I split time between patient care, program building, and collaborative research—especially projects that improve access to transplant for people living with HIV and make complex data usable by clinical teams."
-  },
-  {
-    "objectID": "about.html#what-im-working-on",
-    "href": "about.html#what-im-working-on",
-    "title": "About",
-    "section": "What I’m working on",
-    "text": "What I’m working on\n\nTransplant & HIV: advancing pathways for HIV-positive donor thoracic transplants and sharing practical “how-to” resources for new programs.\nReproducible analytics in R: extensive experience using R to analyze clinical data.\nEducation: clinical reasoning, and bringing data skills to clinicians with approachable examples."
-  },
-  {
-    "objectID": "about.html#open-source-projects",
-    "href": "about.html#open-source-projects",
-    "title": "About",
-    "section": "Open-source projects",
-    "text": "Open-source projects\n\nsRtr — R helpers for working with UNOS/SRTR transplant data\nhttps://vagishhemmige.github.io/sRtr/\nstrobe — STROBE-style inclusion/exclusion tracking for observational studies\nhttps://vagishhemmige.github.io/strobe/\nusRds (in progress) — utilities for loading, labeling, and converting USRDS claims files to Parquet with schema-aware helpers."
-  },
-  {
-    "objectID": "about.html#selected-interests-methods",
-    "href": "about.html#selected-interests-methods",
-    "title": "About",
-    "section": "Selected interests & methods",
-    "text": "Selected interests & methods\n\nClinical: transplant ID, opportunistic infections, HIV prevention & primary care\n\nResearch: HIV and thoracic transplant, big data work with the SRTR and UNOS\n\nTeaching: have taught clinical infectious diseases to trainees as well as statistics and epidemiology."
-  },
-  {
-    "objectID": "about.html#speaking-teaching",
-    "href": "about.html#speaking-teaching",
-    "title": "About",
-    "section": "Speaking & teaching",
-    "text": "Speaking & teaching\nI enjoy guest lectures, workshops, and small-group sessions on:\n\nPractical R for clinicians and researchers\nEpidemiology and biostatistics\nTransplant ID topics (HIV D+/R+ programs, protocols, safety)"
-  },
-  {
-    "objectID": "about.html#mentoring",
-    "href": "about.html#mentoring",
-    "title": "About",
-    "section": "Mentoring",
-    "text": "Mentoring\nI have mentored trainees in case reports, clinical research, and big data/research methods.\nI am open to mentoring trainees and faculty at other institutions who are interested in working with big data sets such as the USRDS or the SRTR and performing their own analyses in R. While a remote trainee would need to obtain their own copy of the data, Github would enable collaboration on the analysis code."
-  },
-  {
-    "objectID": "about.html#contact-links",
-    "href": "about.html#contact-links",
-    "title": "About",
-    "section": "Contact & links",
-    "text": "Contact & links\n\nFaculty profile: https://einsteinmed.edu/faculty/15768/vagish-hemmige\n\nPhysician profile: https://doctors.montefioreeinstein.org/providers/1205162245/vagish-s-hemmige\n\nGitHub: https://github.com/VagishHemmige\n\nORCID: https://orcid.org/0009-0006-6346-1826"
-  },
-  {
-    "objectID": "index.html#overview",
-    "href": "index.html#overview",
-    "title": "Vagish Hemmige, MD MS",
-    "section": "Overview",
-    "text": "Overview\nProfessor of Medicine (Infectious Diseases) at Albert Einstein College of Medicine and transplant infectious diseases physician at Montefiore Einstein in the Bronx, NY. Interests include HIV-to-HIV thoracic transplantation, HIV prevention and treatment, and building open R tools for transplant data research.\n\nCurrent roles: Professor, Medicine (ID), Albert Einstein College of Medicine; Infectious Disease physician, Montefiore Medical Center\nLocation: Bronx, New York\n\nClinical interests: Transplant ID, HIV care & prevention, opportunistic infections\n\nMethods/tech: R, Quarto, Arrow/DuckDB, reproducible pipelines"
-  },
-  {
-    "objectID": "index.html#highlights",
-    "href": "index.html#highlights",
-    "title": "Vagish Hemmige, MD MS",
-    "section": "Highlights",
-    "text": "Highlights\n\nPart of Montefiore-Einstein’s immunocompromised transplant (ICT) ID team\n\nMedical degree from NYU Grossman School of Medicine; &gt;10 years practice experience.\n\nFaculty/clinician listings and contact available via Einstein/Montefiore directories."
-  },
-  {
-    "objectID": "index.html#open-source-projects-r",
-    "href": "index.html#open-source-projects-r",
-    "title": "Vagish Hemmige, MD MS",
-    "section": "Open-source projects (R)",
-    "text": "Open-source projects (R)\n\nsRtr — Tools for working with UNOS/SRTR transplant data in R\nRepo/docs: https://vagishhemmige.github.io/sRtr/\nusRds — Tools for working with the United States Renal Data system Repo/docs: https://vagishhemmige.github.io/usRds/"
-  },
-  {
-    "objectID": "index.html#selected-publications-media",
-    "href": "index.html#selected-publications-media",
-    "title": "Vagish Hemmige, MD MS",
-    "section": "Selected publications & media",
-    "text": "Selected publications & media\n\nMontefiore Einstein feature: ICT team advancing care for transplant recipients\nHere’s What It Will Take to Grow HIV-Positive to HIV-Positive Transplant Access\n\n\nPodcast Appearances\nHIV to HIV Heart Transplant, Methenamine, and Much More\nApple Podcasts"
-  },
-  {
-    "objectID": "index.html#links",
-    "href": "index.html#links",
-    "title": "Vagish Hemmige, MD MS",
-    "section": "Links",
-    "text": "Links\n\nFaculty profile — Albert Einstein College of Medicine\nhttps://einsteinmed.edu/faculty/15768/vagish-hemmige\nPhysician profile — Montefiore Einstein\nhttps://doctors.montefioreeinstein.org/providers/1205162245/vagish-s-hemmige\nUS News doctor profile\nhttps://health.usnews.com/doctors/vagish-hemmige-719259\nORCID\nhttps://orcid.org/0009-0006-6346-1826\nResearch/works\nhttps://pubmed.ncbi.nlm.nih.gov/?term=vagish+Hemmige&sort=date\nR packages\nsRtr: https://vagishhemmige.github.io/sRtr/\nstrobe: https://vagishhemmige.github.io/strobe/\nusRds: https://vagishhemmige.github.io/usRds/ CDCAtlas: https://vagishhemmige.github.io/CDCAtlas/"
   },
   {
     "objectID": "mentoring.html",

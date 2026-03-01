@@ -1,0 +1,69 @@
+---
+title: "Media"
+format: html
+---
+
+
+## Writing & Commentary
+
+- [Montefiore Einstein feature: ICT team advancing care for transplant recipients](https://montefioreeinstein.org/news/2024/10/03/how-8-physician-team-infectious-disease-experts-helps-transplant-patients-thrive)
+
+- [Here's What It Will Take to Grow HIV-Positive to HIV-Positive Transplant Access](https://www.medpagetoday.com/opinion/second-opinions/113782)
+
+---
+
+## Television & News Coverage
+
+These segments highlight advances in HIV-positive to HIV-positive transplantation and the broader impact of the HOPE Act on transplant policy and patient access.
+
+### HIV-Positive Grandmother Receives Historic Heart Transplant
+
+<div class="video-container">
+<iframe
+  src="https://www.youtube.com/embed/JYCqTko6Ca4"
+  title="HIV-positive heart transplant news segment"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
+</div>
+
+<div class="video-container">
+<iframe
+  src="https://www.youtube.com/embed/WWO-9bg-4Ng"
+  title="News coverage"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
+</div>
+
+<div class="video-container">
+<iframe
+  src="https://www.youtube.com/embed/LN5DT8SmIdA"
+  title="News coverage"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
+</div>
+
+---
+
+## Podcast Appearances
+
+### HIV to HIV Heart Transplant, Methenamine, and Much More  
+*Apple Podcasts*
+
+<div style="margin-top: 0.75rem; margin-bottom: 1.5rem;">
+
+<iframe
+  allow="autoplay *; encrypted-media *; fullscreen *"
+  frameborder="0"
+  height="175"
+  style="width:100%;max-width:660px;overflow:hidden;border-radius:12px;"
+  sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
+  src="https://embed.podcasts.apple.com/us/podcast/hiv-to-hiv-heart-transplant-methenamine-and-much-more/id1499279708?i=1000580159015">
+</iframe>
+
+</div>
