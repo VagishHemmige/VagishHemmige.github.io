@@ -1,5 +1,3 @@
-
-
 ---
 title: "Manuscripts"
 
@@ -9,14 +7,10 @@ format:
       text: |
         <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
         <script async src="https://embed.altmetric.com/assets/embed.js"></script>
-        
+
 execute:
   echo: false
 ---
-
-
-
-
 
 ```{r warning=FALSE, message=FALSE}
 
@@ -24,7 +18,7 @@ execute:
 library(RefManageR)
 library(tidyverse)
 
-#---- what names to bold ----
+# ---- Names to bold ----
 bold_names <- c(
   "Vagish Hemmige",
   "Vagish S. Hemmige"
@@ -37,15 +31,15 @@ bold_matches <- function(text, patterns) {
   text
 }
 
-# ---- Read Bib ----
-refs <- ReadBib("data/VH library.bib")
-
-# ---- Helper to remove BibTeX brace protection ----
+# ---- Remove BibTeX brace protection ----
 clean_braces <- function(x) {
   str_replace_all(x, "\\{|\\}", "")
 }
 
-# ---- Build clean data frame ----
+# ---- Read main library ----
+refs <- ReadBib("data/VH library.bib")
+
+# ---- Build clean dataframe ----
 df_clean <-
   as_tibble(as.data.frame(refs), rownames = "key") %>%
   mutate(
@@ -57,14 +51,15 @@ df_clean <-
     authors = str_replace_all(authors, " and ", ", "),
     authors = bold_matches(authors, bold_names),
 
-    # ---- Clean text fields ----
+    # ---- Clean fields ----
     title     = clean_braces(title),
     journal   = clean_braces(journal),
     booktitle = clean_braces(booktitle),
 
-    # ---- Base citation ----
+    # ---- Citation core ----
     citation_core = case_when(
 
+      # Journal article
       !is.na(journal) ~ str_c(
         authors, ". ",
         str_remove(title, "\\.$"), ". ",
@@ -76,6 +71,7 @@ df_clean <-
         "."
       ),
 
+      # Book chapter
       !is.na(booktitle) ~ str_c(
         authors, ". ",
         str_remove(title, "\\.$"), ". ",
@@ -89,7 +85,7 @@ df_clean <-
       TRUE ~ NA_character_
     ),
 
-    # ---- Badge HTML ----
+    # ---- DOI badges ----
     badges = if_else(
       !is.na(doi) & doi != "",
       str_c(
@@ -103,20 +99,50 @@ df_clean <-
       ""
     ),
 
-    # ---- Final citation ----
     citation = str_c(
       citation_core,
       if_else(!is.na(doi) & doi != "",
               str_c(" [doi](https://doi.org/", doi, ")"),
               ""),
       " ",
-      badges,
-      "" 
+      badges
     )
   ) %>%
   filter(!is.na(citation)) %>%
   arrange(desc(year))
 
+
+# ---- Split into sections ----
+df_journal <- df_clean %>%
+  filter(!is.na(journal))
+
+df_chapter <- df_clean %>%
+  filter(is.na(journal) & !is.na(booktitle))
+
+
+# ---- Print function ----
+print_section <- function(df, section_title) {
+
+  cat("\n\n# ", section_title, "\n\n", sep = "")
+
+  years_desc <- sort(unique(df$year), decreasing = TRUE)
+
+  for (yr in years_desc) {
+
+    cat("\n\n## ", yr, "\n\n", sep = "")
+
+    subset <- df %>% filter(year == yr)
+
+    for (i in seq_len(nrow(subset))) {
+
+      key_i <- subset$key[[i]]
+      cit_i <- subset$citation[[i]]
+
+      cat("### {#", key_i, "}\n\n", sep = "")
+      cat(cit_i, "\n\n")
+    }
+  }
+}
 
 
 
@@ -126,26 +152,9 @@ df_clean <-
 ```{r results='asis'}
 
 
-years_desc <- sort(unique(df_clean$year), decreasing = TRUE)
+print_section(df_journal, "Peer-Reviewed Journal Articles")
+print_section(df_chapter, "Book Chapters")
 
-for (yr in years_desc) {
-  
-  cat("\n\n## ", yr, "\n\n", sep = "")
-  
-  subset <- df_clean %>% filter(year == yr)
-  
-  for (i in seq_len(nrow(subset))) {
-    
-    key_i <- subset$key[[i]]
-    cit_i <- subset$citation[[i]]
-    
-    # anchor-only heading (invisible text)
-    cat("### {#", key_i, "}\n\n", sep = "")
-    
-    # citation block
-    cat(cit_i, "\n\n")
-  }
-}
 
 ```
 
