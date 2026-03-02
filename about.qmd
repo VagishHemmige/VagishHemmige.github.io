@@ -23,6 +23,21 @@ I’m based in the **Bronx, New York**. Day to day, I split time between patient
 
 ---
 
+## Education & Training
+
+- **MS, Health Sciences**
+  - University of Chicago, 2014
+- **Fellowship, Infectious Diseases**
+  - University of Chicago, 2009-2012
+- **Residency, Internal Medicine**
+  - University of Chicago, 2006-2009
+- **MD**
+  - NYU School of Medicine, 2006
+- **BA**
+  - Harvard College, 2002
+
+---
+
 ## Open-source projects
 
 - **sRtr** — R helpers for working with UNOS/SRTR transplant data  
