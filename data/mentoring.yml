@@ -257,3 +257,16 @@
   text: >
     Dr. Dangayach and I wrote a book chapter on the topic of prostatitis targeted to hospitalists.
     
+- name: "Dima Dandachi"
+  role: ["Primary mentor"]
+  years: null
+  status: "Former"
+  level: ["Fellow"]
+  current: "Associate Professor, University of Missouri-Columbia"
+  link: https://www.muhealth.org/doctors/dima-dandachi-md
+  manuscripts:
+    - dandachiMalaiseFeverNausea2018
+    - dandachiPulmonaryInfectionPatient2018
+  text: >
+    Dr. Dangayach and I wrote two case-based book chapters for 
+    [*The Infectious Disease Diagnosis: A Case Approach*](https://link.springer.com/book/10.1007/978-3-319-64906-1).
