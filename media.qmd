@@ -85,3 +85,11 @@ Appearance with Dr. Yoram Puius on Dr. Shmuel Shoham's podcast.
 </iframe>
 
 </div>
+
+### Episode 79: Early Experience in Heart Transplantation Using Donors with HIV
+*JHLT Podcast*
+
+Dr. Omar Saeed discussing the HIV-to-HIV heart transpant program.
+
+<iframe title="Libsyn Player" style="border: none" src="//html5-player.libsyn.com/embed/episode/id/40297065/height/90/theme/custom/thumbnail/yes/direction/forward/render-playlist/no/custom-color/005274/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen>
+</iframe>
