@@ -398,3 +398,25 @@
   scope: "local"
   mentees:
     - "Hannah Rosenthal"
+
+- title: "Geographic Access to Lung Transplant Centers with HIV and HOPE Experience, 2017–2022."
+  meeting: "ISHLT"
+  city: "Toronto"
+  state: "Ontario, Canada"
+  date: "2026-4-24"
+  type: "oral"
+  award: null
+  pdf: null
+  link: https://www.abstractsonline.com/pp8/#!/21397/presentation/4008
+  scope: "international"  
+
+- title: "Geographic Access to Heart Transplant Centers with HIV and HOPE Experience, 2017–2022."
+  meeting: "ISHLT"
+  city: "Toronto"
+  state: "Ontario, Canada"
+  date: "2026-4-24"
+  type: "oral"
+  award: null
+  pdf: null
+  link: https://www.abstractsonline.com/pp8/#!/21397/presentation/4136
+  scope: "international"  

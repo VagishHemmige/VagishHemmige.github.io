@@ -112,6 +112,13 @@
     "text": "What I’m working on\n\nTransplant & HIV: advancing pathways for HIV-positive donor thoracic transplants and sharing practical “how-to” resources for new programs.\nReproducible analytics in R: extensive experience using R to analyze clinical data.\nEducation: clinical reasoning, and bringing data skills to clinicians with approachable examples."
   },
   {
+    "objectID": "about.html#education-training",
+    "href": "about.html#education-training",
+    "title": "About",
+    "section": "Education & Training",
+    "text": "Education & Training\n\nMS, Health Sciences\n\nUniversity of Chicago, 2010-2014\n\nFellowship, Infectious Diseases\n\nUniversity of Chicago, 2009-2012\n\nResidency, Internal Medicine\n\nUniversity of Chicago, 2006-2009\n\nMD\n\nNYU School of Medicine, 2002-2006\n\nBA\n\nHarvard College, 1998-2002"
+  },
+  {
     "objectID": "about.html#open-source-projects",
     "href": "about.html#open-source-projects",
     "title": "About",
@@ -151,14 +158,14 @@
     "href": "abstracts.html",
     "title": "Conference Abstracts",
     "section": "",
-    "text": "NATIONAL\n\n\nAmerican Transplant Congress\nSan Diego, CA\nFile | Link\n\n\n\n\nNATIONAL\n\n\nAmerican Transplant Congress\nBoston, MA\nFile | Link\nREGIONAL\n\n\n\nInfectious Diseases Society of New York Annual Symposium\nNew York, NY\nFile | Link\n\n\n\n\nNATIONAL\n\n\nIDWeek\nLocation not specified\nFile | Link\n\n\n\n\nNATIONAL\n\n\nIDWeek\nWashington, DC\nFile | Link\nNATIONAL\n\n\n\nIDWeek\nWashington, DC\nFile | Link\n\n\n\n\nNATIONAL\n\n\nIDWeek\nSan Francisco, CA\nFile | Link\n\n\n\n\nREGIONAL\n\n\nMidwest Society of General Internal Medicine\nLocation not specified\nFile | Link"
+    "text": "INTERNATIONAL\n\n\nISHLT\nToronto, Ontario, Canada\nFile | Link\nINTERNATIONAL\n\n\n\nISHLT\nToronto, Ontario, Canada\nFile | Link\n\n\n\n\nNATIONAL\n\n\nAmerican Transplant Congress\nSan Diego, CA\nFile | Link\n\n\n\n\nNATIONAL\n\n\nAmerican Transplant Congress\nBoston, MA\nFile | Link\nREGIONAL\n\n\n\nInfectious Diseases Society of New York Annual Symposium\nNew York, NY\nFile | Link\n\n\n\n\nNATIONAL\n\n\nIDWeek\nLocation not specified\nFile | Link\n\n\n\n\nNATIONAL\n\n\nIDWeek\nWashington, DC\nFile | Link\nNATIONAL\n\n\n\nIDWeek\nWashington, DC\nFile | Link\n\n\n\n\nNATIONAL\n\n\nIDWeek\nSan Francisco, CA\nFile | Link\n\n\n\n\nREGIONAL\n\n\nMidwest Society of General Internal Medicine\nLocation not specified\nFile | Link"
   },
   {
     "objectID": "abstracts.html#oral-presentations",
     "href": "abstracts.html#oral-presentations",
     "title": "Conference Abstracts",
     "section": "",
-    "text": "NATIONAL\n\n\nAmerican Transplant Congress\nSan Diego, CA\nFile | Link\n\n\n\n\nNATIONAL\n\n\nAmerican Transplant Congress\nBoston, MA\nFile | Link\nREGIONAL\n\n\n\nInfectious Diseases Society of New York Annual Symposium\nNew York, NY\nFile | Link\n\n\n\n\nNATIONAL\n\n\nIDWeek\nLocation not specified\nFile | Link\n\n\n\n\nNATIONAL\n\n\nIDWeek\nWashington, DC\nFile | Link\nNATIONAL\n\n\n\nIDWeek\nWashington, DC\nFile | Link\n\n\n\n\nNATIONAL\n\n\nIDWeek\nSan Francisco, CA\nFile | Link\n\n\n\n\nREGIONAL\n\n\nMidwest Society of General Internal Medicine\nLocation not specified\nFile | Link"
+    "text": "INTERNATIONAL\n\n\nISHLT\nToronto, Ontario, Canada\nFile | Link\nINTERNATIONAL\n\n\n\nISHLT\nToronto, Ontario, Canada\nFile | Link\n\n\n\n\nNATIONAL\n\n\nAmerican Transplant Congress\nSan Diego, CA\nFile | Link\n\n\n\n\nNATIONAL\n\n\nAmerican Transplant Congress\nBoston, MA\nFile | Link\nREGIONAL\n\n\n\nInfectious Diseases Society of New York Annual Symposium\nNew York, NY\nFile | Link\n\n\n\n\nNATIONAL\n\n\nIDWeek\nLocation not specified\nFile | Link\n\n\n\n\nNATIONAL\n\n\nIDWeek\nWashington, DC\nFile | Link\nNATIONAL\n\n\n\nIDWeek\nWashington, DC\nFile | Link\n\n\n\n\nNATIONAL\n\n\nIDWeek\nSan Francisco, CA\nFile | Link\n\n\n\n\nREGIONAL\n\n\nMidwest Society of General Internal Medicine\nLocation not specified\nFile | Link"
   },
   {
     "objectID": "abstracts.html#poster-presentations",
@@ -362,12 +369,5 @@
     "title": "Research Projects",
     "section": "Geographic Access & Equity",
     "text": "Geographic Access & Equity\n\nHOPE-CDC Analysis 2026 ACTIVE\nGeospatial evaluation of access to HIV-experienced transplant centers across the United States.\nMethods: ACS, isochrone analysis, sf, transplant registry\nProject Site | GitHub"
-  },
-  {
-    "objectID": "about.html#education-training",
-    "href": "about.html#education-training",
-    "title": "About",
-    "section": "Education & Training",
-    "text": "Education & Training\n\nMS, Health Sciences\n\nUniversity of Chicago, 2010-2014\n\nFellowship, Infectious Diseases\n\nUniversity of Chicago, 2009-2012\n\nResidency, Internal Medicine\n\nUniversity of Chicago, 2006-2009\n\nMD\n\nNYU School of Medicine, 2002-2006\n\nBA\n\nHarvard College, 1998-2002"
   }
 ]
