@@ -27,6 +27,11 @@ website:
       - text: "GitHub"
         href: https://github.com/VagishHemmige
         target: _blank
+  page-footer:
+    left: |
+      © 2026 Vagish Hemmige
+    right: |
+      Built with [Quarto](https://quarto.org) and pkgdown-style theme
 
 format:
   html:
