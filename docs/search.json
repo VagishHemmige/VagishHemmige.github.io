@@ -312,7 +312,7 @@
     "href": "mentoring.html",
     "title": "Mentoring",
     "section": "",
-    "text": "I have mentored trainees in case reports, clinical case series, and big data/research methods.\nI am open to mentoring trainees and faculty at other institutions who are interested in working with big data sets such as the USRDS or the SRTR and performing their own analyses in R. While a remote trainee would need to obtain their own copy of the data, we can collaborate via GitHub on the analysis.\nMessage me via GitHub if you are interested in collaborating remotely."
+    "text": "I have mentored trainees in case reports, clinical case series, and big data/research methods.\nI am open to mentoring trainees and faculty at other institutions who are interested in working with big data sets such as the USRDS or the SRTR and performing their own analyses in R. While a remote trainee would need to obtain their own copy of the data, we can collaborate via GitHub on the analysis.\nSee projects for active R projects. Message me via GitHub if you are interested in collaborating remotely."
   },
   {
     "objectID": "mentoring.html#mentoring",
@@ -369,5 +369,12 @@
     "title": "Research Projects",
     "section": "Geographic Access & Equity",
     "text": "Geographic Access & Equity\n\nHOPE-CDC Analysis 2026 ACTIVE\nGeospatial evaluation of access to HIV-experienced transplant centers across the United States.\nMethods: ACS, isochrone analysis, sf, transplant registry\nProject Site | GitHub"
+  },
+  {
+    "objectID": "mentoring.html#mentoring-opportunities",
+    "href": "mentoring.html#mentoring-opportunities",
+    "title": "Mentoring",
+    "section": "",
+    "text": "I have mentored trainees in case reports, clinical case series, and big data/research methods.\nI am open to mentoring trainees and faculty at other institutions who are interested in working with big data sets such as the USRDS or the SRTR and performing their own analyses in R. While a remote trainee would need to obtain their own copy of the data, we can collaborate via GitHub on the analysis.\nSee projects for active R projects. Message me via GitHub if you are interested in collaborating remotely."
   }
 ]
