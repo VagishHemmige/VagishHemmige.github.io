@@ -1,6 +1,7 @@
 - title: "HIV-SLK Outcomes"
   theme: "HIV & Solid Organ Transplant Outcomes"
-  description: "Outcomes analysis of HIV-positive simultaneous liver-kidney transplant recipients in the United States."
+  description: "This project seeks to use the Scientific Registry of Transplant Recipients to compare outcomes after simultaneous liver-kidney transpantation
+  in peope with and without HIV."
   status: "active"
   site: "https://vagishhemmige.github.io/HIV-SLK-outcomes/"
   repo: null
@@ -16,7 +17,8 @@
 
 - title: "Cryptococcus Cost Analysis"
   theme: "Cost-Effectiveness & Health Economics"
-  description: "Economic burden and cost modeling related to cryptococcal infection in transplant populations."
+  description: "This project seeks to use the United States Renal Data System to study the additional cost attributable to an episode of cryptococcus
+  after kidney transplantation.  Longitudinal matching between patients with cryptococcus and similar controls without is used to calculate the attributable cost."
   status: "active"
   site: "https://vagishhemmige.github.io/Cryptococcus-cost-analysis/"
   repo: null
@@ -32,7 +34,8 @@
 
 - title: "Ellmer PubMed ATC 2026 Abstract Pipeline"
   theme: "Research Infrastructure & Methods"
-  description: "Automated literature extraction and structured summarization workflow using LLMs for transplant research."
+  description: "Automated literature extraction and structured summarization from 100 PDFS using LLMs, with the results extracted directly into R.  
+  The pipeline uses the ellmer package to facilitate the analysis."
   status: "active"
   site: null
   repo: "https://github.com/VagishHemmige/Ellmer-Pubmed-ATC-2026-abstract"
