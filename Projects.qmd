@@ -3,6 +3,10 @@ title: "Research Projects"
 format: html
 ---
 
+We are working on a number of research projects related to the use of the R programming language with massive data sets in transplantation.
+
+I also have collaborations with other centers to implement HIV D+/R+ thoracic transplantation programs.  See [HOPE Thoracic respository](https://hope-thoracic.github.io/HOPE-Thoracic-repository/) for further details.
+
 ```{r, include=FALSE}
 
 library(yaml)
