@@ -1,6 +1,6 @@
 ---
 title: "Vagish Hemmige, MD MS"
-year: 2025
+year: 2026
 toc: true
 toc-location: right
 page-layout: article
@@ -10,10 +10,9 @@ page-layout: article
 
 ## Overview
 
-Professor of Medicine (Infectious Diseases) at Albert Einstein College of Medicine and transplant infectious diseases physician at Montefiore Einstein in the Bronx, NY. Interests include HIV-to-HIV thoracic transplantation, HIV prevention and treatment, and building open R tools for transplant data research.
+I am an infectious diseases physician with extensive experience with Transplant ID and HIV primary care. Interests include HIV-to-HIV thoracic transplantation, HIV prevention and treatment, and building open R tools for transplant data research.
 
-- **Current roles:** Professor, Medicine (ID), Albert Einstein College of Medicine; Infectious Disease physician, Montefiore Medical Center
-- **Location:** Bronx, New York  
+- **Location:** New York, New York  
 - **Clinical interests:** Transplant ID, HIV care & prevention, opportunistic infections  
 - **Methods/tech:** R, Quarto, Arrow/DuckDB, reproducible pipelines
 
@@ -21,9 +20,8 @@ Professor of Medicine (Infectious Diseases) at Albert Einstein College of Medici
 
 ## Highlights
 
-- Part of Montefiore-Einstein’s immunocompromised transplant (ICT) ID team  
 - Medical degree from NYU Grossman School of Medicine; >10 years practice experience.  
-- Faculty/clinician listings and contact available via Einstein/Montefiore directories.
+- 50+ publications
 
 ---
 
@@ -38,12 +36,6 @@ Professor of Medicine (Infectious Diseases) at Albert Einstein College of Medici
 ---
 
 ## Links
-
-- **Faculty profile** — Albert Einstein College of Medicine  
-  <https://einsteinmed.edu/faculty/15768/vagish-hemmige>
-
-- **Physician profile** — Montefiore Einstein  
-  <https://doctors.montefioreeinstein.org/providers/1205162245/vagish-s-hemmige>
 
 - **US News doctor profile**  
   <https://health.usnews.com/doctors/vagish-hemmige-719259>

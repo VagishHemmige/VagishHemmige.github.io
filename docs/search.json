@@ -74,14 +74,14 @@
     "href": "index.html#overview",
     "title": "Vagish Hemmige, MD MS",
     "section": "Overview",
-    "text": "Overview\nProfessor of Medicine (Infectious Diseases) at Albert Einstein College of Medicine and transplant infectious diseases physician at Montefiore Einstein in the Bronx, NY. Interests include HIV-to-HIV thoracic transplantation, HIV prevention and treatment, and building open R tools for transplant data research.\n\nCurrent roles: Professor, Medicine (ID), Albert Einstein College of Medicine; Infectious Disease physician, Montefiore Medical Center\nLocation: Bronx, New York\n\nClinical interests: Transplant ID, HIV care & prevention, opportunistic infections\n\nMethods/tech: R, Quarto, Arrow/DuckDB, reproducible pipelines"
+    "text": "Overview\nI am an infectious diseases physician with extensive experience with Transplant ID and HIV primary care. Interests include HIV-to-HIV thoracic transplantation, HIV prevention and treatment, and building open R tools for transplant data research.\n\nLocation: New York, New York\n\nClinical interests: Transplant ID, HIV care & prevention, opportunistic infections\n\nMethods/tech: R, Quarto, Arrow/DuckDB, reproducible pipelines"
   },
   {
     "objectID": "index.html#highlights",
     "href": "index.html#highlights",
     "title": "Vagish Hemmige, MD MS",
     "section": "Highlights",
-    "text": "Highlights\n\nPart of Montefiore-Einstein’s immunocompromised transplant (ICT) ID team\n\nMedical degree from NYU Grossman School of Medicine; &gt;10 years practice experience.\n\nFaculty/clinician listings and contact available via Einstein/Montefiore directories."
+    "text": "Highlights\n\nMedical degree from NYU Grossman School of Medicine; &gt;10 years practice experience.\n\n50+ publications"
   },
   {
     "objectID": "index.html#open-source-projects-r",
@@ -95,7 +95,7 @@
     "href": "index.html#links",
     "title": "Vagish Hemmige, MD MS",
     "section": "Links",
-    "text": "Links\n\nFaculty profile — Albert Einstein College of Medicine\nhttps://einsteinmed.edu/faculty/15768/vagish-hemmige\nPhysician profile — Montefiore Einstein\nhttps://doctors.montefioreeinstein.org/providers/1205162245/vagish-s-hemmige\nUS News doctor profile\nhttps://health.usnews.com/doctors/vagish-hemmige-719259\nORCID\nhttps://orcid.org/0009-0006-6346-1826\nResearch/works\nhttps://pubmed.ncbi.nlm.nih.gov/?term=vagish+Hemmige&sort=date\nR packages\nsRtr: https://vagishhemmige.github.io/sRtr/\nstrobe: https://vagishhemmige.github.io/strobe/\nusRds: https://vagishhemmige.github.io/usRds/ CDCAtlas: https://vagishhemmige.github.io/CDCAtlas/"
+    "text": "Links\n\nUS News doctor profile\nhttps://health.usnews.com/doctors/vagish-hemmige-719259\nORCID\nhttps://orcid.org/0009-0006-6346-1826\nResearch/works\nhttps://pubmed.ncbi.nlm.nih.gov/?term=vagish+Hemmige&sort=date\nR packages\nsRtr: https://vagishhemmige.github.io/sRtr/\nstrobe: https://vagishhemmige.github.io/strobe/\nusRds: https://vagishhemmige.github.io/usRds/ CDCAtlas: https://vagishhemmige.github.io/CDCAtlas/"
   },
   {
     "objectID": "about.html#vagish-hemmige",
@@ -340,14 +340,14 @@
     "href": "Projects.html",
     "title": "Research Projects",
     "section": "",
-    "text": "This project seeks to use the United States Renal Data System to study the additional cost attributable to an episode of cryptococcus after kidney transplantation. Longitudinal matching between patients with cryptococcus and similar controls without is used to calculate the attributable cost.\nMethods: claims data, cost modeling, health economics\nProject Site | GitHub\n\n\n\nDecision-analytic cost-effectiveness modeling of donor cryptococcal screening strategies in solid organ transplantation.\nMethods: CEA, decision analysis, Monte Carlo simulation\nProject Site | GitHub"
+    "text": "We are working on a number of research projects related to the use of the R programming language with massive data sets in transplantation.\nI also have collaborations with other centers to implement HIV D+/R+ thoracic transplantation programs. See HOPE Thoracic respository for further details."
   },
   {
     "objectID": "Projects.html#cost-effectiveness-health-economics",
     "href": "Projects.html#cost-effectiveness-health-economics",
     "title": "Research Projects",
-    "section": "",
-    "text": "This project seeks to use the United States Renal Data System to study the additional cost attributable to an episode of cryptococcus after kidney transplantation. Longitudinal matching between patients with cryptococcus and similar controls without is used to calculate the attributable cost.\nMethods: claims data, cost modeling, health economics\nProject Site | GitHub\n\n\n\nDecision-analytic cost-effectiveness modeling of donor cryptococcal screening strategies in solid organ transplantation.\nMethods: CEA, decision analysis, Monte Carlo simulation\nProject Site | GitHub"
+    "section": "Cost-Effectiveness & Health Economics",
+    "text": "Cost-Effectiveness & Health Economics\n\nCryptococcus Cost Analysis ACTIVE\nThis project seeks to use the United States Renal Data System to study the additional cost attributable to an episode of cryptococcus after kidney transplantation. Longitudinal matching between patients with cryptococcus and similar controls without is used to calculate the attributable cost.\nMethods: claims data, cost modeling, health economics\nProject Site | GitHub\n\n\nCryptococcus Donor Screening CEA ACTIVE\nDecision-analytic cost-effectiveness modeling of donor cryptococcal screening strategies in solid organ transplantation.\nMethods: CEA, decision analysis, Monte Carlo simulation\nProject Site | GitHub"
   },
   {
     "objectID": "Projects.html#research-infrastructure-methods",
