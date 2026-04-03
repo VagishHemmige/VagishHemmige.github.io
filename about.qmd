@@ -11,8 +11,6 @@ toc-location: right
 
 I work at the intersection of **infectious diseases** and **transplantation**, with a focus on **HIV care & prevention**, **HIV-to-HIV thoracic transplantation**, and building open, reproducible **R** workflows for large healthcare datasets.
 
-I’m based in the **Bronx, New York**. Day to day, I split time between patient care, program building, and collaborative research—especially projects that improve access to transplant for people living with HIV and make complex data usable by clinical teams.
-
 ---
 
 ## What I’m working on
@@ -78,7 +76,5 @@ I am open to mentoring trainees and faculty at other institutions who are intere
 
 ## Contact & links
 
-- **Faculty profile:** <https://einsteinmed.edu/faculty/15768/vagish-hemmige>  
-- **Physician profile:** <https://doctors.montefioreeinstein.org/providers/1205162245/vagish-s-hemmige>  
 - **GitHub:** <https://github.com/VagishHemmige>  
 - **ORCID:** <https://orcid.org/0009-0006-6346-1826>
