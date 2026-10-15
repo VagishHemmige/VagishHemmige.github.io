@@ -1,5 +1,6 @@
 # authors: ordered citation text from cv/Hemmige Einstein CV 2026-09-04.docx.
-# null means not supplied by that CV; authors_truncated flags an et al. list.
+# ISHLT 2026 titles/authors supplied by the user and verified in the linked official program via browser on 2026-10-15.
+# authors_truncated flags an et al. list.
 - title: "Thalamic gray matter volume reduction in mild traumatic brain injury."
   authors: "Hemmige VS, Ge Y, Grossman R, Rusinek H."
   meeting: "International Society for Magnetic Resonance in Medicine"
@@ -25,7 +26,7 @@
   scope: "regional"
 
 - title: "Beware the boost: multi-ingredient herbal supplements and toxic epidermal necrolysis."
-  authors: "Lee JU. Hemmige VS. Jenkins E, Kapur A, Arora V."
+  authors: "Lee JU, Hemmige VS, Jenkins E, Kapur A, Arora V."
   meeting: "Midwest Society of General Internal Medicine"
   city: null
   state: null
@@ -435,8 +436,8 @@
   mentees:
     - "Hannah Rosenthal"
 
-- title: "Geographic Access to Lung Transplant Centers with HIV and HOPE Experience, 2017–2022."
-  authors: null
+- title: "Improvements in Geographic Access to Lung Transplant for People Living with HIV in The United States, 2017-2022"
+  authors: "Marc M, La Hoz R, Farghaly S, Mansour A, Alsunaid S, Durand C, Hage C, Hashmi Z, Wolfe C, Aslam S, Morrissey O, Raju S, Stosor V, Pennington K, Blumberg E, Segev D, Sanchez P, Hemmige V."
   meeting: "ISHLT"
   city: "Toronto"
   state: "Ontario, Canada"
@@ -447,8 +448,8 @@
   link: https://www.abstractsonline.com/pp8/#!/21397/presentation/4008
   scope: "international"  
 
-- title: "Geographic Access to Heart Transplant Centers with HIV and HOPE Experience, 2017–2022."
-  authors: null
+- title: "Improvements in Geographic Access to Heart Transplant for People Living with HIV in the United States, 2017-2022"
+  authors: "Radosta S, Marc M, Farr M, Jorde U, Madan S, Durand C, Goldstein D, Saeed O, La Hoz R, Forest S, Hall S, Stehlik J, Pereira M, Hashmi Z, Segev D, Wolfe C, Morrissey O, Stosor V, Aslam S, Blumberg E, Goldberg RI, Patel S, Hemmige V."
   meeting: "ISHLT"
   city: "Toronto"
   state: "Ontario, Canada"
@@ -458,3 +459,4 @@
   pdf: null
   link: https://www.abstractsonline.com/pp8/#!/21397/presentation/4136
   scope: "international"  
+

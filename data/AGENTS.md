@@ -2,36 +2,55 @@
 
 ## Durable operating instructions
 
+### Current implementation and authority (refreshed 2026-10-15)
+
+This current-state section and subsequent user confirmations supersede historical setup restrictions and observations below. Setup has progressed to YAML maintenance and an implemented Word CV generator. Do not restart initialization or ask the user to select the baseline again. The preserved original handoff is historical context, not a new restriction to undo authorized work.
+
+- The confirmed import baseline is now `cv/Archive/Hemmige Einstein CV 2026-09-04.docx`. Other older CVs and the former Einstein template are also in `cv/Archive`. These are historical sources; do not parse newly generated CVs back into records.
+- `R/cv.R` is no longer a stub. It reads education, training, appointments, certifications, memberships, honors, service, talks, grants, and abstracts YAML files, plus publications from `data/VH library.bib` through `R/citations.R`, and generates `cv/Hemmige CV <Sys.Date()>.docx`.
+- `cv/cv-styles.docx` supplies formatting, not maintained CV content. `cv/private.yml` supplies private header/contact information. Both are essential local sources within the ignored cv directory. Do not copy private contact information into data, instructions, or public output. Their existence does not make them safe to delete or replace.
+- `cv/Hemmige CV 2026-10-15.docx` exists. This agent inspected generator source but has not run or visually validated the new generator/output. Existence of the file is not proof of complete reconciliation or correct layout.
+- `R/citations.R` reads the Zotero export, formats Vancouver-like citations and author initials, converts some LaTeX markup to text, and marks Hemmige's name in bold. It is currently used by R/cv.R; manuscripts.qmd still has its own implementation. Shared website use is a future integration, not an established fact.
+- Abstracts now have scalar `authors` citation text preserving order: all 35 records are populated. The 33 baseline records preserve CV punctuation; the two ISHLT 2026 heart/lung titles and authors were updated from the user's exact official-program transcription on 2026-10-15 (presentation 4136: heart, 4008: lung). Direct web fetch initially returned HTTP 403. Subsequent interactive browser verification on 2026-10-15 successfully loaded both official program pages and confirmed the exact titles and author order/initials in YAML (18 lung authors; 23 heart authors), plus April 24, 2026 for both. For this JavaScript program planner, use a browser and allow presentation details to populate rather than treating a failed direct fetch as an inaccessible source. Neither ISHLT record has mentees, no source references to the old titles/slugs were found, and mentoring generates abstract links from current records; no manual mentoring-link update was required. Only title/authors were changed in those two records; dates, meeting, location, type, links and other fields were preserved. One other list retains et al. and has `authors_truncated: true`; it is not a complete author list. Talks have scalar `role` for all 26 records, including Moderator for the 2024 ATC Meet the Expert session. Do not convert author strings into YAML lists without checking bind_rows/map_dfr consumers for row expansion.
+- Both BibTeX files now have 73 entries, including citation key `dangayachProstatitis`. Its Zotero import and project export inclusion are complete; chapter metadata still requires verification against an authoritative source. Zotero remains the confirmed export source; exact collection/auto-export settings remain unverified.
+- `_quarto.yml` now limits project rendering to root `*.qmd` files and writes to docs. A previously generated `docs/data/AGENTS.html` was removed in commit 74f3dd1. Preserve the render restriction so maintenance instructions are not rendered as site pages. This does not establish whether historical deployed copies or Git history were removed.
+- Recent local commits inspected: ae4d439 (Generate CV from raw data), 34b6c79 (Updated for new system), 74f3dd1 (Remove agents). Git status was clean at that inspection, before this instruction refresh; do not infer remote publication or future cleanliness.
+
+The editing boundary remains data. Generator, styles, private data, Quarto source, rendering, Git mutations, and publishing remain user-managed unless explicitly authorized otherwise. Do not run R/cv.R under the current scope: it writes into cv and may overwrite a same-day output. Existing read-only source inspection does not authorize parent writes. Update actual YAML records directly when requested, validate them against both website and CV consumers, and provide precise suggested parent edits for the user in RStudio.
+
+Next work: continue unresolved factual reconciliation, verify remaining publication/chapter metadata in Zotero when authorized, and review CV output completeness/layout if requested. Do not rebuild the generator or choose a replacement format merely because historical notes describe it as pending. The current implementation uses Word/officer; Quarto/Typst was an earlier proposal. Plugin implementation and scheduled tasks are not authorized yet.
+
 ### Future plugin review questions (2026-10-15)
 
 The user identified the reconciliation questions as useful material to save for the eventual auto-updating plugin, then explicitly clarified: "We can do the detailed questions now but save too." Continue focused reconciliation questions now while preserving answers and reusable question patterns for later. This does not authorize building the plugin or scheduling tasks.
 
 Future maintainer reviews should ask focused questions about: whether open-ended employment, certifications, memberships, and reviewer roles remain current; whether planned appointments started, changed, or were cancelled; missing institutions or dates; and conflicting facts across sources. Batch related questions, reuse prior confirmations with their dates, and update only facts the user confirms or reliable authorized sources establish. Do not infer an appointment actually started merely because its planned date passed, or mark credentials expired without evidence.
 
-Resolved example: the user confirmed "Yes OMSR and MSRC was Einstein." Both Medical Student Research Committee entries now name Albert Einstein College of Medicine in service.yml; the Director of Medical Student Research appointment already names it. Save institution clarification as a reusable plugin question pattern. The two-meeting abstract question remains pending.
+Resolved example: the user confirmed "Yes OMSR and MSRC was Einstein." Both Medical Student Research Committee entries now name Albert Einstein College of Medicine in service.yml; the Director of Medical Student Research appointment already names it. Save institution clarification as a reusable plugin question pattern. The same-work question is resolved; only occurrence details and compatible representation remain pending.
 
 ### User confirmations during reconciliation (2026-10-15)
 
+- Corrected the CV punctuation typo in Beware the boost abstract authors to `Lee JU, Hemmige VS, Jenkins E, Kapur A, Arora V.` on user instruction. Author order and initials are unchanged. Parent fixes rechecked and still pending for the user in RStudio: about.qmd line 26, Health Sciences → Health Studies; mentoring.qmd line 89, projects.html# → Projects.html#. Parent files were not edited.
 - The first-place Patient Safety/Quality Improvement award for Predicting Risk of Clinical Deterioration was at Texas ACP only, not Baylor. abstracts.yml's existing award text now explicitly attributes it to Texas ACP Southeast Regional Conference, without changing its schema or the combined meeting field.
 - The user confirmed "Same at both" for Predicting Risk of Clinical Deterioration: A Closer Look at Resident Handoffs and Rapid Response, presented at the 2018 Baylor Housestaff Symposium and Texas ACP Southeast Regional Conference. This is one underlying work presented at two meetings. Separate presentation occurrences are now factually justified, but their dates and a compatible schema/consumer implementation remain to be settled before restructuring abstracts.yml. This confirmation supersedes earlier pending statements about whether it was the same work.
 - The user instructed use of the CV for the Merck grant end date: July 2, 2025; grants.yml already contains it.
-- The user confirmed the missing Prostatitis chapter should remain in the CV and explicitly authorized adding it to Zotero. A duplicate search found none. Imported into Zotero My Library as bookSection, item key IYFZXTBM, citation key dangayachProstatitis: authors P. Dangayach and V. Hemmige, book Hospital Medicine, from the confirmed CV. Year, edition, editors, publisher and pages remain unverified. No project BibTeX files were manually edited or re-exported; inclusion in an appropriate export collection remains pending. Zotero local API was enabled with preference backup and the installed desktop app launched to complete the authorized import.
+- The user confirmed the missing Prostatitis chapter should remain in the CV and explicitly authorized adding it to Zotero. A duplicate search found none. Imported into Zotero My Library as bookSection, item key IYFZXTBM, citation key dangayachProstatitis: authors P. Dangayach and V. Hemmige, book Hospital Medicine, from the confirmed CV. Year, edition, editors, publisher and pages remain unverified. At initial import this agent did not edit or re-export project BibTeX files. Subsequent local exports now include dangayachProstatitis; the exact collection/export configuration remains unverified. Zotero local API was enabled with preference backup and the installed desktop app launched to complete the authorized import.
 - Official master's subject: Health Studies. education.yml already follows this; about.qmd's Health Sciences wording needs a user-applied correction.
 - OMSR and MSRC were at Einstein; the two MSRC service entries were updated to Albert Einstein College of Medicine. The director appointment already has that institution. Location fields on MSRC entries remain unspecified.
 - Residency dates June 2006–June 2009 and fellowship dates July 2009–August 2012 are correct as recorded in training.yml.
 - November 1, 2026 remains the planned start date for the Medical Associates of the Hudson Valley physician appointment. Do not treat it as already started on October 15.
 - In response to a grouped check, the user confirmed no endings or changes to Mercor work, both board certifications, all three society memberships, and the five journal/abstract reviewer roles. Their source-explicit present end dates remain appropriate as of this confirmation.
-- The abstract mentioning two meetings remains unresolved: do not assume identical abstracts or distinct submissions, and do not restructure it until confirmed.
+- Meeting dates remain uncertain for the two-meeting abstract. The user asked to leave the November 17 Austin lead alone as trivial; do not research or substitute that date/location unless requested. The same work at both meetings and ACP-only award are confirmed.
 
-These confirmations require no changes to current YAML values. Continue reconciliation with unverified entries rather than asking these questions again.
+Apply confirmations to source records when necessary; already-applied corrections need not be repeated. Continue with unverified entries rather than asking resolved questions again.
 
 ### Initial YAML expansion (2026-10-15)
 
-The user confirmed `cv/Hemmige Einstein CV 2026-09-04.docx` as the migration baseline and then authorized: "Start with new YAML. Then we can do the minute reconciliation needed." This supersedes the setup-only restriction for creating the new records below. Existing YAML/BibTeX files and parent website files were left unchanged. Detailed entry reconciliation, publication format selection, and CV generation remain pending.
+The user confirmed `cv/Hemmige Einstein CV 2026-09-04.docx` as the migration baseline and then authorized: "Start with new YAML. Then we can do the minute reconciliation needed." This supersedes the setup-only restriction for creating the new records below. Existing YAML/BibTeX files and parent website files were left unchanged. Detailed entry reconciliation and the long-term publication authority decision remain pending. CV generation has since been implemented as documented above.
 
 Added 43 records in eight additive top-level sequence files: education.yml (3), training.yml (2), appointments.yml (8), certifications.yml (2), memberships.yml (3), honors.yml (3), service.yml (20), grants.yml (2). These are now within the user-approved YAML maintenance scope. Each record has a stable id; file comments identify the baseline source. Dates use quoted ISO strings at source precision, with date_text preserving original ranges; end_date "present" is explicit source wording and null means unspecified. Consumers must handle year/month precision instead of blindly applying as.Date. No inferred current status was added for the November 2026 appointment. Private address and email were not imported.
 
-Director of Medical Student Research is stored once in appointments.yml with cv_sections [appointments, service], reflecting its appearance in both CV sections. A future service renderer must include this record by reference rather than duplicate it. The new files have no existing website consumers; user-applied Quarto/R changes are needed to display or generate from them. Existing hard-coded education remains a transitional copy to reconcile; do not maintain it as a second authority after integration. Missing institution fields on the two Medical Student Research Committee entries are deliberately null because those individual CV entries do not explicitly name the institution.
+Director of Medical Student Research is stored once in appointments.yml with cv_sections [appointments, service], reflecting its appearance in both CV sections. The current CV service renderer includes this shared appointment without duplicating its source record. The new files feed R/cv.R but are not yet consumed by the website pages; website integration requires user-applied Quarto/R changes. Existing hard-coded education remains a transitional copy to reconcile; do not maintain it as a second authority after integration. The two Medical Student Research Committee institutions were initially null, then filled with Albert Einstein College of Medicine after user confirmation; location fields remain null.
 
 Before creation, all eight preexisting data files were copied and hash-verified into a unique sandbox temporary directory. That directory was not accessible in a later shell session, so a persistent baseline of the seven original record files was also saved and hash-verified at `C:\Users\katta\.codex\visualizations\2026\10\15\01a140a3-9fb5-7f83-9e30-067a3c179c8b\cv-record-baseline-09e05cd0`, outside the public repository. Their hashes still match the initial inventory. All 13 YAML files parsed with R yaml using explicit UTF-8 input; 43 new unique IDs and expected counts were verified. No website/CV render was run.
 ### Clarified end state (2026-10-15)
@@ -40,9 +59,9 @@ Publication clarification: The user confirmed that the current BibTeX files come
 
 After the user fixes the repository and its consumers, the intended maintainer is a ChatGPT plugin that updates only the authoritative YAML files in data. Nothing else in the repository should be modified by that workflow: no bibliography edits, website source/style/template edits, CV/output writes, Git operations that change state, or publishing. The user handles those tasks separately. If a YAML update needs a consumer change, explain the dependency for the user to apply; do not broaden the plugin's write scope.
 
-Keep the core reconciliation, maintenance, and validation workflow independent of Codex-specific tools so people using ChatGPT Work without Codex can use it. Treat storage as a separate, explicitly authorized integration. Support direct local-folder maintenance on desktop where available, and investigate persistent storage for web/mobile before promising support. Plugin installation does not imply filesystem access. Prefer an explicit allowlist of approved YAML files and enforce the write boundary in the storage integration where supported, in addition to these behavioral instructions. Adding a new YAML file or expanding that allowlist requires explicit user authorization. The current setup task still authorizes only this AGENTS.md; it does not authorize record changes or plugin implementation.
+Keep the core reconciliation, maintenance, and validation workflow independent of Codex-specific tools so people using ChatGPT Work without Codex can use it. Treat storage as a separate, explicitly authorized integration. Support direct local-folder maintenance on desktop where available, and investigate persistent storage for web/mobile before promising support. Plugin installation does not imply filesystem access. Prefer an explicit allowlist of approved YAML files and enforce the write boundary in the storage integration where supported, in addition to these behavioral instructions. Adding a new YAML file or expanding that allowlist requires explicit user authorization. The initial setup-only restriction was superseded by user-authorized YAML creation and maintenance. Plugin implementation remains unauthorized.
 
-The user handoff below is the governing project context. Its FIRST TASK describes the initialization stage, not a recurring instruction to redo the inventory. Initialization inventory was performed on 2026-10-15; CV reconciliation and record edits remain pending. Only this AGENTS.md was authorized for modification during setup. Future record changes require a user request and the baseline safeguards below.
+The user handoff below is the governing project context. Its FIRST TASK describes the initialization stage, not a recurring instruction to redo the inventory. Initialization inventory was performed on 2026-10-15; record creation and some reconciliation edits are complete, while full reconciliation remains pending. Only this AGENTS.md was authorized for modification during setup. Future record changes require a user request and the baseline safeguards below.
 
 No existing applicable AGENTS.md was found in the repository or checked ancestor directories at setup. Recheck applicable instructions when scope changes.
 
@@ -59,11 +78,11 @@ No existing applicable AGENTS.md was found in the repository or checked ancestor
 
 `_quarto.yml` configures a Quarto website with `output-dir: docs`, HTML/Cosmo, and `styles.scss`. Root `.qmd` files, `R/cv.R`, data, styles, CSL, and the original resource folders are sources. `docs` contains generated pages and copied assets matching the configuration. `_site` contains an older-looking partial HTML output (index/about and libraries), but its current production role is unverified. `.quarto` is present and ignored. None of these observations authorize deletion. `README.md` says it is generated from `README.Rmd`.
 
-Resource folders are `abstracts`, `teaching`, `presentations` (including `Invited talks` and `Conferences`), and `images`. Their PDF/PNG/JPG files are original linked resources, not disposable build products. `.gitignore` excludes `/cv/`, `/presentations/raw`, `/abstracts/raw`, `/teaching/raw`, `.Rproj.user`, and `/.quarto/`. Ignored files can still be essential sources. The CV archive directory was empty at inspection.
+Resource folders are `abstracts`, `teaching`, `presentations` (including `Invited talks` and `Conferences`), and `images`. Their PDF/PNG/JPG files are original linked resources, not disposable build products. `.gitignore` excludes `/cv/`, `/presentations/raw`, `/abstracts/raw`, `/teaching/raw`, `.Rproj.user`, and `/.quarto/`. Ignored files can still be essential sources. The CV archive directory was empty at the initial inventory and now holds the historical CVs/template.
 
 ### Data consumers and current shape
 
-All five YAML files are top-level sequences of mappings. Counts below are top-level record counts, not completeness claims.
+All 13 YAML files are top-level sequences of mappings. The original five are listed below; the eight added files and their counts are listed under Initial YAML expansion. Counts are not completeness claims; the eight new files are consumed by R/cv.R.
 
 | Source in data | Records | Consumers and significant fields |
 | --- | ---: | --- |
@@ -72,28 +91,16 @@ All five YAML files are top-level sequences of mappings. Counts below are top-le
 | projects.yml | 5 | Projects.qmd: title, theme, description, status, site/repo, methods list |
 | talks.yml | 26 | presentation.qmd: title, venue, city/state, date, category, slides/link |
 | teaching.yml | 10 | teaching.qmd: title, venue, dates list, target, description, category, slides/link; page derives first year, most recent date and session count |
-| VH library.bib | 72 | manuscripts.qmd via RefManageR::ReadBib; mentoring.qmd via ReadBib plus front matter bibliography; contains articles and book chapters |
-| VH book chapter library.bib | 72 | No direct consumer found in inspected source; byte-identical to VH library.bib at setup |
+| VH library.bib | 73 | R/cv.R through R/citations.R, manuscripts.qmd via RefManageR::ReadBib, and mentoring.qmd; contains articles and chapters |
+| VH book chapter library.bib | 73 | No direct consumer found in inspected source; do not infer chapter-only contents from its filename |
 
 Bibliography provenance: README.Rmd explicitly describes Zotero BibTeX exports, and bibliography attachment paths refer to local Zotero storage. No export script, auto-export configuration, collection selection, or Better BibTeX settings were found in inspected project source. Exact export ownership and whether either file is automatically overwritten remain unknown. Do not edit exports until this is resolved. Do not infer a chapter-only role from the second filename. Both files had SHA256 C63F2F6510E576823F8EB6D50B96F39358F9517C31E3DC07CFE68CDCCEB7D601 at setup.
 
 Hard-coded CV-adjacent information: about.qmd contains education/training with institutions and date ranges, interests, methods, speaking topics, mentoring prose, project summaries and contact links. index.qmd contains professional overview, location, highlights, skills and package links. media.qmd contains writing, news and podcast entries and embeds. Projects.qmd and mentoring.qmd also contain introductory collaboration/mentoring prose. These are not fully represented in the data records. Completeness of appointments, service, grants, awards, and other CV sections cannot be assessed until the confirmed CV is reconciled.
 
-### CV infrastructure and baseline candidates
+### CV infrastructure and confirmed baseline
 
-`R/cv.R` loads officer, RefManageR and stringr, reads `cv/Hemmige Einstein CV template.docx`, and writes `cv/Hemmige Einstein CV <Sys.Date()>.docx`. It currently contains no insertion of YAML/BibTeX content. Do not run it: it writes outside data and could overwrite a same-day file. No complete records-to-CV pipeline was found. CV layout and output formats remain undecided; template contents have not yet been inspected.
-
-Observed cv filenames (not yet approved as migration baseline):
-
-- Hemmige Einstein CV 2026-09-04.docx (newest dated full Word candidate by filename)
-- Hemmige Einstein CV 2026-03-20.docx
-- Hemmige Einstein CV 2026-03-01.docx
-- Hemmige CV 2026-03-20.pdf
-- Hemmige CV 2026-04-13 short.docx
-- Hemmige Einstein CV template.docx
-- ~$mmige Einstein CV template.docx (Word temporary/lock-style filename; not a baseline candidate)
-
-Ask the user which full CV is current before reading it as the migration baseline. Do not assume filename dates establish authority.
+See Current implementation and authority for the implemented Word generator, style reference, private header source, and generated output. The confirmed migration baseline is `cv/Archive/Hemmige Einstein CV 2026-09-04.docx`; do not ask again which CV to use. Preserve archived documents as historical references. The generated October 15 CV is an output, not an import baseline.
 
 ### Compatibility constraints to preserve
 
@@ -111,11 +118,11 @@ Ask the user which full CV is current before reading it as the migration baselin
 
 ### Next stage
 
-Confirm the current CV and bibliography export workflow. Then perform a read-only reconciliation accounting for every entry in the confirmed CV: matched record/key, missing, conflicting, duplicate, or intentionally excluded, with section and source location. Identify information currently hard-coded and propose compatible additions without changing source authority prematurely. Before the first record edit, create a uniquely named recoverable backup in a permitted location, preferably outside the public repository; establish that location and never overwrite an older backup. No record backup was created during setup because no records were changed. After approval of reconciliation/schema decisions, maintain structured records as the authority and provide precise parent Quarto/R edits for the user to apply in RStudio.
+Continue unresolved reconciliation against the confirmed archived baseline and user confirmations. Preserve structured-record authority and use the existing generator rather than maintaining a separate CV. Before record changes, ensure a recoverable backup exists outside the public repository where permitted; never overwrite a prior backup. Two recorded baseline locations are the initial `cv-record-baseline-09e05cd0` directory and the pre-author/role snapshot `before-authors-roles-20e09649126e45ff81efd51e833f5e03`, both under `C:\Users\katta\.codex\visualizations\2026\10\15\01a140a3-9fb5-7f83-9e30-067a3c179c8b`. Recheck permissions and availability rather than assuming access. Provide precise suggestions for user-managed edits outside data. No new rendering, plugin implementation, or scheduled tasks are implied by this handoff.
 
 ## Preserved user handoff
 
-The following preserves the complete setup request and durable preferences. Read temporal instructions in light of the setup status above.
+The following preserves the original setup request verbatim for historical context. Its first-task restrictions and then-current inventory are superseded by the current-state summary and subsequent explicit user authorizations above. Its enduring boundaries and preferences still apply.
 Set up this local project for maintaining Vagish Hemmige’s academic CV and personal Quarto website. Read the context below, inspect the existing project, and create an AGENTS.md in the data folder to preserve these instructions for future chats. Do not change the YAML or bibliography records yet.
 
 PROJECT CONTEXT
@@ -253,4 +260,5 @@ FIRST TASK
 6. Propose the next reconciliation step.
 
 Do not migrate records, change schemas, or modify bibliography entries yet.
+
 
