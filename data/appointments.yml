@@ -1,0 +1,76 @@
+# Initial import from cv/Hemmige Einstein CV 2026-09-04.docx
+# Source wording retained; detailed reconciliation pending.
+# Dates are quoted ISO strings at source precision; present is explicit, null is unspecified.
+- id: "appointment-baylor-assistant-professor"
+  start_date: "2012-10"
+  end_date: "2018-03"
+  date_text: "10/2012-3/2018"
+  title: "Assistant Professor, Section of Infectious Diseases"
+  institution: "Baylor College of Medicine"
+  city: "Houston"
+  state: "TX"
+
+- id: "appointment-montefiore-attending"
+  start_date: "2018-04-13"
+  end_date: "2026-03-10"
+  date_text: "4/13/2018-3/10/2026"
+  title: "Attending Physician, Department of Medicine, Division of Infectious Diseases"
+  institution: "Montefiore Medical Center"
+  city: "Bronx"
+  state: "NY"
+
+- id: "appointment-einstein-assistant-professor"
+  start_date: "2018-04-13"
+  end_date: "2019-07-01"
+  date_text: "4/13/2018-7/1/2019"
+  title: "Assistant Professor"
+  institution: "Albert Einstein College of Medicine"
+  city: "Bronx"
+  state: "NY"
+
+- id: "appointment-einstein-associate-professor"
+  start_date: "2019-07-01"
+  end_date: "2024-07-01"
+  date_text: "7/1/2019-7/1/2024"
+  title: "Associate Professor"
+  institution: "Albert Einstein College of Medicine"
+  city: "Bronx"
+  state: "NY"
+
+- id: "appointment-einstein-student-research-director"
+  start_date: "2021-09-01"
+  end_date: "2024-07-01"
+  date_text: "9/1/2021-7/1/2024"
+  title: "Director of Medical Student Research"
+  institution: "Albert Einstein College of Medicine"
+  city: "Bronx"
+  state: "NY"
+  cv_sections: ["appointments", "service"]
+
+- id: "appointment-einstein-professor"
+  start_date: "2024-07-01"
+  end_date: "2026-03-10"
+  date_text: "7/1/2024-3/10/2026"
+  title: "Professor"
+  institution: "Albert Einstein College of Medicine"
+  city: "Bronx"
+  state: "NY"
+
+- id: "appointment-mercor"
+  start_date: "2026-06-03"
+  end_date: "present"
+  date_text: "6/3/2026-present"
+  title: "Physician AI Trainer and Writer (Independent Contractor)"
+  institution: "Mercor"
+  city: null
+  state: null
+  location: "Remote"
+
+- id: "appointment-hudson-valley"
+  start_date: "2026-11-01"
+  end_date: null
+  date_text: "11/1/2026-"
+  title: "Physician"
+  institution: "Medical Associates of the Hudson Valley"
+  city: "Kingston"
+  state: "NY"

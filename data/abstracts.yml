@@ -1,4 +1,7 @@
+# authors: ordered citation text from cv/Hemmige Einstein CV 2026-09-04.docx.
+# null means not supplied by that CV; authors_truncated flags an et al. list.
 - title: "Thalamic gray matter volume reduction in mild traumatic brain injury."
+  authors: "Hemmige VS, Ge Y, Grossman R, Rusinek H."
   meeting: "International Society for Magnetic Resonance in Medicine"
   city: "Seattle"
   state: "WA"
@@ -10,6 +13,7 @@
   scope: "international"
 
 - title: "Necrotizing fasciitis: a fatal complication of peripheral intravenous cannulation."
+  authors: "Hemmige VS, Glick S."
   meeting: "Midwest Society of General Internal Medicine"
   city: "Chicago"
   state: "IL"
@@ -21,6 +25,7 @@
   scope: "regional"
 
 - title: "Beware the boost: multi-ingredient herbal supplements and toxic epidermal necrolysis."
+  authors: "Lee JU. Hemmige VS. Jenkins E, Kapur A, Arora V."
   meeting: "Midwest Society of General Internal Medicine"
   city: null
   state: null
@@ -32,6 +37,7 @@
   scope: "regional"
 
 - title: "Sexual position preference (SPP) is associated with condom usage, HIV prevalence, and CD4 count at initial HIV diagnosis among MSM in Hyderabad, India."
+  authors: "Hemmige V, Snyder H, Liao C, Mayer K, Lakshmi V, Gandham SR, Orunganti G, Schneider JA."
   meeting: "Infectious Diseases Society of America"
   city: "Vancouver"
   state: "BC"
@@ -43,6 +49,7 @@
   scope: "national"
 
 - title: "Risk factors for skin and soft tissue infections (SSTIs) in HIV-infected patients."
+  authors: "Hemmige V, Silverman EJ, David MZ."
   meeting: "Society for Healthcare Epidemiology of America"
   city: "Dallas"
   state: "TX"
@@ -54,6 +61,7 @@
   scope: "national"
 
 - title: "Use of computer based training module to improve physician knowledge on sterile technique, complications and documentation for central line insertion to help reduce CLABSI."
+  authors: "Galaydick J, Miller M, McConville J, Tung A, Small S, Hemmige V, Landon E."
   meeting: "IDWeek"
   city: "San Diego"
   state: "CA"
@@ -65,6 +73,7 @@
   scope: "national"
 
 - title: "Recurrent skin and soft tissue infections in HIV-infected patients over a 5-year period: incidence and risk factors."
+  authors: "Hemmige V, Mcnulty M, Silverman EJ, David MZ."
   meeting: "IDWeek"
   city: "Philadelphia"
   state: "PA"
@@ -76,6 +85,7 @@
   scope: "national"
 
 - title: "A Young Man with Fever and Diffuse Muscle Pain."
+  authors: "Dangayach P, Lee L, Hemmige V."
   meeting: "Society of General Internal Medicine"
   city: "San Diego"
   state: "CA"
@@ -87,6 +97,7 @@
   scope: "national"
 
 - title: "Gastric Adenocarcinoma in the Setting of X-Linked Agammaglobulinemia (XLA) and HIV."
+  authors: "Hasan S, Hemmige V, Forbes LR, Orange JS, Hajjar J."
   meeting: "AAAAI Annual Meeting"
   city: null
   state: null
@@ -98,6 +109,7 @@
   scope: "national"
 
 - title: "Single Tablet HIV Regimens Facilitate Improved Outcomes among Treatment Naïve Patients."
+  authors: "Flash CA, Hemmige V, Carter JR, Giordano TP, Zerai T."
   meeting: "International Conference on HIV Treatment and Prevention Adherence"
   city: "Miami"
   state: "FL"
@@ -109,6 +121,7 @@
   scope: "international"
 
 - title: "Opportunities to Educate Trainees and Hospitalists Regarding Appropriate Use of Specialized Testing in Hospitalized Inpatients with HIV at a County Hospital."
+  authors: "Bolles KM, Woc-Colburn L, Hamill RJ, Hemmige V."
   meeting: "IDWeek"
   city: "San Diego"
   state: "CA"
@@ -123,6 +136,7 @@
 
 
 - title: "Improving preventive health services for racial and ethnic minorities: could a cell phone be the answer?"
+  authors: "Kumar D, Hemmige V, Arya M."
   meeting: "Henry J.N. Taub/James K. Alexander Medical Student Research Symposium"
   city: null
   state: null
@@ -134,6 +148,7 @@
   scope: "local"
 
 - title: "Strongyloides Infection in Solid Organ Transplant Recipients: A Single Center Experience and Review of the Literature."
+  authors: "El Haddad H, Hemmige V, Sofjan A, Lasco T, Restrepo A."
   meeting: "American Transplant Congress"
   city: "Chicago"
   state: "IL"
@@ -148,6 +163,7 @@
 
 
 - title: "Wait, is this an ID boards question? Chronic hepatitis in a broadly exposed liver transplant patient."
+  authors: "McKenna M, Hemmige V."
   meeting: "American Society of Tropical Medicine and Hygiene"
   city: "Baltimore"
   state: "MD"
@@ -159,17 +175,19 @@
   scope: "national"
 
 - title: "Predicting Risk of Clinical Deterioration: A Closer Look at Resident Handoffs and Rapid Response."
+  authors: "Jacobson R, Tuthill S, Sanber K, Kaul B, Hemmige V, Guy E, Shah C, Greenberg S."
   meeting: "Baylor Housestaff Symposium / Texas ACP Southeast Regional Conference"
   city: "Houston"
   state: "TX"
   date: "2018-01-01"
   type: "poster"
-  award: "First place, Patient Safety/Quality Improvement category"
+  award: "First place, Patient Safety/Quality Improvement category, Texas ACP Southeast Regional Conference"
   pdf: null
   link: null
   scope: "regional"
 
 - title: "Diagnosis and prevalence of Strongyloides in solid organ transplant patients."
+  authors: "Pritchard H, Clark E, Hemmige V, Restrepo A, Mejia R."
   meeting: "American Transplant Congress"
   city: "Seattle"
   state: "WA"
@@ -183,6 +201,7 @@
     - "Haley Pritchard"
 
 - title: "Human Immunodeficiency Virus (HIV) diagnostic limbo: a retrospective review of discordant HIV test results in a large academic health center over a 10-year period."
+  authors: "Commanday A, Rose SR, Hemmige V, Rubin J, Giordano TP."
   meeting: "IDWeek"
   city: "San Francisco"
   state: "CA"
@@ -194,6 +213,7 @@
   scope: "national"
 
 - title: "Incidence of skin and soft tissue infection in people living with HIV in a large urban public health care system in Houston, TX, 2009-2014."
+  authors: "Hemmige V, Arias C, Pasalar S, Giordano TP."
   meeting: "IDWeek"
   city: "San Francisco"
   state: "CA"
@@ -205,6 +225,7 @@
   scope: "national"
 
 - title: "Assessment of methenamine hippurate for the prevention of recurrent urinary tract infections in adult renal transplant recipients."
+  authors: "Quintero O, Hemmige V, Puius Y."
   meeting: "American Transplant Congress"
   city: "Boston"
   state: "MA"
@@ -219,6 +240,7 @@
   
 
 - title: "The efficacy of oral beta-lactam antibiotics as step-down therapy for acute pyelonephritis."
+  authors: "Hobbs A, Shea K, Jaso T, Lutat K, Hemmige V."
   meeting: "IDWeek"
   city: "Washington"
   state: "DC"
@@ -233,6 +255,8 @@
 
 
 - title: "Evaluation of antibiotic utilization after introduction of a dedicated infectious diseases-critical care medicine service in critical care units."
+  authors: "Trachuk P, Hemmige V, et al."
+  authors_truncated: true
   meeting: "IDWeek"
   city: "Washington"
   state: "DC"
@@ -246,6 +270,7 @@
     - "Polina Trachuk"
 
 - title: "Association Between Universal Face Shield in a Quaternary Care Center and Reduction of SARS-COV2 Infections Among Healthcare Personnel and Patients."
+  authors: "Al Mohajer M, Hemmige V, Winterer B, Lasco T, Lembcke B."
   meeting: "IDWeek"
   city: null
   state: null
@@ -260,6 +285,7 @@
 
 
 - title: "Inactive status on the kidney transplant waitlist is associated with neighborhood poverty."
+  authors: "Sedaliu K, Grand D, Golestaneh L, Ajaimy M, Graham J, Hemmige V."
   meeting: "National Kidney Foundation Spring Clinical Meeting"
   city: "Orlando"
   state: "FL"
@@ -271,6 +297,7 @@
   scope: "national"
 
 - title: "Lung Transplantation Outcomes in Recipients Living with HIV in the United States."
+  authors: "Czeresnia JM, Madan S, Abbasi MM, Hemmige V."
   meeting: "American Transplant Congress"
   city: "Boston"
   state: "MA"
@@ -285,6 +312,7 @@
 
 
 - title: "Transplantation of solid organs recovered from deceased donors recently infected by SARS-CoV-2 in the United States."
+  authors: "Czeresnia JM, Tsai H, Hemmige V."
   meeting: "Infectious Diseases Society of New York Annual Symposium"
   city: "New York"
   state: "NY"
@@ -299,6 +327,7 @@
 
 
 - title: "Reasons for Kidney Transplant Patients to Have Outpatient Urine Cultures in the First Year Post-Transplant: An Analysis of the USRDS."
+  authors: "Hemmige V, Akalin E, Kinkhabwala M."
   meeting: "American Transplant Congress"
   city: "Boston"
   state: "MA"
@@ -310,6 +339,7 @@
   scope: "national"
 
 - title: "Histologic Predictors of Graft Loss in Early Clinically Indicated Biopsies After Kidney Transplantation."
+  authors: "Ajaimy M, Hemmige V, Liriano-Ward LE, Azzi Y, Kapoor S, Loarte P, Pynadath C, Colovai A, Akalin E."
   meeting: "American Transplant Congress"
   city: "Boston"
   state: "MA"
@@ -321,6 +351,7 @@
   scope: "national"
 
 - title: "Implementation of a medical education intervention to improve acceptance of HIV-positive donors for transplant at a tertiary care hospital."
+  authors: "Swaminathan N, Czeresnia J, Raees H, Al Anssari H, Azzi Y, Akalin E, Muggia V, Hemmige V."
   meeting: "IDWeek"
   city: "Washington"
   state: "DC"
@@ -336,6 +367,7 @@
 
 
 - title: "Outcome of HIV Positive Pancreas And Kidney-Pancreas Transplants: An Analysis Of The UNOS Database."
+  authors: "Swaminathan N, Madan S, Ajaimy M, Czeresnia J, Hemmige V."
   meeting: "American Transplant Congress"
   city: "San Diego"
   state: "CA"
@@ -349,6 +381,7 @@
     - "Neeraja Swaminathan"
 
 - title: "Landscape And Outcomes Of Heart Transplantation In Recipients With HIV."
+  authors: "Bowring M, Nauroz Z, Ruck J, Massie A, Segev D, Hemmige V, Durand C."
   meeting: "American Transplant Congress"
   city: "San Diego"
   state: "CA"
@@ -360,6 +393,7 @@
   scope: "national"
 
 - title: "Utilization of the United States Renal Data System for Transplant-Related Research."
+  authors: "Sreenivasan A, Golestaneh L, Hemmige V."
   meeting: "World Transplant Congress"
   city: "San Francisco"
   state: "CA"
@@ -373,6 +407,7 @@
     - "Anagha Sreenivasan"
 
 - title: "Geographic Access to Liver Transplant Centers with HIV and HOPE Experience, 2017–2022."
+  authors: "Rosenthal H, Fortune B, Tow C, Yaffe H, Hemmige V."
   meeting: "IDWeek"
   city: "Atlanta"
   state: "GA"
@@ -387,6 +422,7 @@
 
   
 - title: "Nationwide UNOS Analysis of Mortality After Simultaneous Liver–Kidney Transplantation in Patients With HIV, 2005–2023."
+  authors: "Rosenthal H, Tsai C, Czeresnia J, Hemmige V, Tow C."
   meeting: "NYC Center for AIDS Research Symposium"
   city: "New York"
   state: "NY"
@@ -400,6 +436,7 @@
     - "Hannah Rosenthal"
 
 - title: "Geographic Access to Lung Transplant Centers with HIV and HOPE Experience, 2017–2022."
+  authors: null
   meeting: "ISHLT"
   city: "Toronto"
   state: "Ontario, Canada"
@@ -411,6 +448,7 @@
   scope: "international"  
 
 - title: "Geographic Access to Heart Transplant Centers with HIV and HOPE Experience, 2017–2022."
+  authors: null
   meeting: "ISHLT"
   city: "Toronto"
   state: "Ontario, Canada"

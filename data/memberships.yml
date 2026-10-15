@@ -1,0 +1,20 @@
+# Initial import from cv/Hemmige Einstein CV 2026-09-04.docx
+# Source wording retained; detailed reconciliation pending.
+# Dates are quoted ISO strings at source precision; present is explicit, null is unspecified.
+- id: "membership-idsa"
+  start_date: "2010-05"
+  end_date: "present"
+  date_text: "5/2010-present"
+  society: "Infectious Diseases Society of America"
+
+- id: "membership-ast"
+  start_date: "2015-01"
+  end_date: "present"
+  date_text: "1/2015-present"
+  society: "American Society of Transplantation"
+
+- id: "membership-ishlt"
+  start_date: "2023-07-01"
+  end_date: "present"
+  date_text: "7/1/2023-present"
+  society: "International Society of Heart and Lung Transplantation"

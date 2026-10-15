@@ -1,0 +1,29 @@
+# Initial import from cv/Hemmige Einstein CV 2026-09-04.docx
+# Source wording retained; detailed reconciliation pending.
+# Dates are quoted ISO strings at source precision; present is explicit, null is unspecified.
+- id: "honor-outstanding-volunteer"
+  date: "2006-05"
+  date_text: "5/2006"
+  title: "Outstanding Volunteer"
+  institution: "NYU School of Medicine"
+  program: "South Asian Health Initiative"
+  city: "New York"
+  state: "NY"
+
+- id: "honor-physician-champion"
+  date: "2014-08"
+  date_text: "8/2014"
+  title: "Physician Champion of the Quarter"
+  institution: "Harris Health System"
+  program: null
+  city: "Houston"
+  state: "TX"
+
+- id: "honor-excellence-teaching"
+  date: "2019-06"
+  date_text: "6/2019"
+  title: "Excellence in Teaching Award"
+  institution: "Montefiore Medical Center"
+  program: "Infectious Diseases Fellowship"
+  city: "Bronx"
+  state: "NY"

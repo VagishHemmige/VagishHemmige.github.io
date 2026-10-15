@@ -1,0 +1,18 @@
+# Initial import from cv/Hemmige Einstein CV 2026-09-04.docx
+# Source wording retained; detailed reconciliation pending.
+# Dates are quoted ISO strings at source precision; present is explicit, null is unspecified.
+- id: "certification-abim-internal-medicine"
+  start_date: "2009"
+  end_date: "present"
+  date_text: "2009-present"
+  title: "Diplomate"
+  board: "American Board of Internal Medicine"
+  specialty: "Internal Medicine"
+
+- id: "certification-abim-infectious-diseases"
+  start_date: "2012"
+  end_date: "present"
+  date_text: "2012-present"
+  title: "Diplomate"
+  board: "American Board of Internal Medicine"
+  specialty: "Infectious Diseases"

@@ -1,0 +1,35 @@
+# Initial import from cv/Hemmige Einstein CV 2026-09-04.docx
+# Source wording retained; detailed reconciliation pending.
+# Dates are quoted ISO strings at source precision; present is explicit, null is unspecified.
+- id: "education-harvard-ba"
+  start_date: "1998-09"
+  end_date: "2002-06"
+  date_text: "9/1998-6/2002"
+  institution: "Harvard University"
+  city: "Cambridge"
+  state: "MA"
+  degree: "Bachelor of Arts"
+  degree_date: "2002-06"
+  honors: "Magna Cum Laude"
+  major: "Physics"
+  certificates: ["Urdu-Hindi", "Sanskrit"]
+
+- id: "education-nyu-md"
+  start_date: "2002-08"
+  end_date: "2006-05"
+  date_text: "8/2002-5/2006"
+  institution: "New York University School of Medicine"
+  city: "New York"
+  state: "NY"
+  degree: "M.D."
+  degree_date: "2006-05"
+
+- id: "education-chicago-masters"
+  start_date: "2010-07"
+  end_date: "2014-12"
+  date_text: "7/2010-12/2014"
+  institution: "University of Chicago"
+  city: "Chicago"
+  state: "IL"
+  degree: "Masters in Health Studies"
+  degree_date: "2014-12"

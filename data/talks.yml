@@ -1,4 +1,6 @@
+# role: presentation role from cv/Hemmige Einstein CV 2026-09-04.docx.
 - title: "A case of tuberculosis after BMT."
+  role: "Lecturer"
   venue: "Citywide Case Conference"
   city: "Houston"
   state: "TX"
@@ -8,6 +10,7 @@
   link: null
 
 - title: "A 33-year old man with FUO secondary to scurvy."
+  role: "Lecturer"
   venue: "Citywide Case Conference"
   city: "Houston"
   state: "TX"
@@ -17,6 +20,7 @@
   link: null
 
 - title: "`A kitten bit through my PICC line.`"
+  role: "Lecturer"
   venue: "Citywide Case Conference"
   city: "Houston"
   state: "TX"
@@ -26,6 +30,7 @@
   link: null
 
 - title: "Aspergillus infection of an Ommaya reservoir."
+  role: "Lecturer"
   venue: "Citywide Case Conference"
   city: "Houston"
   state: "TX"
@@ -35,6 +40,7 @@
   link: null
 
 - title: "Pulmonary infections after transplantation: illustrative cases."
+  role: "Lecturer"
   venue: "Houston Methodist Hospital Grand Rounds"
   city: "Houston"
   state: "TX"
@@ -44,6 +50,7 @@
   link: null
 
 - title: "Infections in CF and lung transplant patients."
+  role: "Lecturer"
   venue: "Fellow Core Curriculum"
   city: "Houston"
   state: "TX"
@@ -53,6 +60,7 @@
   link: null
 
 - title: "Infections in cirrhotics and liver transplant patients."
+  role: "Lecturer"
   venue: "Fellow Core Curriculum"
   city: "Houston"
   state: "TX"
@@ -62,6 +70,7 @@
   link: null
 
 - title: "MRSA infections in patients with HIV."
+  role: "Lecturer"
   venue: "Citywide Case Conference"
   city: "Houston"
   state: "TX"
@@ -71,6 +80,7 @@
   link: null
 
 - title: "Screening for parasitic infections in solid organ transplant candidates."
+  role: "Lecturer"
   venue: "Transplant ID Conference"
   city: "Houston"
   state: "TX"
@@ -80,6 +90,7 @@
   link: null
 
 - title: "Bacteremia secondary to Brucella."
+  role: "Lecturer"
   venue: "Citywide Case Conference"
   city: "Houston"
   state: "TX"
@@ -89,6 +100,7 @@
   link: null
 
 - title: "Cases from Texas."
+  role: "Lecturer"
   venue: "Infectious Diseases Conference, University of Chicago"
   city: "Chicago"
   state: "IL"
@@ -98,6 +110,7 @@
   link: null
 
 - title: "A case of chronic ascites secondary to Chagas disease."
+  role: "Lecturer"
   venue: "Citywide Case Conference"
   city: "Houston"
   state: "TX"
@@ -107,6 +120,7 @@
   link: null
 
 - title: "A case of suspected toxoplasma lymphadenitis during pregnancy."
+  role: "Lecturer"
   venue: "Citywide Case Conference"
   city: "Houston"
   state: "TX"
@@ -116,6 +130,7 @@
   link: null
 
 - title: "Infections in CF and lung transplant patients."
+  role: "Lecturer"
   venue: "Fellow Core Curriculum"
   city: "Houston"
   state: "TX"
@@ -125,6 +140,7 @@
   link: null
 
 - title: "A case of endovascular infection secondary to Bartonella."
+  role: "Lecturer"
   venue: "Citywide Case Conference"
   city: "Houston"
   state: "TX"
@@ -134,6 +150,7 @@
   link: null
 
 - title: "The benefits & risks of animals living with immunocompromised patients."
+  role: "Lecturer"
   venue: "Transplant ID Conference"
   city: "Houston"
   state: "TX"
@@ -143,6 +160,7 @@
   link: null
 
 - title: "The benefits & risks of animals living with immunocompromised patients."
+  role: "Lecturer"
   venue: "Texas Veterinary Medical Association Annual Conference"
   city: "Woodlands"
   state: "TX"
@@ -152,6 +170,7 @@
   link: null
 
 - title: "Infections in CF and lung transplant patients."
+  role: "Lecturer"
   venue: "Fellow Core Curriculum"
   city: "Houston"
   state: "TX"
@@ -161,6 +180,7 @@
   link: null
 
 - title: "HIV D+/R+ transplants: the Montefiore Medical Center experience."
+  role: "Speaker"
   venue: "CDC/HHS HOPE Act Workgroup Meeting"
   city: null
   state: null
@@ -170,6 +190,7 @@
   link: null
 
 - title: "HOPE ACT (HIV/Donor Transplant) Program."
+  role: "Lecturer"
   venue: "Nassau/Suffolk County Care Coordination Network"
   city: null
   state: null
@@ -179,6 +200,7 @@
   link: null
 
 - title: "The future of HIV-to-HIV thoracic transplant."
+  role: "Speaker"
   venue: "American Transplant Congress"
   city: "San Diego"
   state: "CA"
@@ -188,6 +210,7 @@
   link: null
 
 - title: "A Case of CNS T. cruzi Reactivation Post-Solid Organ Transplant."
+  role: "Speaker"
   venue: "United States Chagas Network"
   city: null
   state: null
@@ -197,6 +220,7 @@
   link: null
 
 - title: "HIV-to-HIV Transplantation."
+  role: "Speaker"
   venue: "Westchester Medical Center Transplant Center Grand Rounds"
   city: null
   state: null
@@ -206,6 +230,7 @@
   link: null
 
 - title: "Meet the Expert: Nuts and Bolts of Starting HIV-to-HIV Transplantation in Your Center"
+  role: "Moderator"
   venue: "American Transplant Congress"
   city: "Philadelphia"
   state: "PA"
@@ -215,6 +240,7 @@
   link: null
 
 - title: "Beyond the Horizon: Pioneering Thoracic and Living Donor Transplants for HIV+ Individuals"
+  role: "Speaker"
   venue: "World Transplant Congress"
   city: "San Francisco"
   state: "CA"
@@ -224,6 +250,7 @@
   link: null
 
 - title: "The current status and future of HIV D+/R+ heart and lung transplantation."
+  role: "Speaker"
   venue: "University of Minnesota Transplant Center Grand Rounds"
   city: "Minneapolis"
   state: "MN"
