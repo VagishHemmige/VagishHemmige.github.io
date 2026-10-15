@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.42">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>agents – Vagish Hemmige</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-ddd961a2510921635943dfbbd19534c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.scss">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Vagish Hemmige</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../teaching.html"> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../presentation.html"> 
+<span class="menu-text">Presentations</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../abstracts.html"> 
+<span class="menu-text">Abstracts</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../manuscripts.html"> 
+<span class="menu-text">Manuscripts</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../Projects.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../mentoring.html"> 
+<span class="menu-text">Mentoring</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../media.html"> 
+<span class="menu-text">Media</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://github.com/VagishHemmige" target="_blank"> 
+<span class="menu-text">GitHub</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#academic-cv-and-website-maintenance" id="toc-academic-cv-and-website-maintenance" class="nav-link active" data-scroll-target="#academic-cv-and-website-maintenance">Academic CV and website maintenance</a>
+  <ul class="collapse">
+  <li><a href="#durable-operating-instructions" id="toc-durable-operating-instructions" class="nav-link" data-scroll-target="#durable-operating-instructions">Durable operating instructions</a>
+  <ul class="collapse">
+  <li><a href="#future-plugin-review-questions-2026-10-15" id="toc-future-plugin-review-questions-2026-10-15" class="nav-link" data-scroll-target="#future-plugin-review-questions-2026-10-15">Future plugin review questions (2026-10-15)</a></li>
+  <li><a href="#user-confirmations-during-reconciliation-2026-10-15" id="toc-user-confirmations-during-reconciliation-2026-10-15" class="nav-link" data-scroll-target="#user-confirmations-during-reconciliation-2026-10-15">User confirmations during reconciliation (2026-10-15)</a></li>
+  <li><a href="#initial-yaml-expansion-2026-10-15" id="toc-initial-yaml-expansion-2026-10-15" class="nav-link" data-scroll-target="#initial-yaml-expansion-2026-10-15">Initial YAML expansion (2026-10-15)</a></li>
+  </ul></li>
+  <li><a href="#verified-local-inventory-2026-10-15" id="toc-verified-local-inventory-2026-10-15" class="nav-link" data-scroll-target="#verified-local-inventory-2026-10-15">Verified local inventory (2026-10-15)</a>
+  <ul class="collapse">
+  <li><a href="#sources-and-outputs" id="toc-sources-and-outputs" class="nav-link" data-scroll-target="#sources-and-outputs">Sources and outputs</a></li>
+  <li><a href="#data-consumers-and-current-shape" id="toc-data-consumers-and-current-shape" class="nav-link" data-scroll-target="#data-consumers-and-current-shape">Data consumers and current shape</a></li>
+  <li><a href="#cv-infrastructure-and-baseline-candidates" id="toc-cv-infrastructure-and-baseline-candidates" class="nav-link" data-scroll-target="#cv-infrastructure-and-baseline-candidates">CV infrastructure and baseline candidates</a></li>
+  <li><a href="#compatibility-constraints-to-preserve" id="toc-compatibility-constraints-to-preserve" class="nav-link" data-scroll-target="#compatibility-constraints-to-preserve">Compatibility constraints to preserve</a></li>
+  <li><a href="#next-stage" id="toc-next-stage" class="nav-link" data-scroll-target="#next-stage">Next stage</a></li>
+  </ul></li>
+  <li><a href="#preserved-user-handoff" id="toc-preserved-user-handoff" class="nav-link" data-scroll-target="#preserved-user-handoff">Preserved user handoff</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<section id="academic-cv-and-website-maintenance" class="level1">
+<h1>Academic CV and website maintenance</h1>
+<section id="durable-operating-instructions" class="level2">
+<h2 class="anchored" data-anchor-id="durable-operating-instructions">Durable operating instructions</h2>
+<section id="future-plugin-review-questions-2026-10-15" class="level3">
+<h3 class="anchored" data-anchor-id="future-plugin-review-questions-2026-10-15">Future plugin review questions (2026-10-15)</h3>
+<p>The user identified the reconciliation questions as useful material to save for the eventual auto-updating plugin, then explicitly clarified: “We can do the detailed questions now but save too.” Continue focused reconciliation questions now while preserving answers and reusable question patterns for later. This does not authorize building the plugin or scheduling tasks.</p>
+<p>Future maintainer reviews should ask focused questions about: whether open-ended employment, certifications, memberships, and reviewer roles remain current; whether planned appointments started, changed, or were cancelled; missing institutions or dates; and conflicting facts across sources. Batch related questions, reuse prior confirmations with their dates, and update only facts the user confirms or reliable authorized sources establish. Do not infer an appointment actually started merely because its planned date passed, or mark credentials expired without evidence.</p>
+<p>Resolved example: the user confirmed “Yes OMSR and MSRC was Einstein.” Both Medical Student Research Committee entries now name Albert Einstein College of Medicine in service.yml; the Director of Medical Student Research appointment already names it. Save institution clarification as a reusable plugin question pattern. The two-meeting abstract question remains pending.</p>
+</section>
+<section id="user-confirmations-during-reconciliation-2026-10-15" class="level3">
+<h3 class="anchored" data-anchor-id="user-confirmations-during-reconciliation-2026-10-15">User confirmations during reconciliation (2026-10-15)</h3>
+<ul>
+<li>The first-place Patient Safety/Quality Improvement award for Predicting Risk of Clinical Deterioration was at Texas ACP only, not Baylor. abstracts.yml’s existing award text now explicitly attributes it to Texas ACP Southeast Regional Conference, without changing its schema or the combined meeting field.</li>
+<li>The user confirmed “Same at both” for Predicting Risk of Clinical Deterioration: A Closer Look at Resident Handoffs and Rapid Response, presented at the 2018 Baylor Housestaff Symposium and Texas ACP Southeast Regional Conference. This is one underlying work presented at two meetings. Separate presentation occurrences are now factually justified, but their dates and a compatible schema/consumer implementation remain to be settled before restructuring abstracts.yml. This confirmation supersedes earlier pending statements about whether it was the same work.</li>
+<li>The user instructed use of the CV for the Merck grant end date: July 2, 2025; grants.yml already contains it.</li>
+<li>The user confirmed the missing Prostatitis chapter should remain in the CV and explicitly authorized adding it to Zotero. A duplicate search found none. Imported into Zotero My Library as bookSection, item key IYFZXTBM, citation key dangayachProstatitis: authors P. Dangayach and V. Hemmige, book Hospital Medicine, from the confirmed CV. Year, edition, editors, publisher and pages remain unverified. No project BibTeX files were manually edited or re-exported; inclusion in an appropriate export collection remains pending. Zotero local API was enabled with preference backup and the installed desktop app launched to complete the authorized import.</li>
+<li>Official master’s subject: Health Studies. education.yml already follows this; about.qmd’s Health Sciences wording needs a user-applied correction.</li>
+<li>OMSR and MSRC were at Einstein; the two MSRC service entries were updated to Albert Einstein College of Medicine. The director appointment already has that institution. Location fields on MSRC entries remain unspecified.</li>
+<li>Residency dates June 2006–June 2009 and fellowship dates July 2009–August 2012 are correct as recorded in training.yml.</li>
+<li>November 1, 2026 remains the planned start date for the Medical Associates of the Hudson Valley physician appointment. Do not treat it as already started on October 15.</li>
+<li>In response to a grouped check, the user confirmed no endings or changes to Mercor work, both board certifications, all three society memberships, and the five journal/abstract reviewer roles. Their source-explicit present end dates remain appropriate as of this confirmation.</li>
+<li>The abstract mentioning two meetings remains unresolved: do not assume identical abstracts or distinct submissions, and do not restructure it until confirmed.</li>
+</ul>
+<p>These confirmations require no changes to current YAML values. Continue reconciliation with unverified entries rather than asking these questions again.</p>
+</section>
+<section id="initial-yaml-expansion-2026-10-15" class="level3">
+<h3 class="anchored" data-anchor-id="initial-yaml-expansion-2026-10-15">Initial YAML expansion (2026-10-15)</h3>
+<p>The user confirmed <code>cv/Hemmige Einstein CV 2026-09-04.docx</code> as the migration baseline and then authorized: “Start with new YAML. Then we can do the minute reconciliation needed.” This supersedes the setup-only restriction for creating the new records below. Existing YAML/BibTeX files and parent website files were left unchanged. Detailed entry reconciliation, publication format selection, and CV generation remain pending.</p>
+<p>Added 43 records in eight additive top-level sequence files: education.yml (3), training.yml (2), appointments.yml (8), certifications.yml (2), memberships.yml (3), honors.yml (3), service.yml (20), grants.yml (2). These are now within the user-approved YAML maintenance scope. Each record has a stable id; file comments identify the baseline source. Dates use quoted ISO strings at source precision, with date_text preserving original ranges; end_date “present” is explicit source wording and null means unspecified. Consumers must handle year/month precision instead of blindly applying as.Date. No inferred current status was added for the November 2026 appointment. Private address and email were not imported.</p>
+<p>Director of Medical Student Research is stored once in appointments.yml with cv_sections [appointments, service], reflecting its appearance in both CV sections. A future service renderer must include this record by reference rather than duplicate it. The new files have no existing website consumers; user-applied Quarto/R changes are needed to display or generate from them. Existing hard-coded education remains a transitional copy to reconcile; do not maintain it as a second authority after integration. Missing institution fields on the two Medical Student Research Committee entries are deliberately null because those individual CV entries do not explicitly name the institution.</p>
+<p>Before creation, all eight preexisting data files were copied and hash-verified into a unique sandbox temporary directory. That directory was not accessible in a later shell session, so a persistent baseline of the seven original record files was also saved and hash-verified at <code>C:\Users\katta\.codex\visualizations\2026\10\15\01a140a3-9fb5-7f83-9e30-067a3c179c8b\cv-record-baseline-09e05cd0</code>, outside the public repository. Their hashes still match the initial inventory. All 13 YAML files parsed with R yaml using explicit UTF-8 input; 43 new unique IDs and expected counts were verified. No website/CV render was run. ### Clarified end state (2026-10-15)</p>
+<p>Publication clarification: The user confirmed that the current BibTeX files come from Zotero. The eventual goal includes automatic publication updates through ChatGPT. Whether publication records should ultimately be maintained in BibTeX, YAML, or Zotero with generated exports remains undecided. Evaluate the update workflow before choosing the authoritative publication store; do not assume the present BibTeX arrangement is permanent or convert it prematurely. Current YAML-only write authorization remains in force until the user explicitly authorizes a publication integration or a different write scope. Zotero export configuration, ownership, and overwrite behavior still need investigation. After choosing the authoritative store, use a single direction of synchronization and avoid competing authoritative copies.</p>
+<p>After the user fixes the repository and its consumers, the intended maintainer is a ChatGPT plugin that updates only the authoritative YAML files in data. Nothing else in the repository should be modified by that workflow: no bibliography edits, website source/style/template edits, CV/output writes, Git operations that change state, or publishing. The user handles those tasks separately. If a YAML update needs a consumer change, explain the dependency for the user to apply; do not broaden the plugin’s write scope.</p>
+<p>Keep the core reconciliation, maintenance, and validation workflow independent of Codex-specific tools so people using ChatGPT Work without Codex can use it. Treat storage as a separate, explicitly authorized integration. Support direct local-folder maintenance on desktop where available, and investigate persistent storage for web/mobile before promising support. Plugin installation does not imply filesystem access. Prefer an explicit allowlist of approved YAML files and enforce the write boundary in the storage integration where supported, in addition to these behavioral instructions. Adding a new YAML file or expanding that allowlist requires explicit user authorization. The current setup task still authorizes only this AGENTS.md; it does not authorize record changes or plugin implementation.</p>
+<p>The user handoff below is the governing project context. Its FIRST TASK describes the initialization stage, not a recurring instruction to redo the inventory. Initialization inventory was performed on 2026-10-15; CV reconciliation and record edits remain pending. Only this AGENTS.md was authorized for modification during setup. Future record changes require a user request and the baseline safeguards below.</p>
+<p>No existing applicable AGENTS.md was found in the repository or checked ancestor directories at setup. Recheck applicable instructions when scope changes.</p>
+</section>
+</section>
+<section id="verified-local-inventory-2026-10-15" class="level2">
+<h2 class="anchored" data-anchor-id="verified-local-inventory-2026-10-15">Verified local inventory (2026-10-15)</h2>
+<ul>
+<li>Repository: C:.github.io</li>
+<li>Working directory and project editing boundary: C:.github.io</li>
+<li>Git origin fetch/push: https://github.com/VagishHemmige/VagishHemmige.github.io.git (matches the expected repository).</li>
+<li>Git status was clean before creating this file. Git access to the parent required an approved read-only command outside the shell sandbox. This does not authorize future permission expansion or any Git mutation.</li>
+<li>Configured filesystem access allows reading the parent repository and writing data, plus a separate visualization workspace and temporary locations. Parent project writes are not permitted. Instructions and enforced permissions are distinct; inspect the actual current environment in future sessions.</li>
+<li>No remote or published content was used as a substitute for local files. Historical ChatGPT conversations were not accessed.</li>
+</ul>
+<section id="sources-and-outputs" class="level3">
+<h3 class="anchored" data-anchor-id="sources-and-outputs">Sources and outputs</h3>
+<p><code>_quarto.yml</code> configures a Quarto website with <code>output-dir: docs</code>, HTML/Cosmo, and <code>styles.scss</code>. Root <code>.qmd</code> files, <code>R/cv.R</code>, data, styles, CSL, and the original resource folders are sources. <code>docs</code> contains generated pages and copied assets matching the configuration. <code>_site</code> contains an older-looking partial HTML output (index/about and libraries), but its current production role is unverified. <code>.quarto</code> is present and ignored. None of these observations authorize deletion. <code>README.md</code> says it is generated from <code>README.Rmd</code>.</p>
+<p>Resource folders are <code>abstracts</code>, <code>teaching</code>, <code>presentations</code> (including <code>Invited talks</code> and <code>Conferences</code>), and <code>images</code>. Their PDF/PNG/JPG files are original linked resources, not disposable build products. <code>.gitignore</code> excludes <code>/cv/</code>, <code>/presentations/raw</code>, <code>/abstracts/raw</code>, <code>/teaching/raw</code>, <code>.Rproj.user</code>, and <code>/.quarto/</code>. Ignored files can still be essential sources. The CV archive directory was empty at inspection.</p>
+</section>
+<section id="data-consumers-and-current-shape" class="level3">
+<h3 class="anchored" data-anchor-id="data-consumers-and-current-shape">Data consumers and current shape</h3>
+<p>All five YAML files are top-level sequences of mappings. Counts below are top-level record counts, not completeness claims.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 40%">
+<col style="width: 30%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Source in data</th>
+<th style="text-align: right;">Records</th>
+<th>Consumers and significant fields</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>abstracts.yml</td>
+<td style="text-align: right;">35</td>
+<td>abstracts.qmd and mentoring.qmd: title, meeting, city/state, date, type, award, pdf/link, scope, optional mentees list</td>
+</tr>
+<tr class="even">
+<td>mentoring.yml</td>
+<td style="text-align: right;">21</td>
+<td>mentoring.qmd: name, level, role, years, status, current, projects, manuscripts, link, text; level/role may be scalars or lists</td>
+</tr>
+<tr class="odd">
+<td>projects.yml</td>
+<td style="text-align: right;">5</td>
+<td>Projects.qmd: title, theme, description, status, site/repo, methods list</td>
+</tr>
+<tr class="even">
+<td>talks.yml</td>
+<td style="text-align: right;">26</td>
+<td>presentation.qmd: title, venue, city/state, date, category, slides/link</td>
+</tr>
+<tr class="odd">
+<td>teaching.yml</td>
+<td style="text-align: right;">10</td>
+<td>teaching.qmd: title, venue, dates list, target, description, category, slides/link; page derives first year, most recent date and session count</td>
+</tr>
+<tr class="even">
+<td>VH library.bib</td>
+<td style="text-align: right;">72</td>
+<td>manuscripts.qmd via RefManageR::ReadBib; mentoring.qmd via ReadBib plus front matter bibliography; contains articles and book chapters</td>
+</tr>
+<tr class="odd">
+<td>VH book chapter library.bib</td>
+<td style="text-align: right;">72</td>
+<td>No direct consumer found in inspected source; byte-identical to VH library.bib at setup</td>
+</tr>
+</tbody>
+</table>
+<p>Bibliography provenance: README.Rmd explicitly describes Zotero BibTeX exports, and bibliography attachment paths refer to local Zotero storage. No export script, auto-export configuration, collection selection, or Better BibTeX settings were found in inspected project source. Exact export ownership and whether either file is automatically overwritten remain unknown. Do not edit exports until this is resolved. Do not infer a chapter-only role from the second filename. Both files had SHA256 C63F2F6510E576823F8EB6D50B96F39358F9517C31E3DC07CFE68CDCCEB7D601 at setup.</p>
+<p>Hard-coded CV-adjacent information: about.qmd contains education/training with institutions and date ranges, interests, methods, speaking topics, mentoring prose, project summaries and contact links. index.qmd contains professional overview, location, highlights, skills and package links. media.qmd contains writing, news and podcast entries and embeds. Projects.qmd and mentoring.qmd also contain introductory collaboration/mentoring prose. These are not fully represented in the data records. Completeness of appointments, service, grants, awards, and other CV sections cannot be assessed until the confirmed CV is reconciled.</p>
+</section>
+<section id="cv-infrastructure-and-baseline-candidates" class="level3">
+<h3 class="anchored" data-anchor-id="cv-infrastructure-and-baseline-candidates">CV infrastructure and baseline candidates</h3>
+<p><code>R/cv.R</code> loads officer, RefManageR and stringr, reads <code>cv/Hemmige Einstein CV template.docx</code>, and writes <code>cv/Hemmige Einstein CV &lt;Sys.Date()&gt;.docx</code>. It currently contains no insertion of YAML/BibTeX content. Do not run it: it writes outside data and could overwrite a same-day file. No complete records-to-CV pipeline was found. CV layout and output formats remain undecided; template contents have not yet been inspected.</p>
+<p>Observed cv filenames (not yet approved as migration baseline):</p>
+<ul>
+<li>Hemmige Einstein CV 2026-09-04.docx (newest dated full Word candidate by filename)</li>
+<li>Hemmige Einstein CV 2026-03-20.docx</li>
+<li>Hemmige Einstein CV 2026-03-01.docx</li>
+<li>Hemmige CV 2026-03-20.pdf</li>
+<li>Hemmige CV 2026-04-13 short.docx</li>
+<li>Hemmige Einstein CV template.docx</li>
+<li>~$mmige Einstein CV template.docx (Word temporary/lock-style filename; not a baseline candidate)</li>
+</ul>
+<p>Ask the user which full CV is current before reading it as the migration baseline. Do not assume filename dates establish authority.</p>
+</section>
+<section id="compatibility-constraints-to-preserve" class="level3">
+<h3 class="anchored" data-anchor-id="compatibility-constraints-to-preserve">Compatibility constraints to preserve</h3>
+<ul>
+<li>Root pages read <code>data/...</code> paths. Resource paths in YAML are used directly in page links and resolve from root-level pages, not from data; retain paths such as <code>teaching/...</code>, <code>abstracts/...</code>, and <code>presentations/...</code>, including spaces and case.</li>
+<li>Dates are parsed with base R as.Date and grouped with lubridate. Existing strings include unpadded months/days. Teaching uses a dates list rather than one date; do not collapse sessions.</li>
+<li>Presentations render only categories invited, conference, grand_rounds, teaching. Abstracts render oral/poster, with scope badges international/national/regional/local. Mentoring filters exact Active/Former; project badges use lowercase active/completed/paused. Changing values can hide records.</li>
+<li>Preserve nullable fields and scalar/list distinctions. Consumer code supplies some absent optional columns but does not constitute a general schema validator.</li>
+<li>Mentoring manuscripts are BibTeX keys that link to manuscript page anchors. Preserve keys and validate references before changes.</li>
+<li>Abstract-to-mentee relationships match exact names in each abstract’s mentees list; one abstract may link multiple mentees. Preserve that single activity record.</li>
+<li>Project references in mentoring are titles, converted to slugs. Abstract slugs derive from title, meeting and year, in both page consumers. Title/date/name changes can break cross-links.</li>
+<li>Existing mentoring project links use lowercase projects.html whereas the source/output name is Projects.qmd/Projects.html. Flag for the user’s RStudio correction; do not silently change parent source.</li>
+<li>Projects.qmd groups by title/theme/description/status/site/repo and merges methods. This may mask duplicates; validate source records directly.</li>
+<li>Manuscripts.qmd derives article/chapter sections from journal/booktitle fields in the main library, sorts numeric years, and drops records without a constructed citation. Rendered pages can omit records and are not complete backups.</li>
+<li>Some records and resource filenames have differing year/date text. Treat these as questions, not automatic factual corrections.</li>
+</ul>
+</section>
+<section id="next-stage" class="level3">
+<h3 class="anchored" data-anchor-id="next-stage">Next stage</h3>
+<p>Confirm the current CV and bibliography export workflow. Then perform a read-only reconciliation accounting for every entry in the confirmed CV: matched record/key, missing, conflicting, duplicate, or intentionally excluded, with section and source location. Identify information currently hard-coded and propose compatible additions without changing source authority prematurely. Before the first record edit, create a uniquely named recoverable backup in a permitted location, preferably outside the public repository; establish that location and never overwrite an older backup. No record backup was created during setup because no records were changed. After approval of reconciliation/schema decisions, maintain structured records as the authority and provide precise parent Quarto/R edits for the user to apply in RStudio.</p>
+</section>
+</section>
+<section id="preserved-user-handoff" class="level2">
+<h2 class="anchored" data-anchor-id="preserved-user-handoff">Preserved user handoff</h2>
+<p>The following preserves the complete setup request and durable preferences. Read temporal instructions in light of the setup status above. Set up this local project for maintaining Vagish Hemmige’s academic CV and personal Quarto website. Read the context below, inspect the existing project, and create an AGENTS.md in the data folder to preserve these instructions for future chats. Do not change the YAML or bibliography records yet.</p>
+<p>PROJECT CONTEXT</p>
+<p>This is an existing personal academic website, not a new website to build from scratch. The entire website repository is the project context; the data folder is the agent’s editing boundary.</p>
+<p>Full local website repository: C:.github.io</p>
+<p>Agent working directory and approved editing scope: C:.github.io</p>
+<p>Public website: https://vagishhemmige.github.io/</p>
+<p>Expected GitHub repository: https://github.com/VagishHemmige/VagishHemmige.github.io</p>
+<p>Verify the GitHub URL against the local Git remote. Do not assume the published website or remote repository includes all current local changes.</p>
+<p>Related planning and historical conversations are in my ChatGPT project “Github personal page.” This handoff summarizes the working decisions; do not assume you can see those conversations.</p>
+<p>GOALS AND SEQUENCE</p>
+<ol type="1">
+<li>Inventory the existing structured records and website implementation.</li>
+<li>Reconcile my current CV with those records, accounting for every CV entry.</li>
+<li>Establish a reproducible way to generate the CV from the structured records, while continuing to use them for the website.</li>
+<li>Maintain the records through ChatGPT/Codex conversations.</li>
+<li>Later add standing tasks that check appropriate external sources and ask me about activities that require my input.</li>
+<li>Eventually package the proven process as a shareable plugin with separate initializer and maintainer workflows.</li>
+</ol>
+<p>Do not build the plugin, create scheduled tasks, or redesign the website now. First establish a reliable workflow for my own records.</p>
+<p>SOURCE OF TRUTH</p>
+<ul>
+<li>Importing an existing CV into structured records is a one-time initialization workflow.</li>
+<li>After initialization, the flow is strictly structured records → CV and website.</li>
+<li>Do not parse generated CVs back into the records or maintain the CV independently.</li>
+<li>Factual corrections belong in the source records.</li>
+<li>YAMLs should hold the appropriate nonbibliographic CV information.</li>
+<li>Existing BibTeX files may remain authoritative for publications and book chapters. Inspect how they are populated and consumed before proposing conversion or edits.</li>
+<li>Determine whether Zotero exports or another process manages those bibliography files. Avoid edits that would be overwritten by the next export.</li>
+<li>Do not create competing authoritative copies of the same information.</li>
+<li>CV layout and output formats remain to be decided after inspecting the existing CV and implementation.</li>
+</ul>
+<p>UNDERSTAND THE WHOLE REPOSITORY</p>
+<p>Read and map the parent website repository, including: - _quarto.yml - Relevant .qmd files - R scripts and helper functions - Styles and templates - The data and cv folders - Bibliography files - Teaching, presentation, abstract, and image resources - Git configuration and existing changes, using read-only commands</p>
+<p>Identify source files versus generated output directories from the configuration and actual usage. Do not assume a directory is disposable based on its name.</p>
+<p>Understand how relative paths in the records resolve to files elsewhere in the website repository.</p>
+<p>Keep the broader website context when proposing data changes. Do not treat data as a standalone website or initialize a separate Git repository inside it.</p>
+<p>DIVISION OF WORK</p>
+<ul>
+<li>The agent maintains structured records inside data.</li>
+<li>I use RStudio to edit files outside data, render the website and CV, review changes, and manage Git commits and publishing.</li>
+<li>I want the agent to update the actual data files directly, without requiring me to copy updated YAMLs back and forth.</li>
+<li>When a data change requires corresponding Quarto or R changes, identify the dependency and provide precise suggested edits for me to apply in RStudio.</li>
+<li>Coordinate incompatible schema changes with those manual edits so the existing website continues to work.</li>
+<li>Prefer small, incremental improvements to the existing site.</li>
+</ul>
+<p>ACCESS AND EDITING BOUNDARIES</p>
+<ul>
+<li>Confirm the current working directory and configured filesystem permissions.</li>
+<li>The parent website repository may be read to understand the project.</li>
+<li>Project edits are limited to the data folder unless I explicitly authorize a different scope and the environment permits it.</li>
+<li>Do not edit website source, styles, templates, slides, PDFs, images, or other files outside data.</li>
+<li>Do not run a render that writes into the parent repository.</li>
+<li>Do not push, publish, commit, change branches, rewrite Git history, or expand permissions without explicit authorization.</li>
+<li>Do not delete files, bulk rename files, discard existing changes, or overwrite source documents without explicit authorization.</li>
+<li>Inspect existing changes before editing and preserve unrelated work.</li>
+<li>Before the first record changes, establish a recoverable baseline in a permitted location. Prefer a backup outside the public repository when available; never overwrite an earlier backup.</li>
+<li>Project instructions guide behavior; configured filesystem permissions provide the enforced boundary. Do not describe instructions alone as a sandbox.</li>
+</ul>
+<p>DATA DESIGN AND MAINTENANCE</p>
+<ul>
+<li>Build on the existing fields and their Quarto/R consumers.</li>
+<li>Propose incompatible schema changes before applying them.</li>
+<li>Preserve existing facts, useful fields, and relationships.</li>
+<li>Ask focused questions about missing or ambiguous information. Do not invent dates, roles, accomplishments, statuses, or other facts.</li>
+<li>Represent an underlying activity once where practical, even if it appears in multiple website or CV sections.</li>
+<li>Preserve relationships such as multiple mentees associated with one abstract without duplicating the abstract itself.</li>
+<li>Consider stable IDs, explicit statuses, and lightweight provenance where they solve a concrete maintenance problem.</li>
+<li>Distinguish public website content, CV-only content, and private information.</li>
+<li>A visibility field does not protect information stored in a public GitHub repository. Identify an appropriate storage approach before adding private information.</li>
+<li>After edits, validate YAML syntax and relevant required fields, IDs, duplicates, relationships, and compatibility with current consumers.</li>
+<li>Summarize which records changed, why, what was checked, and any questions still unresolved.</li>
+<li>Rendered pages are secondary references and may omit information; they are not complete backups.</li>
+</ul>
+<p>KNOWN DATA FILES</p>
+<p>The current data folder contains: - abstracts.yml - mentoring.yml - projects.yml - talks.yml - teaching.yml - VH book chapter library.bib - VH library.bib</p>
+<p>Inspect their actual contents and structure before drawing conclusions.</p>
+<p>FUTURE PLUGIN</p>
+<p>The eventual reusable plugin should have two distinct workflows: - Initializer: import an existing CV, reconcile it with existing records, resolve ambiguity, establish the schema, and verify complete CV generation. - Maintainer: update authoritative records through conversations and reviewed source checks, validate changes, and support regeneration of outputs.</p>
+<p>Keep reusable instructions, schemas, and templates separate from my personal records. Capture useful lessons as we work, but do not generalize or package the plugin prematurely.</p>
+<p>FIRST TASK</p>
+<ol type="1">
+<li>Read any existing applicable AGENTS.md instructions. If data/AGENTS.md already exists, reconcile these instructions with it rather than blindly replacing it.</li>
+<li>Perform a read-only inventory of the full repository structure and the relevant YAML, BibTeX, Quarto, and R source.</li>
+<li>Create or update data/AGENTS.md with these durable instructions and verified project paths. This is the only project-file change authorized at this stage.</li>
+<li>Report:
+<ul>
+<li>Which records feed which website pages.</li>
+<li>How the bibliography files are generated or maintained, or what remains unknown.</li>
+<li>Which CV-related information is already structured.</li>
+<li>Which information is hard-coded in website source.</li>
+<li>Whether any CV-generation infrastructure already exists.</li>
+<li>Compatibility constraints that matter for future data changes.</li>
+</ul></li>
+<li>Inspect filenames in the website’s cv folder and identify candidate source CVs. Ask me to confirm which is current before using one as the migration baseline.</li>
+<li>Propose the next reconciliation step.</li>
+</ol>
+<p>Do not migrate records, change schemas, or modify bibliography entries yet.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2026 Vagish Hemmige</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Built with <a href="https://quarto.org">Quarto</a> and pkgdown-style theme</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
