@@ -231,11 +231,18 @@
     "text": "Research Infrastructure & Methods\n\nEllmer PubMed ATC 2026 Abstract Pipeline ACTIVE\nAutomated literature extraction and structured summarization from 100 PDFS using LLMs, with the results extracted directly into R. The pipeline uses the ellmer package to facilitate the analysis.\nMethods: automation, LLM, structured extraction\nProject Site | GitHub"
   },
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I work at the intersection of infectious diseases and transplantation, with a focus on HIV care & prevention, HIV-to-HIV thoracic transplantation, and building open, reproducible R workflows for large healthcare datasets."
+  },
+  {
     "objectID": "about.html#vagish-hemmige",
     "href": "about.html#vagish-hemmige",
     "title": "About",
-    "section": "Vagish Hemmige",
-    "text": "Vagish Hemmige\nI work at the intersection of infectious diseases and transplantation, with a focus on HIV care & prevention, HIV-to-HIV thoracic transplantation, and building open, reproducible R workflows for large healthcare datasets."
+    "section": "",
+    "text": "I work at the intersection of infectious diseases and transplantation, with a focus on HIV care & prevention, HIV-to-HIV thoracic transplantation, and building open, reproducible R workflows for large healthcare datasets."
   },
   {
     "objectID": "about.html#what-im-working-on",
@@ -249,7 +256,7 @@
     "href": "about.html#education-training",
     "title": "About",
     "section": "Education & Training",
-    "text": "Education & Training\n\nMS, Health Sciences\n\nUniversity of Chicago, 2010-2014\n\nFellowship, Infectious Diseases\n\nUniversity of Chicago, 2009-2012\n\nResidency, Internal Medicine\n\nUniversity of Chicago, 2006-2009\n\nMD\n\nNYU School of Medicine, 2002-2006\n\nBA, Physics\n\nHarvard College, 1998-2002"
+    "text": "Education & Training\n\nMS, Health Studies\n\nUniversity of Chicago, 2010-2014\n\nFellowship, Infectious Diseases\n\nUniversity of Chicago, 2009-2012\n\nResidency, Internal Medicine\n\nUniversity of Chicago, 2006-2009\n\nMD\n\nNYU Grossman School of Medicine, 2002-2006\n\nBA, Physics\n\nHarvard College, 1998-2002"
   },
   {
     "objectID": "about.html#open-source-projects",
