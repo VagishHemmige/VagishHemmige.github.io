@@ -86,7 +86,7 @@ render_mentee <- function(m) {
     
     for (p in m$projects) {
       anchor <- slugify(p)
-      cat("- [", p, "](projects.html#", anchor, ")\n", sep = "")
+      cat("- [", p, "](Projects.html#", anchor, ")\n", sep = "")
     }
     
     cat("\n")
