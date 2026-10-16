@@ -165,7 +165,7 @@
     "href": "manuscripts.html#section-17",
     "title": "Manuscripts",
     "section": "2015",
-    "text": "2015\n\n\nP. Dangayach, V. Hemmige. Prostatitis. In: Hospital Medicine (2015)."
+    "text": "2015\n\n\nPriti Dangayach, Vagish Hemmige. Prostatitis. In: Hospital Medicine (2015)."
   },
   {
     "objectID": "manuscripts.html#section-18",
@@ -200,21 +200,7 @@
     "href": "Projects.html",
     "title": "Research Projects",
     "section": "",
-    "text": "We are working on a number of research projects related to the use of the R programming language with massive data sets in transplantation.\nI also have collaborations with other centers to implement HIV D+/R+ thoracic transplantation programs. See HOPE Thoracic respository for further details."
-  },
-  {
-    "objectID": "Projects.html#cost-effectiveness-health-economics",
-    "href": "Projects.html#cost-effectiveness-health-economics",
-    "title": "Research Projects",
-    "section": "Cost-Effectiveness & Health Economics",
-    "text": "Cost-Effectiveness & Health Economics\n\nCryptococcus Cost Analysis ACTIVE\nThis project seeks to use the United States Renal Data System to study the additional cost attributable to an episode of cryptococcus after kidney transplantation. Longitudinal matching between patients with cryptococcus and similar controls without is used to calculate the attributable cost.\nMethods: claims data, cost modeling, health economics\nProject Site | GitHub\n\n\nCryptococcus Donor Screening CEA ACTIVE\nDecision-analytic cost-effectiveness modeling of donor cryptococcal screening strategies in solid organ transplantation.\nMethods: CEA, decision analysis, Monte Carlo simulation\nProject Site | GitHub"
-  },
-  {
-    "objectID": "Projects.html#research-infrastructure-methods",
-    "href": "Projects.html#research-infrastructure-methods",
-    "title": "Research Projects",
-    "section": "Research Infrastructure & Methods",
-    "text": "Research Infrastructure & Methods\n\nEllmer PubMed ATC 2026 Abstract Pipeline ACTIVE\nAutomated literature extraction and structured summarization from 100 PDFS using LLMs, with the results extracted directly into R. The pipeline uses the ellmer package to facilitate the analysis.\nMethods: automation, LLM, structured extraction\nProject Site | GitHub"
+    "text": "I have worked on research projects that use R with large transplant datasets. I increasingly have explored the use of large language models in this type of research.\nI also have collaborated with other centers to implement HIV D+/R+ thoracic transplantation programs. See HOPE Thoracic repository for further details."
   },
   {
     "objectID": "Projects.html#hiv-solid-organ-transplant-outcomes",
@@ -224,11 +210,25 @@
     "text": "HIV & Solid Organ Transplant Outcomes\n\nHIV-SLK Outcomes ACTIVE\nThis project seeks to use the Scientific Registry of Transplant Recipients to compare outcomes after simultaneous liver-kidney transpantation in peope with and without HIV.\nMethods: registry analysis, SRTR, survival modeling\nProject Site | GitHub"
   },
   {
+    "objectID": "Projects.html#cost-effectiveness-health-economics",
+    "href": "Projects.html#cost-effectiveness-health-economics",
+    "title": "Research Projects",
+    "section": "Cost-Effectiveness & Health Economics",
+    "text": "Cost-Effectiveness & Health Economics\n\nCryptococcus Cost Analysis ACTIVE\nThis project seeks to use the United States Renal Data System to study the additional cost attributable to an episode of cryptococcus after kidney transplantation. Longitudinal matching between patients with cryptococcus and similar controls without is used to calculate the attributable cost.\nMethods: claims data, cost modeling, health economics\nProject Site | GitHub\n\n\nCryptococcus Donor Screening CEA ACTIVE\nDecision-analytic cost-effectiveness modeling of donor cryptococcal screening strategies in solid organ transplantation.\nMethods: CEA, decision analysis, Monte Carlo simulation\nProject Site | GitHub"
+  },
+  {
     "objectID": "Projects.html#geographic-access-equity",
     "href": "Projects.html#geographic-access-equity",
     "title": "Research Projects",
     "section": "Geographic Access & Equity",
     "text": "Geographic Access & Equity\n\nHOPE-CDC Analysis 2026 ACTIVE\nGeospatial evaluation of access to HIV-experienced transplant centers across the United States.\nMethods: ACS, isochrone analysis, sf, transplant registry\nProject Site | GitHub"
+  },
+  {
+    "objectID": "Projects.html#research-infrastructure-methods",
+    "href": "Projects.html#research-infrastructure-methods",
+    "title": "Research Projects",
+    "section": "Research Infrastructure & Methods",
+    "text": "Research Infrastructure & Methods\n\nEllmer PubMed ATC 2026 Abstract Pipeline ACTIVE\nAutomated literature extraction and structured summarization from 100 PDFS using LLMs, with the results extracted directly into R. The pipeline uses the ellmer package to facilitate the analysis.\nMethods: automation, LLM, structured extraction\nProject Site | GitHub"
   },
   {
     "objectID": "about.html#vagish-hemmige",

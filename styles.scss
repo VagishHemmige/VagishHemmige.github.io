@@ -1,18 +1,16 @@
 /*-- scss:rules --*/
 
 .location-badge {
-  padding: 8px 22px;              // generous side spacing
-  border-radius: 999px;           // true pill shape
-  font-size: 0.95rem;
-  font-weight: 700;
-  letter-spacing: 0.6px;
-  margin-left: 12px;
-  margin-right: 8px;
-  line-height: 1.4;
-  display: inline-block;
-  color: #ffffff;
-  text-transform: uppercase;
-  vertical-align: middle;
+ padding: 3px 10px;
+ border-radius: 999px;
+ font-size: 0.7rem;
+ font-weight: 600;
+ letter-spacing: 0.5px;
+ color: #ffffff;
+ text-transform: uppercase;
+ display: inline-block;
+ vertical-align: middle;
+ margin-left: 8px;
 }
 
 .status-badge {
@@ -48,4 +46,9 @@
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+#TOC 
+.status-badge { 
+  display: none; 
 }

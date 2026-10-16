@@ -3,9 +3,9 @@ title: "Research Projects"
 format: html
 ---
 
-We are working on a number of research projects related to the use of the R programming language with massive data sets in transplantation.
+I have worked on research projects that use R with large transplant datasets.  I increasingly have explored the use of large language models in this type of research.
 
-I also have collaborations with other centers to implement HIV D+/R+ thoracic transplantation programs.  See [HOPE Thoracic respository](https://hope-thoracic.github.io/HOPE-Thoracic-repository/) for further details.
+I also have collaborated with other centers to implement HIV D+/R+ thoracic transplantation programs.  See [HOPE Thoracic repository](https://hope-thoracic.github.io/HOPE-Thoracic-repository/) for further details.
 
 ```{r, include=FALSE}
 
@@ -46,7 +46,7 @@ status_badge <- function(status) {
 
 ```{r, results='asis', echo=FALSE}
 
-themes <- unique(projects$theme)
+themes <- unique(vapply(yaml::read_yaml("data/projects.yml"), \(p) p$theme, ""))
 
 for (th in themes) {
   
