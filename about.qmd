@@ -5,9 +5,10 @@ toc: true
 toc-location: right
 ---
 
-<img src="images/headshot.jpg" alt="Vagish Hemmige" style="width:200px;border-radius:50%;float:right;margin:0 0 1rem 1rem;" />
 
 ## Vagish Hemmige
+
+<img src="images/headshot.jpg" alt="Vagish Hemmige" style="width:200px;border-radius:50%;float:right;margin:0 0 1rem 1rem;" />
 
 I work at the intersection of **infectious diseases** and **transplantation**, with a focus on **HIV care & prevention**, **HIV-to-HIV thoracic transplantation**, and building open, reproducible **R** workflows for large healthcare datasets.
 
@@ -23,14 +24,14 @@ I work at the intersection of **infectious diseases** and **transplantation**, w
 
 ## Education & Training
 
-- **MS, Health Sciences**
+- **MS, Health Studies**
   - University of Chicago, 2010-2014
 - **Fellowship, Infectious Diseases**
   - University of Chicago, 2009-2012
 - **Residency, Internal Medicine**
   - University of Chicago, 2006-2009
 - **MD**
-  - NYU School of Medicine, 2002-2006
+  - NYU Grossman School of Medicine, 2002-2006
 - **BA, Physics**
   - Harvard College, 1998-2002
 
