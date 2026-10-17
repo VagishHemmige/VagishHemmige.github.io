@@ -3,103 +3,81 @@ title: "Media"
 format:
   html:
     page-layout: full
+execute:
+  echo: false
 ---
-
+```{r results='asis'}
+media <- yaml::read_yaml("data/media.yml", eval.expr = FALSE)
+html_text <- function(x) {
+  x <- gsub("&", "&amp;", x, fixed = TRUE)
+  x <- gsub("<", "&lt;", x, fixed = TRUE)
+  x <- gsub(">", "&gt;", x, fixed = TRUE)
+  gsub('"', "&quot;", x, fixed = TRUE)
+}
+render_media <- function(section) {
+  items <- Filter(function(x) identical(x$section, section), media)
+  is_list <- section %in% c("writing", "printed_news")
+  if (is_list) cat('<ul>\n')
+  for (item in items) {
+    stopifnot(grepl("^[a-z][a-z0-9-]*$", item$id))
+    cat(if (is_list) '<li id="' else '<div id="', item$id, '">\n', sep = "")
+    title <- html_text(item$title)
+    if (!is.null(item$url)) {
+      stopifnot(grepl("^https://", item$url))
+      title <- paste0('<a href="', html_text(item$url), '">', title, '</a>')
+    }
+    if (is_list) {
+      cat('<p>', title, '</p>\n', sep = "")
+    } else {
+      cat('<h3>', title, '</h3>\n', sep = "")
+    }
+    if (!is.null(item$outlet)) cat('<p><em>', html_text(item$outlet), '</em></p>\n', sep = "")
+    if (!is.null(item$date)) cat('<p>', html_text(item$date), '</p>\n', sep = "")
+    if (!is.null(item$description)) cat('<p>', html_text(item$description), '</p>\n', sep = "")
+    if (!is.null(item$embed)) {
+      provider <- item$embed$provider
+      src <- item$embed$src
+      patterns <- c(youtube = '^https://www[.]youtube[.]com/embed/[A-Za-z0-9_-]+$',
+                    apple_podcasts = '^https://embed[.]podcasts[.]apple[.]com/',
+                    libsyn = '^https://html5-player[.]libsyn[.]com/embed/')
+      stopifnot(provider %in% names(patterns), grepl(patterns[[provider]], src))
+      src <- html_text(src)
+      label <- html_text(item$title)
+      if (provider == "youtube") {
+        cat('<div class="video-container"><iframe src="', src, '" title="', label,
+            '" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>\n', sep = "")
+      } else if (provider == "apple_podcasts") {
+        cat('<div style="margin-top: 0.75rem; margin-bottom: 1.5rem;"><iframe title="', label,
+            '" allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:12px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" src="', src, '"></iframe></div>\n', sep = "")
+      } else if (provider == "libsyn") {
+        cat('<div style="margin-top: 0.75rem; margin-bottom: 1.5rem;"><iframe title="', label,
+            '" style="border:none" src="', src, '" height="90" width="100%" scrolling="no"></iframe></div>\n', sep = "")
+      }
+    }
+    cat(if (is_list) '</li>\n\n' else '</div>\n\n')
+  }
+  if (is_list) cat('</ul>\n')
+}
+```
 
 ## Writing & Commentary
-
-- [Montefiore Einstein feature: ICT team advancing care for transplant recipients](https://montefioreeinstein.org/news/2024/10/03/how-8-physician-team-infectious-disease-experts-helps-transplant-patients-thrive)
-
-- [Here's What It Will Take to Grow HIV-Positive to HIV-Positive Transplant Access](https://www.medpagetoday.com/opinion/second-opinions/113782)
-
-- [From Clinic to Community to Global Health, Einstein Medical Students Showcase Original Research at Inaugural Impact Day](https://montefioreeinsteinnow.org/update/2023-jul-12/einstein-medical-students-showcase-original-research-impact-day)
-
----
-
+```{r results='asis'}
+render_media("writing")
+```
+***
 ## Television & News Coverage
-
-These segments highlight advances in HIV-positive to HIV-positive transplantation and the broader impact of the HOPE Act on transplant policy and patient access.
+Selected news coverage of my clinical, research, and educational work.
 
 ### Printed news
-
-- [Emotional reunion as Westchester grandmother Mariam Nieves meets family of her heart donor in first HIV-positive to HIV-positive transplant](https://www.cbsnews.com/newyork/news/first-hiv-positive-heart-transplant/)
-
-- [HIV-Positive NYC Woman Becomes First To Get Heart Transplant From Donor Also With HIV](https://www.nbcnewyork.com/news/good-news/hiv-positive-nyc-woman-becomes-first-to-get-heart-transplant-from-donor-also-with-hiv/3969432/)
-
-- [World's First HIV-Positive to HIV-Positive Heart Transplant Recipient Meets Donor Family, Shares Gratitude for Life & Advocates for Organ Donation](https://www.dicardiology.com/content/worlds-first-hiv-positive-hiv-positive-heart-transplant-recipient-meets-donor-family-shares)
-
+```{r results='asis'}
+render_media("printed_news")
+```
 ### Video news
-
-CBS News coverage of the world's first HIV-to-HIV heart transplant:
-
-<div class="video-container">
-<iframe
-  src="https://www.youtube.com/embed/JYCqTko6Ca4"
-  title="HIV-positive heart transplant news segment"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen>
-</iframe>
-</div>
-
-Coverage from other outlets:
-
-<div class="video-container">
-<iframe
-  src="https://www.youtube.com/embed/WWO-9bg-4Ng"
-  title="News coverage"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen>
-</iframe>
-</div>
-
-<div class="video-container">
-<iframe
-  src="https://www.youtube.com/embed/LN5DT8SmIdA"
-  title="News coverage"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen>
-</iframe>
-</div>
-
----
-
+```{r results='asis'}
+render_media("video_news")
+```
+***
 ## Podcast Appearances
-
-### HIV to HIV Heart Transplant, Methenamine, and Much More  
-*Apple Podcasts*
-
-Appearance with Dr. Yoram Puius on Dr. Shmuel Shoham's podcast.
-
-<div style="margin-top: 0.75rem; margin-bottom: 1.5rem;">
-
-<iframe
-  allow="autoplay *; encrypted-media *; fullscreen *"
-  frameborder="0"
-  height="175"
-  style="width:100%;max-width:660px;overflow:hidden;border-radius:12px;"
-  sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
-  src="https://embed.podcasts.apple.com/us/podcast/hiv-to-hiv-heart-transplant-methenamine-and-much-more/id1499279708?i=1000580159015">
-</iframe>
-
-</div>
-
-### Episode 79: Early Experience in Heart Transplantation Using Donors with HIV  
-*Podcast: JHLT Podcast*
-
-Dr. Omar Saeed discussing the HIV-to-HIV heart transplant program.
-
-<div style="margin-top: 0.75rem; margin-bottom: 1.5rem;">
-
-<iframe
-  title="Libsyn Player"
-  style="border:none"
-  src="https://html5-player.libsyn.com/embed/episode/id/40297065/height/90/theme/custom/thumbnail/yes/direction/forward/render-playlist/no/custom-color/005274/"
-  height="90"
-  width="100%"
-  scrolling="no">
-</iframe>
-
-</div>
+```{r results='asis'}
+render_media("podcast")
+```

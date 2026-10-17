@@ -219,7 +219,7 @@
   manuscripts:
     - clarkStrongyloidesStercoralisInfection2020
   text: >
-    I was a secondary mentor on a prospective study of Chagas disease before and after solid organ transplantation.
+    I was a secondary mentor on a cross-sectional study of Strongyloides infection in solid organ transplant candidates and recipients.
 
 - name: "Haley Pritchard"
   role: ["Secondary research mentor"]
@@ -231,7 +231,7 @@
   manuscripts:
     - clarkStrongyloidesStercoralisInfection2020
   text: >
-    I was a secondary mentor on a prospective study of Chagas disease before and after solid organ transplantation.  Dr. Pritchard worked with Rojelio Mejia
+    I was a secondary mentor on a cross-sectional study of Strongyloides infection in solid organ transplant candidates and recipients.  Dr. Pritchard worked with Rojelio Mejia
     to perform the laboratory analyses for the study.
     
 - name: "Orlando Quintero Cardona"
@@ -254,6 +254,8 @@
   level: ["Resident", "Attending"]
   current: "Associate Professor, Baylor College of Medicine"
   link: https://cdn.bcm.edu/people-search/priti-dangayach-20261
+  manuscripts:
+    - dangayachProstatitis
   text: >
     Dr. Dangayach and I wrote a book chapter on the topic of prostatitis targeted to hospitalists.
     

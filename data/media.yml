@@ -1,0 +1,112 @@
+# Migrated from media.qmd; source wording, ordering and embed URLs preserved.
+# Dates/outlets not established by the source remain null. Section order is controlled by media.qmd.
+# The JHLT item describes coverage by Dr. Omar Saeed, not a claimed appearance by Vagish.
+
+- id: "montefiore-transplant-ict-team"
+  section: "writing"
+  title: "Montefiore Einstein feature: ICT team advancing care for transplant recipients"
+  outlet: null
+  date: null
+  description: null
+  url: "https://montefioreeinstein.org/news/2024/10/03/how-8-physician-team-infectious-disease-experts-helps-transplant-patients-thrive"
+  embed: null
+
+- id: "hiv-transplant-access-commentary"
+  section: "writing"
+  title: "Here's What It Will Take to Grow HIV-Positive to HIV-Positive Transplant Access"
+  outlet: null
+  date: null
+  description: null
+  url: "https://www.medpagetoday.com/opinion/second-opinions/113782"
+  embed: null
+
+- id: "einstein-impact-day"
+  section: "writing"
+  title: "From Clinic to Community to Global Health, Einstein Medical Students Showcase Original Research at Inaugural Impact Day"
+  outlet: null
+  date: null
+  description: null
+  url: "https://montefioreeinsteinnow.org/update/2023-jul-12/einstein-medical-students-showcase-original-research-impact-day"
+  embed: null
+
+- id: "cbs-heart-transplant-reunion"
+  section: "printed_news"
+  title: "Emotional reunion as Westchester grandmother Mariam Nieves meets family of her heart donor in first HIV-positive to HIV-positive transplant"
+  outlet: null
+  date: null
+  description: null
+  url: "https://www.cbsnews.com/newyork/news/first-hiv-positive-heart-transplant/"
+  embed: null
+
+- id: "nbc-first-hiv-heart-transplant"
+  section: "printed_news"
+  title: "HIV-Positive NYC Woman Becomes First To Get Heart Transplant From Donor Also With HIV"
+  outlet: null
+  date: null
+  description: null
+  url: "https://www.nbcnewyork.com/news/good-news/hiv-positive-nyc-woman-becomes-first-to-get-heart-transplant-from-donor-also-with-hiv/3969432/"
+  embed: null
+
+- id: "dicardiology-heart-transplant-reunion"
+  section: "printed_news"
+  title: "World's First HIV-Positive to HIV-Positive Heart Transplant Recipient Meets Donor Family, Shares Gratitude for Life & Advocates for Organ Donation"
+  outlet: null
+  date: null
+  description: null
+  url: "https://www.dicardiology.com/content/worlds-first-hiv-positive-hiv-positive-heart-transplant-recipient-meets-donor-family-shares"
+  embed: null
+
+- id: "cbs-heart-transplant-video"
+  section: "video_news"
+  title: "HIV-positive heart transplant news segment"
+  outlet: "CBS News"
+  date: null
+  description: "CBS News coverage of the world's first HIV-to-HIV heart transplant:"
+  url: "https://www.youtube.com/watch?v=JYCqTko6Ca4"
+  embed:
+    provider: "youtube"
+    src: "https://www.youtube.com/embed/JYCqTko6Ca4"
+
+- id: "heart-transplant-video-wwo"
+  section: "video_news"
+  title: "News coverage"
+  outlet: null
+  date: null
+  description: "Coverage from other outlets:"
+  url: "https://www.youtube.com/watch?v=WWO-9bg-4Ng"
+  embed:
+    provider: "youtube"
+    src: "https://www.youtube.com/embed/WWO-9bg-4Ng"
+
+- id: "heart-transplant-video-ln5"
+  section: "video_news"
+  title: "News coverage"
+  outlet: null
+  date: null
+  description: null
+  url: "https://www.youtube.com/watch?v=LN5DT8SmIdA"
+  embed:
+    provider: "youtube"
+    src: "https://www.youtube.com/embed/LN5DT8SmIdA"
+
+- id: "hiv-heart-transplant-methenamine"
+  section: "podcast"
+  title: "HIV to HIV Heart Transplant, Methenamine, and Much More"
+  outlet: "Apple Podcasts"
+  date: null
+  description: "Appearance with Dr. Yoram Puius on Dr. Shmuel Shoham's podcast."
+  url: null
+  embed:
+    provider: "apple_podcasts"
+    src: "https://embed.podcasts.apple.com/us/podcast/hiv-to-hiv-heart-transplant-methenamine-and-much-more/id1499279708?i=1000580159015"
+
+- id: "jhlt-podcast-episode-79"
+  section: "podcast"
+  title: "Episode 79: Early Experience in Heart Transplantation Using Donors with HIV"
+  outlet: "Podcast: JHLT Podcast"
+  date: null
+  description: "Dr. Omar Saeed discussing the HIV-to-HIV heart transplant program."
+  url: null
+  embed:
+    provider: "libsyn"
+    src: "https://html5-player.libsyn.com/embed/episode/id/40297065/height/90/theme/custom/thumbnail/yes/direction/forward/render-playlist/no/custom-color/005274/"
