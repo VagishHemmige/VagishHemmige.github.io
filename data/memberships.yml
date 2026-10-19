@@ -9,8 +9,8 @@
 
 - id: "membership-ast"
   start_date: "2015-01"
-  end_date: "present"
-  date_text: "1/2015-present"
+  end_date: "2026-01-01"
+  date_text: "1/2015-1/1/2026"
   society: "American Society of Transplantation"
 
 - id: "membership-ishlt"

@@ -5,3 +5,6 @@
 /abstracts/raw
 /teaching/raw
 /cv/
+.posit/assistant
+
+**/*.quarto_ipynb
