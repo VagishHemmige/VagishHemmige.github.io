@@ -427,7 +427,7 @@
   meeting: "NYC Center for AIDS Research Symposium"
   city: "New York"
   state: "NY"
-  date: "2026-2-9"
+  date: "2026-02-09"
   type: "poster"
   award: null
   pdf: "abstracts/2026 CFAR Poster.pdf"
@@ -441,7 +441,7 @@
   meeting: "ISHLT"
   city: "Toronto"
   state: "Ontario, Canada"
-  date: "2026-4-24"
+  date: "2026-04-24"
   type: "oral"
   award: null
   pdf: null
@@ -453,7 +453,7 @@
   meeting: "ISHLT"
   city: "Toronto"
   state: "Ontario, Canada"
-  date: "2026-4-24"
+  date: "2026-04-24"
   type: "oral"
   award: null
   pdf: null
