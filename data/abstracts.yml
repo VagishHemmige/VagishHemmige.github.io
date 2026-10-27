@@ -460,3 +460,16 @@
   link: https://www.abstractsonline.com/pp8/#!/21397/presentation/4136
   scope: "international"  
 
+- title: "How Well Can an Ensemble of Large Language Models Replicate a Human Review of Full-Length Transplant Related Manuscripts Using the USRDs?"
+  authors: "Sreenivasan A, Golestaneh L, Hemmige V."
+  meeting: "American Transplant Congress"
+  city: "Boston"
+  state: "MA"
+  date: "2026-06-20"
+  type: "poster"
+  award: null
+  pdf: "abstracts/2026 ATC LLM Manuscript Review.pdf"
+  link: https://www.amjtransplant.org/article/S1600-6135(26)01256-6/fulltext
+  scope: "national"
+  mentees:
+    - "Anagha Sreenivasan"
