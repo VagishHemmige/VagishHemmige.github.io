@@ -10,7 +10,6 @@ source("R/citations.R")
 
 styles_file  <- "cv/cv-styles.docx"  # formatting only; see the styles in Word
 private_file <- "cv/private.yml"     # name, address, email: kept out of the public repo
-output_file  <- file.path("cv", paste0("Hemmige CV ", Sys.Date(), ".docx"))
 
 `%||%` <- function(a, b) if (is.null(a)) b else a
 
@@ -96,14 +95,16 @@ place <- function(r) {
 
 # ---- Sections ----------------------------------------------------------------
 
-add_header <- function(doc, p) {
+add_header <- function(doc, p, public = FALSE) {
   doc <- body_add_par(doc, "CURRICULUM VITAE", style = "CV Title")
   doc <- body_add_par(doc, p$name, style = "CV Name")
-  for (line in p$address) {
-    doc <- body_add_fpar(doc, fpar(ftext(line, bold)), style = "CV Contact")
+  if (!public) {
+    for (line in p$address) {
+      doc <- body_add_fpar(doc, fpar(ftext(line, bold)), style = "CV Contact")
+    }
+    doc <- body_add_fpar(doc, fpar(hyperlink_ftext(p$email, href = paste0("mailto:", p$email))),
+                         style = "CV Contact")
   }
-  doc <- body_add_fpar(doc, fpar(hyperlink_ftext(p$email, href = paste0("mailto:", p$email))),
-                       style = "CV Contact")
   doc <- body_add_fpar(doc, fpar(hyperlink_ftext(p$website, href = p$website)),
                        style = "CV Contact")
   doc
@@ -294,24 +295,89 @@ add_bibliography <- function(doc, pubs, abstracts) {
   doc
 }
 
+# ---- PDF ---------------------------------------------------------------------
+# Word converts the .docx to PDF. The PowerShell code is passed with -Command
+# rather than as a .ps1 file, so Windows' "running scripts is disabled" policy
+# doesn't block it. Needs Word installed (Windows).
+
+ps_quote <- function(x) paste0("'", gsub("'", "''", x, fixed = TRUE), "'")
+
+docx_to_pdf <- function(docx, pdf) {
+  docx <- normalizePath(docx, winslash = "\\", mustWork = TRUE)
+  pdf  <- file.path(normalizePath(dirname(pdf), winslash = "\\", mustWork = TRUE),
+                    basename(pdf))
+  pdf  <- gsub("/", "\\", pdf, fixed = TRUE)
+  if (file.exists(pdf)) file.remove(pdf)  # so an old PDF can't pass for a new one
+
+  cmd <- paste(
+    "$ErrorActionPreference = 'Stop';",
+    "$word = New-Object -ComObject Word.Application;",
+    "$word.Visible = $false;",
+    "try {",
+    "  $doc = $word.Documents.Open(", ps_quote(docx), ", $false, $true);",
+    "  $doc.ExportAsFixedFormat(", ps_quote(pdf), ", 17);",  # 17 = PDF
+    "  $doc.Close(0)",
+    "} finally { $word.Quit(0) }"
+  )
+  out <- suppressWarnings(system2(
+    "powershell", c("-NoProfile", "-NonInteractive", "-Command", shQuote(cmd)),
+    stdout = TRUE, stderr = TRUE))
+  if (!file.exists(pdf)) {
+    stop("Word could not convert ", docx, ":\n", paste(out, collapse = "\n"))
+  }
+  invisible(pdf)
+}
+
 # ---- Build -------------------------------------------------------------------
+# Two copies, each as .docx and PDF (the PDF is made by Word):
+#   private (full header): cv/Hemmige CV <date>.docx and .pdf, Git-ignored
+#   public (no address or email): cv/Hemmige CV <date> public.docx and
+#   files/Hemmige-CV.pdf, the copy the website serves
 
-doc <- read_docx(styles_file)
-doc <- add_header(doc, yaml::read_yaml(private_file))
-doc <- add_education(doc, read_records("education"))
-doc <- add_training(doc, read_records("training"))
-doc <- add_appointments(doc, read_records("appointments"))
-doc <- add_certifications(doc, read_records("certifications"))
-doc <- add_memberships(doc, read_records("memberships"))
-doc <- add_honors(doc, read_records("honors"))
-doc <- add_service(doc, read_records("service"), read_records("appointments"))
-doc <- add_talks(doc, read_records("talks"))
-doc <- add_grants(doc, read_records("grants"))
-doc <- add_bibliography(doc, read_publications(), read_records("abstracts"))
+build_cv <- function(public) {
+  docx_file <- file.path("cv", paste0("Hemmige CV ", Sys.Date(),
+                                      if (public) " public", ".docx"))
+  pdf_file  <- if (public) public_pdf else sub("\\.docx$", ".pdf", docx_file)
 
-# Remove the empty paragraph the styles file starts with
-doc <- cursor_begin(doc)
-doc <- body_remove(doc)
+  doc <- read_docx(styles_file)
+  doc <- add_header(doc, private, public = public)
+  doc <- add_education(doc, read_records("education"))
+  doc <- add_training(doc, read_records("training"))
+  doc <- add_appointments(doc, read_records("appointments"))
+  doc <- add_certifications(doc, read_records("certifications"))
+  doc <- add_memberships(doc, read_records("memberships"))
+  doc <- add_honors(doc, read_records("honors"))
+  doc <- add_service(doc, read_records("service"), read_records("appointments"))
+  doc <- add_talks(doc, read_records("talks"))
+  doc <- add_grants(doc, read_records("grants"))
+  doc <- add_bibliography(doc, read_publications(), read_records("abstracts"))
 
-print(doc, target = output_file)
-message("Wrote ", output_file)
+  # Remove the empty paragraph the styles file starts with
+  doc <- cursor_begin(doc)
+  doc <- body_remove(doc)
+
+  print(doc, target = docx_file)
+  docx_to_pdf(docx_file, pdf_file)
+  message("Wrote ", docx_file, " and ", pdf_file)
+}
+
+# Stops if the public PDF contains any address line or the email
+check_public_pdf <- function(pdf_file, p) {
+  txt  <- paste(pdftools::pdf_text(pdf_file), collapse = "\n")
+  priv <- c(p$address, p$email)
+  hits <- priv[vapply(priv, grepl, logical(1), x = txt, fixed = TRUE)]
+  if (length(hits)) {
+    file.remove(pdf_file)
+    stop("Private details found in ", pdf_file, " (file deleted): ",
+         paste(hits, collapse = "; "))
+  }
+  message("Checked ", pdf_file, ": no address or email")
+}
+
+public_pdf <- "files/Hemmige-CV.pdf"
+private    <- yaml::read_yaml(private_file)
+dir.create("files", showWarnings = FALSE)
+
+build_cv(public = FALSE)
+build_cv(public = TRUE)
+check_public_pdf(public_pdf, private)

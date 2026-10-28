@@ -1,0 +1,15 @@
+---
+title: "Curriculum Vitae"
+toc: false
+page-layout: full
+---
+
+[Download CV (PDF)](files/Hemmige-CV.pdf){.btn .btn-primary download="Hemmige-CV.pdf"}
+
+Last updated October 2026.
+
+```{=html}
+<object data="files/Hemmige-CV.pdf#view=FitH" type="application/pdf" class="cv-embed">
+  <p>Your browser can't show the PDF here. <a href="files/Hemmige-CV.pdf">Download it instead.</a></p>
+</object>
+```

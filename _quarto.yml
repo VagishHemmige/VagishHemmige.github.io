@@ -3,6 +3,8 @@ project:
   output-dir: docs
   render:
     - "*.qmd"
+  resources:
+    - files/Hemmige-CV.pdf
 
 website:
   title: "Vagish Hemmige"
@@ -24,6 +26,8 @@ website:
         text: Mentoring
       - href: media.qmd
         text: Media
+      - href: cv.qmd
+        text: CV
       - href: about.qmd
         text: About
       - text: "GitHub"
