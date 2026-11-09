@@ -4,7 +4,7 @@
   in peope with and without HIV."
   status: "active"
   site: "https://vagishhemmige.github.io/HIV-SLK-outcomes/"
-  repo: null
+  repo: "https://github.com/VagishHemmige/HIV-SLK-outcomes"
   methods: ["registry analysis", "SRTR", "survival modeling"]
 
 - title: "Cryptococcus Donor Screening CEA"
@@ -12,7 +12,7 @@
   description: "Decision-analytic cost-effectiveness modeling of donor cryptococcal screening strategies in solid organ transplantation."
   status: "active"
   site: "https://vagishhemmige.github.io/Cryptococcus-donor-screening-CEA/"
-  repo: null
+  repo: "https://github.com/VagishHemmige/Cryptococcus-donor-screening-CEA"
   methods: ["decision analysis", "CEA", "Monte Carlo simulation"]
 
 - title: "Cryptococcus Cost Analysis"
@@ -21,7 +21,7 @@
   after kidney transplantation.  Longitudinal matching between patients with cryptococcus and similar controls without is used to calculate the attributable cost."
   status: "active"
   site: "https://vagishhemmige.github.io/Cryptococcus-cost-analysis/"
-  repo: null
+  repo: "https://github.com/VagishHemmige/Cryptococcus-cost-analysis"
   methods: ["cost modeling", "claims data", "health economics"]
 
 - title: "HOPE-CDC Analysis 2026"
@@ -29,14 +29,60 @@
   description: "Geospatial evaluation of access to HIV-experienced transplant centers across the United States."
   status: "active"
   site: "https://vagishhemmige.github.io/HOPE-CDC-analysis-2026/"
-  repo: null
+  repo: "https://github.com/VagishHemmige/HOPE-CDC-analysis-2026"
   methods: ["sf", "ACS", "isochrone analysis", "transplant registry"]
 
 - title: "Ellmer PubMed ATC 2026 Abstract Pipeline"
   theme: "Research Infrastructure & Methods"
-  description: "Automated literature extraction and structured summarization from 100 PDFS using LLMs, with the results extracted directly into R.  
-  The pipeline uses the ellmer package to facilitate the analysis."
+  description: "Structured extraction from 100 PubMed abstracts related to SRTR transplant outcomes, comparing four large language models using easyPubMed and ellmer."
   status: "active"
   site: null
   repo: "https://github.com/VagishHemmige/Ellmer-Pubmed-ATC-2026-abstract"
   methods: ["LLM", "structured extraction", "automation"]
+- title: "Cryptococcal Antibody Profiles in Transplant Recipients"
+  theme: "Cryptococcosis & Transplantation"
+  description: "Case-control study of Cryptococcus-specific and non-specific antibody profiles in organ transplant recipients with and without cryptococcosis. Published in Open Forum Infectious Diseases in 2022 ([manuscript](https://doi.org/10.1093/ofid/ofac211))."
+  status: "completed"
+  site: null
+  repo: "https://github.com/VagishHemmige/Pirofski-cryptococcus-study"
+  methods: ["case-control study", "antibody profiling", "logistic regression", "ROC analysis"]
+
+- title: "Dialysis Facility Density and Early Dialysis Initiation"
+  theme: "Geographic Access & Equity"
+  description: "USRDS study of the association between geographic dialysis facility density and early hemodialysis initiation. Published in JAMA Network Open in 2024 ([manuscript](https://doi.org/10.1001/jamanetworkopen.2023.50009)); the repository also contains revised analysis code."
+  status: "completed"
+  site: null
+  repo: "https://github.com/VagishHemmige/Dialysis-facility-density-USRDS"
+  methods: ["USRDS", "geospatial analysis", "cross-sectional study"]
+
+- title: "HOPE Act Educational Intervention"
+  theme: "HIV & Solid Organ Transplant Outcomes"
+  description: "Single-center study of a multispecialty educational intervention to improve acceptance of organs from donors with HIV. Published in Transplant Infectious Disease in 2025 ([manuscript](https://doi.org/10.1111/tid.70039))."
+  status: "completed"
+  site: null
+  repo: "https://github.com/VagishHemmige/hope-act-education-intervention"
+  methods: ["educational intervention", "pre-post comparison", "transplant utilization"]
+
+- title: "Cryptococcus Missed Diagnosis USRDS"
+  theme: "Cryptococcosis & Transplantation"
+  description: "Potential USRDS claims study of healthcare encounters preceding cryptococcosis diagnosis in kidney transplant recipients and possible opportunities for earlier diagnosis."
+  status: "paused"
+  site: null
+  repo: "https://github.com/VagishHemmige/Cryptococcus-missed-diagnosis-USRDS"
+  methods: ["USRDS", "claims data", "diagnostic opportunities"]
+
+- title: "Methenamine and Recurrent UTI after Kidney Transplantation"
+  theme: "Infections after Kidney Transplantation"
+  description: "Planning-stage USRDS claims study comparing methenamine, antibiotic prophylaxis and neither strategy for recurrent urinary tract infections after kidney transplantation. This is distinct from the earlier published methenamine chart review."
+  status: "paused"
+  site: null
+  repo: "https://github.com/VagishHemmige/Methenamine-UTI-USRDS"
+  methods: ["USRDS", "claims data", "comparative effectiveness"]
+
+- title: "USRDS Full-Text Manuscript Review and LLM Validation"
+  theme: "Research Infrastructure & Methods"
+  description: "Structured manual review of full-length manuscripts using USRDS data, assessment of reporting practices, and comparison of large language model extraction with human review. Includes the transplant-related analysis presented at American Transplant Congress 2026."
+  status: "active"
+  site: null
+  repo: "https://github.com/VagishHemmige/USRDS-PDF-analysis-project"
+  methods: ["manual manuscript review", "LLM", "structured extraction", "agreement analysis"]

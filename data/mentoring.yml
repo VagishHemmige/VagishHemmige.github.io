@@ -85,7 +85,7 @@
   status: "Active"
   current: "College student, UT-Austin"
   projects:
-    - "Ellmer PubMed ATC 2026 Abstract Pipeline"
+    - "USRDS Full-Text Manuscript Review and LLM Validation"
   text: >
     Anagha reviewed 100 published papers using the United States Renal Data System, demonstrating the low proportion of analyses utilizing claims or cost
     components of the database.  Her work has been presented at American Transplant Congress.
