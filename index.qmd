@@ -27,11 +27,13 @@ I am an infectious diseases physician with extensive experience with Transplant 
 
 ## Open-source projects (R)
 
-- **sRtr** — Tools for working with UNOS/SRTR transplant data in R  
+- **[{sRtr}](https://vagishhemmige.github.io/sRtr/)** — Tools for working with UNOS/SRTR transplant data in R  
   Repo/docs: <https://vagishhemmige.github.io/sRtr/>
 
-- **usRds** — Tools for working with the [United States Renal Data system](https://www.niddk.nih.gov/about-niddk/strategic-plans-reports/usrds)
+- **[{usRds}](https://vagishhemmige.github.io/usRds/)** — Tools for working with the [United States Renal Data system](https://www.niddk.nih.gov/about-niddk/strategic-plans-reports/usrds)
   Repo/docs: <https://vagishhemmige.github.io/usRds/>
+
+[Braces](https://forum.posit.co/t/curly-braces-around-package-name-convention/122547) identify R packages throughout this site.
 
 ---
 
@@ -47,7 +49,7 @@ I am an infectious diseases physician with extensive experience with Transplant 
   <https://pubmed.ncbi.nlm.nih.gov/?term=vagish+Hemmige&sort=date>
   
 - **R packages**  
-  sRtr: <https://vagishhemmige.github.io/sRtr/>  
-  strobe: <https://vagishhemmige.github.io/strobe/>  
-  usRds: <https://vagishhemmige.github.io/usRds/>
-  CDCAtlas: <https://vagishhemmige.github.io/CDCAtlas/>
+  {sRtr}: <https://vagishhemmige.github.io/sRtr/>  
+  {strobe}: <https://vagishhemmige.github.io/strobe/>  
+  {usRds}: <https://vagishhemmige.github.io/usRds/>
+  {CDCAtlas}: <https://vagishhemmige.github.io/CDCAtlas/>
