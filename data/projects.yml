@@ -86,3 +86,19 @@
   site: null
   repo: "https://github.com/VagishHemmige/USRDS-PDF-analysis-project"
   methods: ["manual manuscript review", "LLM", "structured extraction", "agreement analysis"]
+
+- title: "Cryptococcosis Outcomes in Kidney Transplant Recipients"
+  theme: "Cryptococcosis & Transplantation"
+  description: "Reconstruction of the 2025 Fiorica et al. analysis of six-month mortality after hospitalization for cryptococcosis in kidney transplant recipients, using the usRds R package and USRDS data. [Published study](https://doi.org/10.1093/ofid/ofaf263)."
+  status: "completed"
+  site: null
+  repo: "https://github.com/VagishHemmige/Fiorica-cryptoccoccus-analysis"
+  methods: ["USRDS", "usRds", "analysis reconstruction", "mortality analysis"]
+
+- title: "Pancreas Transplant Outcomes in Recipients with HIV"
+  theme: "HIV & Solid Organ Transplant Outcomes"
+  description: "SRTR analysis comparing outcomes after pancreas-alone and simultaneous kidney-pancreas transplantation in recipients with and without HIV."
+  status: "paused"
+  site: null
+  repo: "https://github.com/VagishHemmige/HIV-pancreas-2024-srtr"
+  methods: ["SRTR", "registry analysis", "propensity score matching"]
