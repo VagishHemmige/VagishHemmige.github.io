@@ -214,7 +214,7 @@
     "href": "about.html#open-source-projects",
     "title": "About",
     "section": "Open-source projects",
-    "text": "Open-source projects\n\nsRtr — R helpers for working with UNOS/SRTR transplant data\nhttps://vagishhemmige.github.io/sRtr/\nstrobe — STROBE-style inclusion/exclusion tracking for observational studies\nhttps://vagishhemmige.github.io/strobe/\nusRds (in progress) — utilities for loading, labeling, and converting USRDS claims files to Parquet with schema-aware helpers."
+    "text": "Open-source projects\n\n{sRtr} — R helpers for working with UNOS/SRTR transplant data\nhttps://vagishhemmige.github.io/sRtr/\n{strobe} — STROBE-style inclusion/exclusion tracking for observational studies\nhttps://vagishhemmige.github.io/strobe/\n{usRds} (in progress) — utilities for loading, labeling, and converting USRDS claims files to Parquet with schema-aware helpers."
   },
   {
     "objectID": "about.html#selected-interests-methods",
@@ -333,14 +333,14 @@
     "href": "index.html#open-source-projects-r",
     "title": "Vagish Hemmige, MD MS",
     "section": "Open-source projects (R)",
-    "text": "Open-source projects (R)\n\nsRtr — Tools for working with UNOS/SRTR transplant data in R\nRepo/docs: https://vagishhemmige.github.io/sRtr/\nusRds — Tools for working with the United States Renal Data system Repo/docs: https://vagishhemmige.github.io/usRds/"
+    "text": "Open-source projects (R)\n\n{sRtr} — Tools for working with UNOS/SRTR transplant data in R\nRepo/docs: https://vagishhemmige.github.io/sRtr/\n{usRds} — Tools for working with the United States Renal Data system Repo/docs: https://vagishhemmige.github.io/usRds/\n\nBraces identify R packages throughout this site."
   },
   {
     "objectID": "index.html#links",
     "href": "index.html#links",
     "title": "Vagish Hemmige, MD MS",
     "section": "Links",
-    "text": "Links\n\nUS News doctor profile\nhttps://health.usnews.com/doctors/vagish-hemmige-719259\nORCID\nhttps://orcid.org/0009-0006-6346-1826\nResearch/works\nhttps://pubmed.ncbi.nlm.nih.gov/?term=vagish+Hemmige&sort=date\nR packages\nsRtr: https://vagishhemmige.github.io/sRtr/\nstrobe: https://vagishhemmige.github.io/strobe/\nusRds: https://vagishhemmige.github.io/usRds/ CDCAtlas: https://vagishhemmige.github.io/CDCAtlas/"
+    "text": "Links\n\nUS News doctor profile\nhttps://health.usnews.com/doctors/vagish-hemmige-719259\nORCID\nhttps://orcid.org/0009-0006-6346-1826\nResearch/works\nhttps://pubmed.ncbi.nlm.nih.gov/?term=vagish+Hemmige&sort=date\nR packages\n{sRtr}: https://vagishhemmige.github.io/sRtr/\n{strobe}: https://vagishhemmige.github.io/strobe/\n{usRds}: https://vagishhemmige.github.io/usRds/ {CDCAtlas}: https://vagishhemmige.github.io/CDCAtlas/"
   },
   {
     "objectID": "media.html",

@@ -39,13 +39,13 @@ I work at the intersection of **infectious diseases** and **transplantation**, w
 
 ## Open-source projects
 
-- **sRtr** — R helpers for working with UNOS/SRTR transplant data  
+- **[{sRtr}](https://vagishhemmige.github.io/sRtr/)** — R helpers for working with UNOS/SRTR transplant data  
   <https://vagishhemmige.github.io/sRtr/>
 
-- **strobe** — STROBE-style inclusion/exclusion tracking for observational studies  
+- **[{strobe}](https://vagishhemmige.github.io/strobe/)** — STROBE-style inclusion/exclusion tracking for observational studies  
   <https://vagishhemmige.github.io/strobe/>
 
-- **usRds** *(in progress)* — utilities for loading, labeling, and converting USRDS claims files to Parquet with schema-aware helpers.
+- **[{usRds}](https://vagishhemmige.github.io/usRds/)** *(in progress)* — utilities for loading, labeling, and converting USRDS claims files to Parquet with schema-aware helpers.
 
 ---
 
