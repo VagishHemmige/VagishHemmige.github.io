@@ -67,9 +67,9 @@
   location: "Remote"
 
 - id: "appointment-hudson-valley"
-  start_date: "2026-11-01"
+  start_date: "2026-11-30"
   end_date: null
-  date_text: "11/1/2026-"
+  date_text: "11/30/2026-"
   title: "Physician"
   institution: "Medical Associates of the Hudson Valley"
   city: "Kingston"
